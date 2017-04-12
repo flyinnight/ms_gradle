@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SkinLevelRules>
+<!-- 皮肤数值的区间标准 -->
+    <Type name="Water">
+        <!-- 值所在的区间对应的评语 -->
+        <Rule level="0~30" evaluation="@string/wat_eval_01" />
+        <Rule level="31~70" evaluation="@string/wat_eval_02" />
+        <Rule level="71~100" evaluation="@string/wat_eval_03" description="@string/wat_very_good" />
+
+        <!-- 护肤品测试前后相差值所在的区间对应的评语 -->
+        <Diff level="-100~0" evaluation="@string/diff_eval_01" />
+        <Diff level="1~10" evaluation="@string/diff_eval_02" />
+        <Diff level="11~50" evaluation="@string/diff_eval_03" />
+        <Diff level="51~100" evaluation="@string/diff_eval_04" />
+    </Type>
+
+    <Type name="Oil">
+        <Rule level="0~30" evaluation="@string/oil_eval_01" />
+        <Rule level="31~70" evaluation="@string/oil_eval_02" />
+        <Rule level="71~100" evaluation="@string/oil_eval_03" />
+
+        <Diff level="-100~0" evaluation="@string/diff_eval_01" />
+        <Diff level="1~10" evaluation="@string/diff_eval_02" />
+        <Diff level="11~50" evaluation="@string/diff_eval_03" />
+        <Diff level="51~100" evaluation="@string/diff_eval_04" />
+    </Type>
+
+    <Type name="Elastic">
+        <Rule level="0~30" evaluation="@string/eas_eval_01" />
+        <Rule level="31~70" evaluation="@string/eas_eval_02" />
+        <Rule level="71~100" evaluation="@string/eas_eval_03" description="@string/eas_very_good" />
+
+        <Diff level="-100~0" evaluation="@string/diff_eval_01" />
+        <Diff level="1~10" evaluation="@string/diff_eval_02" />
+        <Diff level="11~50" evaluation="@string/diff_eval_03" />
+        <Diff level="51~100" evaluation="@string/diff_eval_04" />
+    </Type>
+
+    <Type name="Sensitive">
+        <Rule level="0~30" evaluation="@string/sen_eval_01" />
+        <Rule level="31~70" evaluation="@string/sen_eval_02" />
+        <Rule level="71~100" evaluation="@string/sen_eval_03" />
+
+        <Diff level="-100~0" evaluation="@string/diff_eval_01" />
+        <Diff level="1~10" evaluation="@string/diff_eval_02" />
+        <Diff level="11~50" evaluation="@string/diff_eval_03" />
+        <Diff level="51~100" evaluation="@string/diff_eval_04" />
+    </Type>
+
+    <Type name="Whitening">
+        <Rule level="0~30" evaluation="@string/whi_eval_01" />
+        <Rule level="31~70" evaluation="@string/whi_eval_02" />
+        <Rule level="71~100" evaluation="@string/whi_eval_03" description="@string/whi_very_good" />
+
+        <Diff level="-100~0" evaluation="@string/diff_eval_01" />
+        <Diff level="1~10" evaluation="@string/diff_eval_02" />
+        <Diff level="11~50" evaluation="@string/diff_eval_03" />
+        <Diff level="51~100" evaluation="@string/diff_eval_04" />
+    </Type>
+
+    <Type name="Pore">
+        <Rule level="0~30" evaluation="@string/por_eval_01" />
+        <Rule level="31~70" evaluation="@string/por_eval_02" />
+        <Rule level="71~100" evaluation="@string/por_eval_03" description="@string/por_very_good" />
+
+        <Diff level="-100~0" evaluation="@string/diff_eval_01" />
+        <Diff level="1~10" evaluation="@string/diff_eval_02" />
+        <Diff level="11~50" evaluation="@string/diff_eval_03" />
+        <Diff level="51~100" evaluation="@string/diff_eval_04" />
+    </Type>
+
+</SkinLevelRules>

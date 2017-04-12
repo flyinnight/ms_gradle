@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Button
+    android:id="@android:id/button1"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="35dp"
+    android:background="@drawable/bg_post_item"
+    android:textColor="@color/default_edit_text_color"
+    android:textSize="@dimen/default_text_size_small"/>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:text="@string/dialog_clear_info_title"
+        android:textColor="#898989"
+        android:textSize="14sp" />
+    
+    
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.4dp" 
+        android:background="#898989"/>
+        
+        
+
+    <TextView
+        android:id="@+id/celarDeviceInfo"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/dialog_clear_info_btn_bg"
+        android:gravity="center"
+        android:text="@string/dialog_clear_info_clear"
+        android:textColor="#e94661"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/cancle"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/dialog_clear_info_btn_bg"
+        android:gravity="center"
+        android:text="@string/dialog_clear_info_cancel"
+        android:textColor="#898989"
+        android:textSize="18sp" />
+
+</LinearLayout>

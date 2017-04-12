@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="test_indicator_duration" type="integer">300</item>
+
+    <!-- Start wangxing -->
+    <item name="test_water_index" type="integer">4</item>
+    <item name="test_eastic_index" type="integer">2</item>
+    <item name="test_whitening_index" type="integer">1</item>
+    <item name="test_pore_index" type="integer">6</item>
+    <item name="test_sensitive_index" type="integer">5</item>
+    <item name="test_oil_index" type="integer">0</item>
+    <item name="test_skinage_index" type="integer">8</item>
+    <!-- End wangxing -->
+    
+     <integer name="revealAnimTime">150</integer>
+    <integer name="hideAnimTime">150</integer>
+    <integer name="full_name_max_length">20</integer>
+    <integer name="rotateAnimTime">175</integer>
+    <integer name="bounceAnimTime">120</integer>
+    <plurals name="a">s</plurals>
+</resources>

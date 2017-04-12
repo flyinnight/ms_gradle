@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <size android:height="@dimen/topic_detail_comment_reply_divider_height"
+          android:width="@dimen/topic_detail_comment_reply_divider_height" />
+    <solid android:color="@android:color/transparent" />
+</shape>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Base" parent="android:Theme">
+        <item name="com.dilapp.radar:titlePaddingTop">0dp</item>
+    </style>
+
+    <style name="Theme.Radar" parent="Theme.Base">
+        <item name="android:colorForeground">@color/test_primary</item>
+
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowAnimationStyle">@style/RadarActivityAnimation</item>
+
+        <item name="android:textAppearance">@style/Radar.TextApperance</item>
+        <item name="android:textAppearanceSmall">@style/Radar.TextApperance.Small</item>
+
+        <item name="numberPickerStyle">@style/Radar.NumberPicker</item>
+
+        <item name="android:listSelector">@android:color/transparent</item>
+
+        <item name="android:scrollbarSize">3dip</item>
+        <item name="android:scrollbarThumbHorizontal">@color/test_primary</item>
+        <item name="android:scrollbarThumbVertical">@color/test_primary</item>
+        <!--<item name="android:progressBarStyleLarge">@style/Radar.ProgressBar.Large</item>-->
+        <!--<item name="android:colorForeground">@color/bright_foreground_dark</item>-->
+        <!--<item name="colorForegroundInverse">@color/bright_foreground_dark_inverse</item>-->
+        <!--<item name="colorBackground">@color/background_dark</item>-->
+        <!--<item name="colorBackgroundCacheHint">?attr/colorBackground</item>-->
+
+    </style>
+
+    <style name="Theme.Radar.SearchAnim" parent="Theme.Radar">
+        <item name="android:windowAnimationStyle">@style/RadarActivityAnimationSearch</item>
+    </style>
+
+    <style name="Theme.Radar.FullScreen" parent="Theme.Radar">
+        <item name="android:windowFullscreen">true</item>
+        <item name="com.dilapp.radar:titlePaddingTop">0dp</item>
+    </style>
+
+    <style name="RadarActivityAnimation" parent="android:Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/in_from_right</item>
+        <item name="android:activityOpenExitAnimation">@anim/out_from_left</item>
+        <item name="android:activityCloseEnterAnimation">@anim/in_from_left</item>
+        <item name="android:activityCloseExitAnimation">@anim/out_from_right</item>
+
+        <!--<item name="android:taskOpenEnterAnimation">@android:anim/task_open_enter</item>
+        <item name="android:taskOpenExitAnimation">@anim/task_open_exit</item>
+        <item name="android:taskCloseEnterAnimation">@anim/task_close_enter</item>
+        <item name="android:taskCloseExitAnimation">@anim/task_close_exit</item>-->
+
+        <!--<item name="android:taskToFrontEnterAnimation">@anim/task_open_enter</item>
+        <item name="android:taskToFrontExitAnimation">@anim/task_open_exit</item>
+        <item name="android:taskToBackEnterAnimation">@anim/task_close_enter</item>
+        <item name="android:taskToBackExitAnimation">@anim/task_close_exit</item>-->
+    </style>
+
+    <style name="RadarActivityAnimationSearch" parent="RadarActivityAnimation">
+        <item name="android:activityOpenEnterAnimation">@anim/in_from_bottom</item>
+        <item name="android:activityOpenExitAnimation">@android:anim/fade_out</item>
+        <item name="android:activityCloseEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:activityCloseExitAnimation">@anim/out_from_bottom</item>
+    </style>
+
+    <style name="Radar.TextApperance" parent="android:TextAppearance">
+        <item name="android:textColor">@color/default_edit_text_color</item>
+        <item name="android:textColorHighlight">#00000000</item>
+        <item name="android:textColorHint">@color/default_edit_hint_color</item>
+        <!--<item name="textColorLink">?android:attr/textColorLink</item>-->
+        <item name="android:textSize">@dimen/default_text_size</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="Radar.TextApperance.Small" parent="Radar.TextApperance">
+        <!--<item name="textColorLink">?android:attr/textColorLink</item>-->
+        <item name="android:textSize">@dimen/default_text_size_small</item>
+    </style>
+
+
+    <style name="Radar.ProgressBar.Large" parent="android:Widget.ProgressBar.Large">
+        <item name="android:indeterminateDrawable">@anim/img_loading</item>
+        <item name="android:minWidth">83.3dip</item>
+        <item name="android:minHeight">100dip</item>
+        <item name="android:maxWidth">83.3dip</item>
+        <item name="android:maxHeight">100dip</item>
+    </style>
+    <style name="Radar.ProgressBar.Small" parent="android:Widget.ProgressBar.Small">
+        <item name="android:indeterminateDrawable">@anim/img_waiting</item>
+        <item name="android:minWidth">18dip</item>
+        <item name="android:minHeight">18dip</item>
+        <item name="android:maxWidth">18dip</item>
+        <item name="android:maxHeight">18dip</item>
+    </style>
+</resources>

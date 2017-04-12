@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/vg_reply_more"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:background="@drawable/btn_white_radius_none"
+    android:paddingBottom="@dimen/topic_detail_comment_reply_padding_t_b"
+    android:paddingTop="@dimen/topic_detail_comment_reply_padding_t_b">
+
+    <TextView
+        android:id="@+id/tv_more"
+        android:text="@string/detail_reply_more"
+        android:layout_centerInParent="true"
+        android:textColor="@color/default_edit_text_color"
+        android:textSize="@dimen/topic_detail_comment_reply_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <ProgressBar
+        android:id="@+id/vg_loading"
+        android:visibility="gone"
+        android:layout_centerInParent="true"
+        style="@style/Radar.ProgressBar.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>

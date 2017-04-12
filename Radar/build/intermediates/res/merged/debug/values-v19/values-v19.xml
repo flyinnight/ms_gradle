@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Base" parent="android:Theme">
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="com.dilapp.radar:titlePaddingTop">@dimen/title_padding_top</item>
+        <!-- <item name="android:statusBarColor">@color/test_primary</item> -->
+    </style>
+</resources>

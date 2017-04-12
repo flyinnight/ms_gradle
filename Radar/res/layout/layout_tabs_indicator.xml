@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_tabs_indicator"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/tabs_indicator_padding_t_b"
+    android:paddingTop="@dimen/tabs_indicator_padding_t_b" >
+<!-- @dimen/tabs_indicator_icon_round -->
+    <ImageView
+        android:id="@android:id/icon1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:duplicateParentState="true"
+        android:layout_marginBottom="@dimen/tabs_indicator_distance" />
+
+    <TextView
+        android:id="@android:id/text1"
+        style="@style/RadarText.Indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:duplicateParentState="true"
+        android:textColor="@color/color_test_indicator_text"
+        android:text="@string/main_test" />
+
+</LinearLayout>

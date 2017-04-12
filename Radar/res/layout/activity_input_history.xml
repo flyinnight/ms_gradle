@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_testskin"
+    android:orientation="vertical" >
+
+    <View
+        android:id="@android:id/widget_frame"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/titlePaddingTop"
+        android:background="@color/title_bg_color" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/test_taste_search_edit_bg"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/test_taste_search_edit_padding_t_b"
+        android:paddingLeft="@dimen/title_border_distance"
+        android:paddingRight="@dimen/title_border_distance"
+        android:paddingTop="@dimen/test_taste_search_edit_padding_t_b" >
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1" >
+
+            <EditText
+                android:id="@+id/et_taste_name"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/bg_edit_shadow_input_grey"
+                android:maxLength="10"
+                android:paddingRight="@dimen/test_taste_input_edit_padding_r"
+                android:singleLine="true"
+                android:textSize="@dimen/default_text_size_small"
+                android:textColor="@color/default_edit_text_color"
+                android:textColorHint="@color/default_edit_hint_color" />
+
+            <ImageButton
+                android:id="@+id/btn_clear_input"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@null"
+                android:onClick="onClick"
+                android:paddingLeft="@dimen/test_taste_search_edit_clear_padding_l_r"
+                android:paddingRight="@dimen/test_taste_search_edit_clear_padding_l_r"
+                android:src="@drawable/btn_close"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/btn_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/default_distance_middle"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:text="@string/cancel"
+            android:textColor="@color/color_title_text"
+            android:textSize="@dimen/default_text_size" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/default_line_size"
+        android:background="@color/default_line_color" />
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/tv_not_history"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="@dimen/test_taste_search_item_padding_t_b"
+            android:layout_marginTop="@dimen/test_taste_search_item_padding_t_b"
+            android:textColor="@color/default_edit_hint_color"
+            android:textSize="@dimen/default_text_size"
+            android:text="@string/taste_not_history" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@android:id/list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </FrameLayout>
+
+</LinearLayout>

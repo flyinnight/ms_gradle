@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/topic_bg_hight"
+    android:orientation="vertical">
+
+    <include layout="@layout/layout_title"/>
+
+    <TextView
+        android:id="@+id/tv_topic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:background="@color/topic_detail_topicbar_bg"
+        android:drawableRight="@drawable/img_next_white"
+        android:gravity="center"
+        android:clickable="true"
+        android:onClick="onClick"
+        android:minHeight="@dimen/topic_detail_topicbar_height"
+        android:paddingLeft="@dimen/topic_detail_padding_l_r"
+        android:paddingRight="@dimen/topic_detail_padding_l_r"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/default_text_size_small"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <com.dilapp.radar.view.OverScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <com.rockerhieu.emojicon.EmojiconEditText
+                    android:id="@+id/et_title"
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/topic_release_distance"
+                    android:layout_marginLeft="@dimen/topic_release_padding_l_r"
+                    android:layout_marginRight="@dimen/topic_release_padding_l_r"
+                    android:layout_marginTop="@dimen/topic_release_distance"
+                    android:background="@drawable/bg_edit_shadow_input"
+                    android:hint="@string/topic_please_input_title"
+                    android:paddingBottom="@dimen/topic_release_edit_title_padding_t_b"
+                    android:paddingTop="@dimen/topic_release_edit_title_padding_t_b"
+                    android:textColor="@color/default_edit_text_color"
+                    android:textColorHint="@color/default_edit_hint_color"
+                    android:textSize="@dimen/default_text_size"
+                    app:emojiconSize="20sp"/>
+
+                <FrameLayout
+                    android:id="@+id/post_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/topic_release_padding_l_r"
+                    android:layout_marginRight="@dimen/topic_release_padding_l_r"
+                    android:background="@drawable/bg_edit_shadow_input"
+                    android:minHeight="360dp"
+                    android:paddingBottom="@dimen/topic_release_edit_title_padding_t_b"
+                    android:paddingTop="@dimen/topic_release_edit_title_padding_t_b"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/topic_release_distance"
+                    android:visibility="invisible"/>
+            </LinearLayout>
+        </com.dilapp.radar.view.OverScrollView>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/vg_option"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/topic_bg_hight"
+        android:elevation="@dimen/topic_detail_editbar_shadow_height"
+        android:paddingBottom="@dimen/topic_send_comment_toolbar_padding"
+        android:paddingLeft="@dimen/topic_send_comment_padding_l_r"
+        android:paddingRight="@dimen/topic_send_comment_padding_l_r"
+        android:paddingTop="@dimen/topic_send_comment_toolbar_padding"
+        android:translationZ="@dimen/topic_detail_editbar_shadow_height">
+
+        <TextView
+            android:visibility="gone"
+            android:drawablePadding="9dp"
+            android:drawableLeft="@drawable/btn_skin_plan"
+            android:id="@+id/tv_skin_plan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:clickable="true"
+            android:onClick="onClick"
+            android:layout_centerVertical="true"
+            android:text="@string/topic_this_post_skin_plan"
+            android:textColor="@color/default_text_color"
+            android:textSize="@dimen/default_text_size"/>
+
+        <ImageButton
+            android:id="@+id/btn_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@null"
+            android:onClick="onClick"
+            android:src="@drawable/btn_add_circle"/>
+
+        <ImageButton
+            android:id="@+id/ibtn_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/topic_send_comment_toolbar_distance"
+            android:layout_toLeftOf="@id/btn_add"
+            android:background="@null"
+            android:onClick="onClick"
+            android:src="@drawable/btn_switch_emoji_keyboard"/>
+    </RelativeLayout>
+
+    <!--android:layout_below="@id/vg_option"-->
+    <fragment
+        android:id="@+id/emojicons"
+        class="com.rockerhieu.emojicon.EmojiconsFragment"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/emoji_height"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@id/vg_option"
+        android:background="@color/topic_bg_hight"/>
+</LinearLayout>

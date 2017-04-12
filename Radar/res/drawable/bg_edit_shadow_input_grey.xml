@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--<item android:drawable="@drawable/bg_shadow_input"></item>-->
+    <item>
+        <shape>
+            <solid android:color="@color/mine_background" />
+            <stroke android:color="@color/default_line_color" android:width="@dimen/default_line_size" />
+            <corners android:radius="@dimen/default_radius_small" />
+            <padding
+                android:left="@dimen/test_taste_input_edit_padding_l_r"
+                android:right="@dimen/test_taste_input_edit_padding_l_r" />
+        </shape>
+    </item>
+
+</layer-list>

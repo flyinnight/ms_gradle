@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:gravity="center_vertical" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true" />
+
+        <TextView
+            style="@style/RadarText.Black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@android:id/icon"
+            android:text="3 / 20" />
+
+        <ImageView
+            android:id="@android:id/icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" />
+
+        <TextView
+            style="@style/RadarText.Black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@android:id/icon"
+            android:text="3 / 26" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            style="@style/RadarText.Black"
+            android:layout_width="fill_parent"
+            android:layout_height="200dp"
+            android:text="我是图表" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <RadioGroup
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                style="@style/RadarText.Button.Radio.Left"
+                android:text="水" />
+
+            <RadioButton
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                style="@style/RadarText.Button.Radio"
+                android:text="油" />
+
+            <RadioButton
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                style="@style/RadarText.Button.Radio"
+                android:text="敏感" />
+
+            <RadioButton
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                style="@style/RadarText.Button.Radio"
+                android:text="色素" />
+
+            <RadioButton
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                style="@style/RadarText.Button.Radio.Right"
+                android:text="毛孔" />
+        </RadioGroup>
+
+        <RadioGroup
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+        </RadioGroup>
+    </LinearLayout>
+
+</LinearLayout>

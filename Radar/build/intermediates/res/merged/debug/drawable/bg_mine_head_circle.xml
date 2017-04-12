@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval" >
+
+    <stroke
+        android:width="@dimen/mine_mine_head_circle_stroke"
+        android:color="@android:color/white" />
+
+    <padding
+        android:bottom="@dimen/mine_mine_head_circle_stroke"
+        android:left="@dimen/mine_mine_head_circle_stroke"
+        android:right="@dimen/mine_mine_head_circle_stroke"
+        android:top="@dimen/mine_mine_head_circle_stroke" />
+
+</shape>

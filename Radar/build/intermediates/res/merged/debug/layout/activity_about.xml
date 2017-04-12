@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/topic_bg_hight"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <include layout="@layout/layout_title" />
+
+    <ImageView
+        android:layout_marginTop="40dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/ico_launcher"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/default_edit_text_color"
+        android:layout_marginTop="@dimen/default_distance_small"
+        android:text="@string/app_name"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/tv_version"
+        android:text="V 1.6.2 262"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/default_distance_small"
+        android:textSize="12sp"/>
+
+    <fragment
+        android:layout_marginTop="20dp"
+        android:id="@+id/fgmt_list"
+        android:name="com.dilapp.radar.ui.mine.FragmentMineList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:text="@string/about_allright"
+        android:textColor="@color/default_text_color"
+        android:textSize="10sp"/>
+
+</LinearLayout>

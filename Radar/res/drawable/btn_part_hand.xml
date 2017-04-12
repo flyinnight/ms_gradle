@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" android:constantSize="true"
+          android:enterFadeDuration="200" android:exitFadeDuration="200">
+    <item android:drawable="@drawable/img_part_hand_pressed" android:state_pressed="true" />
+    <item android:drawable="@drawable/img_part_hand_pressed" android:state_checked="true" />
+    <item android:drawable="@drawable/img_part_hand_pressed" android:state_checked="true" android:state_enabled="false" />
+    <!--<item android:drawable="@null" />-->
+</selector>

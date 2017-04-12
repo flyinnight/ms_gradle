@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageButton
+        android:id="@+id/btn_part"
+        android:layout_width="@dimen/test_skin_selectPart_button_round"
+        android:layout_height="@dimen/test_skin_selectPart_button_round"
+        android:background="@drawable/bg_skin_selectpart_button" />
+
+</LinearLayout>

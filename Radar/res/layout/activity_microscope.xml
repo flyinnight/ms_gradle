@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <android.opengl.GLSurfaceView
+        android:id="@+id/sv_video"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <View 
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:background="#ff2a2a2a"
+        android:visibility="gone"/>
+    
+    <ImageView
+        android:id="@+id/iv_progress"
+        android:src="@anim/img_waiting"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    
+    <ImageView 
+        android:id="@+id/iv_image"
+        android:visibility="gone"
+        android:background="@color/test_take_black"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/test_microscope_cover"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/test_micro_taking_padding_b"
+        android:paddingTop="@dimen/test_micro_taking_padding_b">
+        <!-- android:background="#4d000000" -->
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/vg_epidermis"
+                android:onClick="onClick"
+                android:layout_marginRight="@dimen/test_micro_taking_text_distance"
+                android:gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <View
+                    android:id="@+id/v_epidermis"
+                    android:background="@drawable/oval_white_sl"
+                    android:layout_width="@dimen/test_micro_circle_diameter"
+                    android:layout_height="@dimen/test_micro_circle_diameter" />
+
+                <TextView
+                    android:layout_marginTop="@dimen/default_distance_middle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/test_epidermis"
+                    android:textColor="@color/test_micro_text"
+                    android:textSize="@dimen/default_text_size_small"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/vg_genuine"
+                android:onClick="onClick"
+                android:gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <View
+                    android:visibility="invisible"
+                    android:id="@+id/v_genuine"
+                    android:background="@drawable/oval_white_sl"
+                    android:layout_width="@dimen/test_micro_circle_diameter"
+                    android:layout_height="@dimen/test_micro_circle_diameter" />
+
+                <TextView
+                    android:layout_marginTop="@dimen/default_distance_middle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/test_genuine"
+                    android:textColor="@color/test_micro_text"
+                    android:textSize="@dimen/default_text_size_small"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/test_micro_taking_padding_b">
+
+            <ImageButton
+                android:id="@+id/ibtn_taking"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:background="@null"
+                android:onClick="onClick"
+                android:src="@drawable/btn_taking"/>
+
+            <!-- 下面这层布局必须要单独拿出来 -->
+            <LinearLayout
+                android:id="@+id/vg_option"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingBottom="@dimen/test_micro_taking_padding_b">
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:id="@+id/btn_cancel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:onClick="onClick"
+                    android:paddingLeft="@dimen/test_micro_taking_dialog_padding_l_r"
+                    android:paddingRight="@dimen/test_micro_taking_dialog_padding_l_r"
+                    android:text="@string/cancel"
+                    android:textColor="@color/color_title_text"
+                    android:textSize="@dimen/default_text_size_big"/>
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/btn_taking"
+                    android:visibility="invisible"/>
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:id="@+id/btn_save"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:onClick="onClick"
+                    android:paddingLeft="@dimen/test_micro_taking_dialog_padding_l_r"
+                    android:paddingRight="@dimen/test_micro_taking_dialog_padding_l_r"
+                    android:text="@string/save"
+                    android:textColor="@color/color_title_text"
+                    android:textSize="@dimen/default_text_size_big"/>
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"/>
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <include layout="@layout/layout_title"/>
+
+</RelativeLayout>

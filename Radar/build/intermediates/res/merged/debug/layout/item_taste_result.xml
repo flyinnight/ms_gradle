@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_white_transparent"
+    android:orientation="vertical"
+    android:paddingBottom="22dp"
+    android:paddingLeft="33.3dp"
+    android:paddingRight="33.3dp"
+    android:paddingTop="22dp">
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="19dp"
+        android:text="@string/test_water"
+        android:textColor="@color/default_light_text_color"
+        android:textSize="21.3dp"/>
+
+    <TextView
+        android:id="@+id/tv_before"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_name"
+        android:layout_marginBottom="17dp"
+        android:layout_marginRight="@dimen/default_distance_middle"
+        android:maxWidth="30dp"
+        android:text="@string/taste_use_before"
+        android:textColor="@color/default_light_text_color"
+        android:textSize="10sp"/>
+
+    <ProgressBar
+        android:id="@+id/pb_before"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="116.6dp"
+        android:layout_height="6.6dp"
+        android:layout_alignBottom="@id/tv_before"
+        android:layout_marginRight="6dp"
+        android:layout_toRightOf="@id/tv_before"
+        android:indeterminate="false"
+        android:progress="0"
+        android:progressDrawable="@drawable/progress_test_product_before"/>
+
+    <TextView
+        android:id="@+id/tv_score_before"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/pb_before"
+        android:layout_toRightOf="@id/pb_before"
+        android:text="0"
+        android:textColor="@color/default_light_text_color"
+        android:textSize="10sp"/>
+
+    <TextView
+        android:id="@+id/tv_after"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_before"
+        android:layout_marginRight="@dimen/default_distance_middle"
+        android:text="@string/taste_use_after"
+        android:textColor="@color/default_light_text_color"
+        android:textSize="10sp"/>
+
+    <ProgressBar
+        android:id="@+id/pb_after"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="wrap_content"
+        android:layout_alignLeft="@id/pb_before"
+        android:layout_height="6.6dp"
+        android:layout_alignBottom="@id/tv_after"
+        android:layout_marginRight="6dp"
+        android:layout_toRightOf="@id/tv_after"
+        android:maxWidth="116.6dp"
+        android:minWidth="116.6dp"
+        android:progress="0"
+        android:progressDrawable="@drawable/progress_test_product_after"/>
+
+    <TextView
+        android:id="@+id/tv_score_after"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/tv_score_before"
+        android:layout_alignBottom="@id/pb_after"
+        android:layout_toRightOf="@id/pb_after"
+        android:text="0"
+        android:textColor="@color/test_primary"
+        android:textSize="10sp"/>
+
+    <TextView
+        android:id="@+id/tv_effetc_eval"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tv_use_diff"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="7dp"
+        android:background="@drawable/bg_test_product_eval"
+        android:gravity="center"
+        android:minHeight="26.6dp"
+        android:minWidth="80dp"
+        android:text="没有"
+        android:textColor="@color/default_light_text_color"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:id="@+id/tv_use_diff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/tv_after"
+        android:layout_alignRight="@id/tv_effetc_eval"
+        android:drawableLeft="@drawable/img_ris_fall"
+        android:drawablePadding="3dp"
+        android:gravity="center"
+        android:text="0"
+        android:textColor="@color/default_light_text_color"/>
+</RelativeLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" android:enterFadeDuration="120" android:exitFadeDuration="300">
+
+    <item android:state_pressed="true">
+        <shape>
+            <solid android:color="@color/topic_bg" />
+            <stroke android:width="@dimen/default_line_size" android:color="@color/default_line_color" />
+            <!--<corners android:radius="@dimen/topic_main_radius" />-->
+        </shape>
+    </item>
+
+    <item>
+        <shape>
+            <solid android:color="@android:color/white" />
+            <stroke android:width="@dimen/default_line_size" android:color="@color/default_line_color" />
+            <!--<corners android:radius="@dimen/topic_main_radius" />-->
+        </shape>
+    </item>
+
+</selector>

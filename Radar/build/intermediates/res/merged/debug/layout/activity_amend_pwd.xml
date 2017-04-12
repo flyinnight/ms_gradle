@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_mine"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/title_layout"
+        layout="@layout/layout_title" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginTop="@dimen/login_input_layout_h"
+        android:background="@color/default_line_color" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/login_input_layout_h"
+        android:background="#ffffff" >
+
+        <EditText
+            android:id="@+id/old_password"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/test_normal_result_line_padding_l_r"
+            android:background="@null"
+            android:hint="@string/old_password"
+            android:inputType="textPassword"
+            android:textColor="@color/default_edit_text_color"
+            android:textColorHint="@color/default_text_color"
+            android:textSize="@dimen/login_warning_text_size" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/default_line_color" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/login_input_layout_h"
+        android:background="#ffffff" >
+
+        <EditText
+            android:id="@+id/new_password"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/test_normal_result_line_padding_l_r"
+            android:background="@null"
+            android:hint="@string/new_password"
+            android:inputType="textPassword"
+            android:textColor="@color/default_edit_text_color"
+            android:textColorHint="@color/default_text_color"
+            android:textSize="@dimen/login_warning_text_size" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/default_line_color" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/login_input_layout_h"
+        android:background="#ffffff" >
+
+        <EditText
+            android:id="@+id/verify_password"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/test_normal_result_line_padding_l_r"
+            android:background="@null"
+            android:hint="@string/verify_password"
+            android:inputType="textPassword"
+            android:textColor="@color/default_edit_text_color"
+            android:textColorHint="@color/default_text_color"
+            android:textSize="@dimen/login_warning_text_size" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/default_line_color" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/login_input_layout_h" >
+
+        <TextView
+            android:id="@+id/tv_hint_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textColor="@color/register_cycle_text_normal"
+            android:textSize="@dimen/login_warning_text_size"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+</LinearLayout>

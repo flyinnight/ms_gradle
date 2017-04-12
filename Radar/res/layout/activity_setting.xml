@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@drawable/bg_mine"
+              android:orientation="vertical">
+
+    <include layout="@layout/layout_title"/>
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/default_line_size"
+        android:layout_marginTop="@dimen/mine_mine_item_group_distance"
+        android:background="@color/default_line_color"/>
+
+    <TextView
+        android:id="@+id/tv_logout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_mine_item"
+        android:clickable="true"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:paddingBottom="@dimen/mine_mine_item_padding_t_b"
+        android:paddingTop="@dimen/mine_mine_item_padding_t_b"
+        android:text="@string/setting_logout"
+        android:textColor="@color/mine_mine_item_text_color"
+        android:textSize="@dimen/mine_mine_item_text_size"/>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/default_line_size"
+        android:background="@color/default_line_color"/>
+
+</LinearLayout>

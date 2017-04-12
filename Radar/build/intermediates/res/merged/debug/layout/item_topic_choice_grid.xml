@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.dilapp.radar.view.CheckableLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingTop="@dimen/topic_choice_grid_padding_t_b"
+    android:paddingBottom="@dimen/topic_choice_grid_padding_t_b"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    app:itemChecked="true">
+    <!---->
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:duplicateParentState="true">
+
+        <ImageView
+            android:id="@+id/iv_image"
+            android:layout_width="@dimen/topic_choice_grid_item_image_round"
+            android:layout_height="@dimen/topic_choice_grid_item_image_round"
+            android:scaleType="fitXY"/>
+
+        <ImageView
+            android:layout_width="@dimen/topic_choice_grid_item_image_round"
+            android:layout_height="@dimen/topic_choice_grid_item_image_round"
+            android:duplicateParentState="true"
+            android:src="@drawable/btn_topic_choiced"/>
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/tv_text"
+        android:duplicateParentState="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8.3dp"
+        android:textColor="@color/default_edit_text_color"
+        android:textSize="@dimen/default_text_size_small"/>
+
+</com.dilapp.radar.view.CheckableLinearLayout>

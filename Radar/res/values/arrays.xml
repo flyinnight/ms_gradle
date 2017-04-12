@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="chinese_number">
+        <item>零</item>
+        <item>一</item>
+        <item>二</item>
+        <item>三</item>
+        <item>四</item>
+        <item>五</item>
+        <item>六</item>
+        <item>七</item>
+        <item>八</item>
+        <item>九</item>
+        <item>十</item>
+    </array>
+    <string-array name="tag">
+        <item>美白</item>
+        <item>补水</item>
+        <item>控油</item>
+        <item>紧致</item>
+        <item>洁面</item>
+        <item>祛痘</item>
+        <item>防晒</item>
+        <item>修复</item>
+        <item>收毛孔</item>
+        <item>去黑头</item>
+        <item>护肤品</item>
+        <item>嫩肤</item>
+        <item>保养</item>
+        <item>问答</item>
+    </string-array>
+</resources>

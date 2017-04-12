@@ -1,0 +1,607 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/test_black_primary"
+              android:orientation="vertical">
+
+    <!--android:background="@drawable/bg_testskin"-->
+    <include layout="@layout/layout_title"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/share_cover"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.dilapp.radar.view.SpiderWebView
+                android:id="@+id/sv_draw"
+                android:layout_width="@dimen/spiderWeb_layout_height"
+                android:layout_height="@dimen/spiderWeb_layout_height"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="0dp"/>
+
+            <TextView
+                android:id="@+id/tv_skin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="9.3dp"
+                android:background="@drawable/bg_white_stroke_transrect_radius"
+                android:gravity="center"
+                android:minHeight="20dp"
+                android:minWidth="52dp"
+                android:paddingBottom="@dimen/default_radius_small"
+                android:paddingLeft="@dimen/default_distance_middle"
+                android:paddingRight="@dimen/default_distance_middle"
+                android:paddingTop="@dimen/default_radius_small"
+                android:text="额头"
+                android:textColor="@color/default_light_text_color"
+                android:textSize="12sp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="@drawable/divider_transparent_small"
+                android:orientation="horizontal"
+                android:showDividers="middle">
+
+                <Button
+                    android:id="@+id/btn_curr_plan"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/test_black_primary"
+                    android:drawableStart="@drawable/img_test_daily_plan"
+                    android:gravity="center"
+                    android:clickable="true"
+                    android:minHeight="@dimen/default_button_height"
+                    android:onClick="onClick"
+                    android:paddingBottom="14dp"
+                    android:paddingLeft="30dp"
+                    android:paddingTop="14dp"
+                    android:text="@string/test_daily_current_plan"
+                    android:textColor="@color/default_light_text_color"
+                    android:textSize="@dimen/default_text_size_small"/>
+
+                <Button
+                    android:id="@+id/btn_cont_health"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/test_black_primary"
+                    android:drawableLeft="@drawable/img_test_daily_contrast"
+                    android:gravity="center"
+                    android:minHeight="@dimen/default_button_height"
+                    android:onClick="onClick"
+                    android:paddingBottom="14dp"
+                    android:paddingLeft="30dp"
+                    android:paddingTop="14dp"
+                    android:text="@string/test_daily_contrast_health"
+                    android:textColor="@color/default_light_text_color"
+                    android:textSize="@dimen/default_text_size_small"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <com.dilapp.radar.view.OverScrollView
+            android:id="@+id/osv_scroll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <View
+                    android:id="@+id/v_temp"
+                    android:clickable="false"
+                    android:visibility="invisible"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#efefef"
+                    android:orientation="vertical">
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:background="#ffffff"/>
+
+                    <TextView
+                        android:id="@+id/tv_detail"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:background="#ffffff"
+                        android:gravity="center"
+                        android:text="碧玉般的肌肤，几乎没有斑点"
+                        android:textColor="@color/default_edit_text_color"
+                        android:textSize="20sp"/>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:background="#ffffff"/>
+
+                    <!---->
+                    <GridLayout
+                        android:layout_marginBottom="8dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#ffffff"
+                        android:columnCount="3"
+                        android:paddingBottom="33dp"
+                        android:paddingLeft="39dp"
+                        android:paddingRight="39dp">
+
+                        <LinearLayout
+                            android:id="@+id/vg_water"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="41dp"
+                            android:orientation="vertical">
+
+                            <FrameLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/img_daily_dashboard">
+
+                                <ImageView
+                                    android:id="@+id/iv_pointer"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:src="@drawable/img_daily_point"/>
+
+                                <TextView
+                                    android:id="@+id/tv_value"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:text="0"
+                                    android:textColor="@color/default_light_text_color"
+                                    android:textSize="@dimen/default_text_size_small"/>
+                            </FrameLayout>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginTop="@dimen/default_distance_middle"
+                                android:ellipsize="end"
+                                android:lines="1"
+                                android:text="@string/test_water"
+                                android:textColor="@color/default_edit_text_color"
+                                android:textSize="@dimen/default_text_size"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/vg_oil"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="41dp"
+                            android:orientation="vertical">
+
+                            <FrameLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/img_daily_dashboard">
+
+                                <ImageView
+                                    android:id="@id/iv_pointer"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:src="@drawable/img_daily_point"/>
+
+                                <TextView
+                                    android:id="@id/tv_value"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:text="0"
+                                    android:textColor="@color/default_light_text_color"
+                                    android:textSize="@dimen/default_text_size_small"/>
+                            </FrameLayout>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginTop="@dimen/default_distance_middle"
+                                android:ellipsize="end"
+                                android:lines="1"
+                                android:text="@string/test_oil"
+                                android:textColor="@color/default_edit_text_color"
+                                android:textSize="@dimen/default_text_size"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/vg_eastic"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="18.3dp"
+                            android:orientation="vertical">
+
+                            <FrameLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/img_daily_dashboard">
+
+                                <ImageView
+                                    android:id="@id/iv_pointer"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:src="@drawable/img_daily_point"/>
+
+                                <TextView
+                                    android:id="@id/tv_value"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:text="0"
+                                    android:textColor="@color/default_light_text_color"
+                                    android:textSize="@dimen/default_text_size_small"/>
+                            </FrameLayout>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginTop="@dimen/default_distance_middle"
+                                android:ellipsize="end"
+                                android:lines="1"
+                                android:text="@string/test_eastic"
+                                android:textColor="@color/default_edit_text_color"
+                                android:textSize="@dimen/default_text_size"/>
+
+                        </LinearLayout>
+
+
+                        <!-- ****************************** -->
+
+                        <LinearLayout
+                            android:id="@+id/vg_sensitive"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="41dp"
+                            android:orientation="vertical">
+
+                            <FrameLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/img_daily_dashboard">
+
+                                <ImageView
+                                    android:id="@id/iv_pointer"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:src="@drawable/img_daily_point"/>
+
+                                <TextView
+                                    android:id="@id/tv_value"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:text="0"
+                                    android:textColor="@color/default_light_text_color"
+                                    android:textSize="@dimen/default_text_size_small"/>
+                            </FrameLayout>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginTop="@dimen/default_distance_middle"
+                                android:ellipsize="end"
+                                android:lines="1"
+                                android:text="@string/test_sensitive"
+                                android:textColor="@color/default_edit_text_color"
+                                android:textSize="@dimen/default_text_size"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/vg_pore"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="41dp"
+                            android:orientation="vertical">
+
+                            <FrameLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/img_daily_dashboard">
+
+                                <ImageView
+                                    android:id="@id/iv_pointer"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:src="@drawable/img_daily_point"/>
+
+                                <TextView
+                                    android:id="@id/tv_value"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:text="0"
+                                    android:textColor="@color/default_light_text_color"
+                                    android:textSize="@dimen/default_text_size_small"/>
+                            </FrameLayout>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginTop="@dimen/default_distance_middle"
+                                android:ellipsize="end"
+                                android:lines="1"
+                                android:text="@string/test_pore"
+                                android:textColor="@color/default_edit_text_color"
+                                android:textSize="@dimen/default_text_size"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/vg_whitening"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <FrameLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/img_daily_dashboard">
+
+                                <ImageView
+                                    android:id="@id/iv_pointer"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:src="@drawable/img_daily_point"/>
+
+                                <TextView
+                                    android:id="@id/tv_value"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:text="0"
+                                    android:textColor="@color/default_light_text_color"
+                                    android:textSize="@dimen/default_text_size_small"/>
+                            </FrameLayout>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginTop="@dimen/default_distance_middle"
+                                android:ellipsize="end"
+                                android:lines="1"
+                                android:text="@string/test_whitening"
+                                android:textColor="@color/default_edit_text_color"
+                                android:textSize="@dimen/default_text_size"/>
+
+                        </LinearLayout>
+
+                    </GridLayout>
+
+                    <com.dilapp.radar.view.LinearLayoutForListView
+                        android:id="@+id/lv_recommended"
+                        android:layout_marginBottom="8dp"
+                        android:orientation="vertical"
+                        android:showDividers="middle"
+                        android:divider="@drawable/divider_transparent_small"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <!--<View
+                            android:background="#ffffff"
+                            android:layout_width="match_parent"
+                            android:layout_height="53.3dp" />
+                        <View
+                            android:background="#ffffff"
+                            android:layout_width="match_parent"
+                            android:layout_height="53.3dp" />
+                        <View
+                            android:background="#ffffff"
+                            android:layout_width="match_parent"
+                            android:layout_height="53.3dp" />-->
+                    </com.dilapp.radar.view.LinearLayoutForListView>
+                    <Button
+                        android:id="@+id/btn_history"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/test_button_height"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@drawable/btn_test_global"
+                        android:onClick="onClick"
+                        android:paddingLeft="@dimen/test_daily_history_padding_l_r"
+                        android:paddingRight="@dimen/test_daily_history_padding_l_r"
+                        android:text="@string/test_history"
+                        android:textColor="@color/title_text_normal"
+                        android:textSize="@dimen/default_text_size_big"/>
+                </LinearLayout>
+            </LinearLayout>
+        </com.dilapp.radar.view.OverScrollView>
+
+        <LinearLayout
+            android:id="@+id/vg_option"
+            android:layout_alignBottom="@+id/share_cover"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@drawable/divider_transparent_small"
+            android:orientation="horizontal"
+            android:showDividers="middle">
+
+            <Button
+                android:id="@id/btn_curr_plan"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:clickable="true"
+                android:minHeight="@dimen/default_button_height"
+                android:onClick="onClick"
+                android:background="@null"
+                android:paddingBottom="14dp"
+                android:paddingLeft="30dp"
+                android:paddingTop="14dp"
+                android:text=" "
+                android:textColor="@color/default_light_text_color"
+                android:textSize="@dimen/default_text_size_small"/>
+
+            <Button
+                android:id="@id/btn_cont_health"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="@null"
+                android:minHeight="@dimen/default_button_height"
+                android:onClick="onClick"
+                android:paddingBottom="14dp"
+                android:paddingLeft="30dp"
+                android:paddingTop="14dp"
+                android:text=" "
+                android:textColor="@color/default_light_text_color"
+                android:textSize="@dimen/default_text_size_small"/>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/vg_contrast"
+            android:paddingTop="17.3dp"
+            android:background="@android:color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@android:id/text1"
+                android:layout_marginBottom="33.3dp"
+                android:textSize="14sp"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/test_primary"
+                android:text="@string/test_daily_contrast_health"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:id="@android:id/content"
+                android:layout_marginBottom="33.3dp"
+                android:layout_below="@android:id/text1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <com.dilapp.radar.view.CircularImage
+                            android:id="@+id/iv_one"
+                            android:layout_gravity="center"
+                            android:layout_width="@dimen/test_daily_result_image_round"
+                            android:layout_height="@dimen/test_daily_result_image_round"/>
+
+                        <View
+                            android:layout_width="@dimen/test_daily_result_image_cover_round"
+                            android:layout_height="@dimen/test_daily_result_image_cover_round"
+                            android:background="@drawable/bg_cover_small_grey"/>
+                    </FrameLayout>
+
+                    <TextView
+                        android:id="@+id/tv_epidermis"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="@dimen/test_skin_image_text_distance"
+                        android:text="@string/test_epidermis"
+                        android:visibility="gone"
+                        android:textColor="@color/default_light_text_color"
+                        android:textSize="@dimen/test_skin_image_text"/>
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <com.dilapp.radar.view.CircularImage
+                            android:id="@+id/iv_two"
+                            android:layout_gravity="center"
+                            android:layout_width="@dimen/test_daily_result_image_round"
+                            android:layout_height="@dimen/test_daily_result_image_round"/>
+
+                        <View
+                            android:layout_width="@dimen/test_daily_result_image_cover_round"
+                            android:layout_height="@dimen/test_daily_result_image_cover_round"
+                            android:background="@drawable/bg_cover_small_grey"/>
+                    </FrameLayout>
+
+                    <TextView
+                        android:id="@+id/tv_genuine"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="@dimen/test_skin_image_text_distance"
+                        android:text="@string/test_genuine"
+                        android:visibility="gone"
+                        android:textColor="@color/default_light_text_color"
+                        android:textSize="@dimen/test_skin_image_text"/>
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"/>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_close"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/test_button_height"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/btn_test_global"
+                android:onClick="onClick"
+                android:gravity="center"
+                android:layout_below="@android:id/content"
+                android:paddingLeft="@dimen/test_daily_history_padding_l_r"
+                android:paddingRight="@dimen/test_daily_history_padding_l_r"
+                android:text="@string/daily_close"
+                android:textColor="@color/title_text_normal"
+                android:textSize="@dimen/default_text_size_big"/>
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

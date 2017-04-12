@@ -1,0 +1,230 @@
+# To enable ProGuard in your project, edit project.properties
+# to define the proguard.config property as described in that file.
+#
+# Add project specific ProGuard rules here.
+# By default, the flags in this file are appended to flags specified
+# in ${sdk.dir}/tools/proguard/proguard-android.txt
+# You can edit the include path and order by changing the ProGuard
+# include property in project.properties.
+#
+# For more details, see
+#   http://developer.android.com/guide/developing/tools/proguard.html
+
+# Add any project specific keep options here:
+
+# If your project uses WebView with JS, uncomment the following
+# and specify the fully qualified class name to the JavaScript interface
+# class:
+#-keepclassmembers class fqcn.of.javascript.interface.for.webview {
+#   public *;
+#}
+
+-optimizationpasses 5
+-dontusemixedcaseclassnames
+-ignorewarning
+-dontskipnonpubliclibraryclasses
+-verbose
+
+-optimizations !code/simplification/arithmetic,!field/*,!class/merging/*
+
+-keepattributes *Annotation*
+-renamesourcefileattribute SourceFile
+-keepattributes SourceFile,LineNumberTable
+
+-libraryjars libs/android-support-v4.jar
+-libraryjars libs/android-support-v7-recyclerview.jar
+-libraryjars libs/commons-codec-1.3.jar
+-libraryjars libs/commons-net-3.3.jar
+-libraryjars libs/core-2.3.0.jar
+-libraryjars libs/gson-2.2.4.jar
+-libraryjars libs/httpcore-4.3.2.jar
+-libraryjars libs/httpmime-4.3.5.jar
+-libraryjars libs/locSDK_6.05.jar
+-libraryjars libs/SMSSDK-1.1.5.jar
+-libraryjars libs/universal-image-loader-1.9.4-SNAPSHOT.jar
+-libraryjars libs/xUtils-2.6.11.jar
+-libraryjars libs/apns_1.0.6.jar
+-libraryjars libs/armeabi/libov780wifi.so
+-libraryjars libs/armeabi/libRadarIP-SA.so
+
+# COMM
+-dontwarn android.support.v4.** 
+-keep class android.support.v4.** { *; } 
+-keep class android.support.v7.** { *; } 
+#-keep interface android.support.v4.app.** { *; }  
+-keep public class * extends android.support.v4.**
+-keep public class * extends android.app.Fragment
+-keep public class * extends android.app.Activity
+-keep public class * extends android.app.Application
+-keep public class * extends android.app.Service
+-keep public class * extends android.content.BroadcastReceiver
+-keep public class * extends android.content.ContentProvider
+-keep public class * extends android.app.backup.BackupAgentHelper
+-keep public class * extends android.preference.Preference
+
+-keep class dalvik.system.** { *; }
+#-keep class io.vov.utils.** { *; }
+#-keep class io.vov.vitamio.** { *; }
+
+#-keep class android.support.v7.widget.RecyclerView.** { *; }
+-keep class org.apache.** { *; }
+#-keep class org.apache.commons.codec.binary.** { *; }
+#-keep class org.apache.commons.net.** { *; }
+#-keep class org.apache.commons.net.ftp.** { *; }
+#-keep class org.apache.http.** { *; }
+#-keep class org.apache.http.client.** { *; }
+#-keep class org.apache.http.entity.** { *; }
+#-keep class org.apache.http.entity.mime.** { *; }
+-keep class com.google.zxing.** { *; }
+-keep class com.google.gson.** { *; }
+#-keep class com.google.zxing.common.** { *; }
+#-keep class com.google.zxing.qrcode.** { *; }
+-keep class com.nostra13.** { *; }
+#-keep class com.nostra13.universalimageloader.core.** { *; }
+#-keep class com.nostra13.universalimageloader.core.display.** { *; }
+#-keep class com.nostra13.universalimageloader.core.listener.** { *; }
+-keep class com.lidroid.xutils.** { *; }
+#-keep class com.lidroid.xutils.view** { *; }
+#-keep class com.lidroid.xutils.view.annotation.** { *; }
+#-keep class com.lidroid.xutils.bitmap.** { *; }
+#-keep class com.lidroid.xutils.http.** { *; }
+#-keep class com.lidroid.xutils.util.** { *; }
+
+-keep class com.dilapp.radar.viewbuilder.** { *; }
+-keep class com.dilapp.radar.textbuilder.** { *; }
+-keep class com.dilapp.radar.widget.** { *; }
+-keep class com.dilapp.radar.imageanalysis.** { *; }
+-keep class com.lenovo.** { *; }
+-keep class com.dilapp.radar.domain.** { *; }
+#-keep class com.dilapp.radar.domain.impl.** { *; }
+-keep public interface com.dilapp.radar.wifi.**
+-keep class com.dilapp.radar.wifi.** { *; }
+#-keep public interface com.dilapp.radar.wifi.NetStatusInterface
+#-keep class * implements com.dilapp.radar.wifi.CaptureInterface
+#-keep class * implements com.dilapp.radar.wifi.NetStatusInterface
+#-keep class com.dilapp.radar.wifi.CameraKfirHelper
+
+-keep class com.rockerhieu.emojicon.** { *; }
+#-keep class com.rockerhieu.emojicon.emoji.** { *; }
+#-keep class android.support.v7.** { *; }
+#-keep class android.support.v7.widget.** { *; }
+-keep class com.handmark.pulltorefresh.** { *; }
+#-keep class com.handmark.pulltorefresh.extras.** { *; }
+#-keep class com.handmark.pulltorefresh.extras.listfragment.** { *; }
+#-keep class com.handmark.pulltorefresh.extras.viewpager.** { *; }
+#-keep class com.handmark.pulltorefresh.library.** { *; }
+#-keep class com.handmark.pulltorefresh.library.extras.** { *; }
+#-keep class com.handmark.pulltorefresh.library.internal.** { *; }
+-keep class cn.lightsky.infiniteindicator.** { *; }
+#-keep class cn.lightsky.infiniteindicator.indicator.** { *; }
+#-keep class cn.lightsky.infiniteindicator.jakewharton.salvage.** { *; }
+#-keep class cn.lightsky.infiniteindicator.slideview.** { *; }
+
+-keep class com.ov.omniwificam.** { *; }
+#-keep class com.ov.omniwificam.db.** { *; }
+#-keep class com.ov.omniwificam.util.** { *; }
+
+
+-keepclasseswithmembernames class * {
+    native <methods>;
+}
+
+-keepclasseswithmembers class * {
+    public <init>(android.content.Context, android.util.AttributeSet);
+}
+
+-keepclasseswithmembers class * {
+    public <init>(android.content.Context, android.util.AttributeSet, int);
+}
+
+-keepclassmembers class * extends android.app.Activity {
+   public void *(android.view.View);
+}
+
+-keepclassmembers enum * {
+    public static **[] values();
+    public static ** valueOf(java.lang.String);
+}
+
+-keep class * implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator *;
+}
+
+-keepclassmembers class * {
+   public <init>(org.json.JSONObject);
+}
+
+# SHARE SDK SMS
+-keep class android.net.http.SslError
+-keep class android.webkit.** {*;}
+-keep class cn.sharesdk.** {*;}
+-keep class cn.smssdk.** {*;}
+-keep class com.mob.** {*;}
+
+# HUANXIN
+-libraryjars libs/easemobchat_2.2.2.jar
+-keep class com.easemob.** {*;}
+-keep class org.jivesoftware.** {*;}
+#-keep class org.apache.** {*;}
+-dontwarn  com.easemob.**
+-keep class com.easemob.chatuidemo.utils.SmileUtils {*;}
+
+#2.0.9后加入语音通话功能，如需使用此功能的api，加入以下keep
+#-dontwarn ch.imvs.**
+#-dontwarn org.slf4j.**
+#-keep class org.ice4j.** {*;}
+#-keep class net.java.sip.** {*;}
+#-keep class org.webrtc.voiceengine.** {*;}
+#-keep class org.bitlet.** {*;}
+#-keep class org.slf4j.** {*;}
+#-keep class ch.imvs.** {*;}
+
+# UMENG
+-dontshrink
+-dontoptimize
+-dontwarn com.google.android.maps.**
+-dontwarn android.webkit.WebView
+-dontwarn com.umeng.**
+-dontwarn com.tencent.weibo.sdk.**
+-dontwarn com.facebook.**
+
+-libraryjars libs/umeng_social_sdk.jar
+-libraryjars libs/SocialSDK_Sina.jar
+-libraryjars libs/SocialSDK_WeiXin_1.jar
+-libraryjars libs/SocialSDK_WeiXin_2.jar
+-libraryjars libs/umeng-analytics-v5.5.3.jar
+-libraryjars libs/umeng-update-v2.6.0.1.jar
+
+-keep enum com.facebook.**
+-keepattributes Exceptions,InnerClasses,Signature
+-keepattributes *Annotation*
+-keepattributes SourceFile,LineNumberTable
+
+-keep public interface com.facebook.**
+-keep public interface com.tencent.**
+-keep public interface com.sina.**
+-keep public interface com.umeng.socialize.**
+-keep public interface com.umeng.socialize.sensor.**
+-keep public interface com.umeng.scrshot.**
+
+-keep public class com.umeng.socialize.* {*;}
+-keep public class javax.**
+-keep public class android.webkit.**
+
+-keep class com.umeng.** { *; }
+-keep public class * extends com.umeng.**
+-keep class com.facebook.**
+-keep class com.umeng.scrshot.**
+-keep public class com.tencent.** {*;}
+-keep class com.umeng.socialize.sensor.**
+
+-keep class com.tencent.mm.sdk.modelmsg.WXMediaMessage {*;}
+
+-keep class com.tencent.mm.sdk.modelmsg.** implements com.tencent.mm.sdk.modelmsg.WXMediaMessage$IMediaObject {*;}
+
+-keep class im.yixin.sdk.api.YXMessage {*;}
+-keep class im.yixin.sdk.api.** implements im.yixin.sdk.api.YXMessage$YXMessageData{*;}
+
+-keep public class com.dilapp.radar.R$*{
+    public static final int *;
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" android:enterFadeDuration="200" android:exitFadeDuration="200">
+
+    <item android:state_checked="true">
+        <shape>
+            <corners android:radius="@dimen/test_taste_input_radius" />
+            <gradient android:angle="270" android:endColor="@color/test_button_check_dark_end" android:startColor="@color/test_button_check_dark_start" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <corners android:radius="@dimen/test_taste_input_radius" />
+            <gradient android:angle="270" android:endColor="@color/test_button_check_light_end" android:startColor="@color/test_button_check_light_start" />
+        </shape>
+    </item>
+
+
+</selector>

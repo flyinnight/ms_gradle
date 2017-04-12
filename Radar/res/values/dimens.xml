@@ -1,0 +1,400 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- Start wang xing -->
+
+    <dimen name="default_distance_small">5dp</dimen>
+    <dimen name="default_distance_middle">10dp</dimen>
+    <dimen name="default_input_left">20dp</dimen>
+    <dimen name="default_text_size_small">13.3sp</dimen>
+    <dimen name="default_text_size">16sp</dimen>
+    <dimen name="default_text_size_big">18sp</dimen>
+    <dimen name="default_line_size">1px</dimen>
+    <dimen name="default_line_size_big">1.4dp</dimen>
+    <dimen name="default_dot_size">7dp</dimen>
+    <dimen name="default_radius">5dp</dimen>
+    <dimen name="default_radius_small">0dp</dimen>
+    <dimen name="default_button_height">50dp</dimen>
+    <dimen name="default_button_padding_t_b">13.3dp</dimen>
+    <dimen name="title_height">50dp</dimen>
+    <dimen name="title_height_virtual_keyboard">45dp</dimen>
+    <dimen name="title_padding_top">25dp</dimen>
+    <dimen name="title_text_size">16sp</dimen>
+    <dimen name="title_center_text_size">18sp</dimen>
+    <dimen name="title_button_width">60dp</dimen>
+    <dimen name="title_border_distance">16dp</dimen>
+    <dimen name="infos_height">40dp</dimen>
+    <dimen name="dialog_wait_bg_radius">7dp</dimen>
+    <dimen name="dialog_wait_text_size">12sp</dimen>
+    <dimen name="emoji_height">200dp</dimen>
+    <!-- #Weiget 蜘蛛网图表使用的参数，大多是在应用中获取设置的 -->
+    <dimen name="spiderWeb_layout_height">310dp</dimen>
+    <dimen name="spiderWeb_margin_t_b">20dp</dimen>
+    <dimen name="spiderWeb_web_width">1.3dp</dimen>
+    <dimen name="spiderWeb_web_circle_radius">2.6dp</dimen>
+    <dimen name="spiderWeb_web_circle_apart_edge">-2.6dp</dimen>
+    <dimen name="spiderWeb_type_text_size">9.3sp</dimen>
+    <dimen name="spiderWeb_value_text_size">12sp</dimen>
+    <dimen name="spiderWeb_edge_text_distance">10dp</dimen>
+    <dimen name="spiderWeb_value_arc_height">7dp</dimen>
+    <!-- 蜘蛛网的半径 -->
+    <dimen name="spiderWeb_circle_radius">108.3dp</dimen>
+    <dimen name="spiderWeb_circle_shadow_radius">17dp</dimen>
+    <dimen name="spiderWeb_stroke_radius">129dp</dimen>
+    <dimen name="spiderWeb_stroke_width">1.3dp</dimen>
+    <!-- #Weiget 主界面下方的Tab使用的参数 -->
+    <dimen name="tabs_indicator_icon_round">-2px</dimen>
+    <dimen name="tabs_indicator_distance">@dimen/default_distance_small</dimen>
+    <dimen name="tabs_indicator_text_size">10sp</dimen>
+    <dimen name="tabs_indicator_padding_t_b">5dp</dimen>
+    <!-- Topic -->
+    <dimen name="topic_main_banner_height">150dp</dimen>
+ <!-- 500px -->
+    <dimen name="topic_main_tips_min_height">36.6dp</dimen>
+    <dimen name="topic_main_radius">@dimen/default_radius_small</dimen>
+    <dimen name="topic_choice_padding_t">10dp</dimen>
+    <dimen name="topic_choice_padding_l_r">13.3dp</dimen>
+    <dimen name="topic_choice_padding_big">16.6dp</dimen>
+    <dimen name="topic_choice_grid_padding_l_r">13.6dp</dimen>
+    <dimen name="topic_choice_grid_padding_t_b">14dp</dimen>
+    <dimen name="topic_choice_grid_item_image_round">60dp</dimen>
+    <dimen name="topic_list_divider_height">8dp</dimen>
+    <dimen name="topic_list_padding_t_b">9dp</dimen>
+    <dimen name="topic_item_margin_l_r">6.6dp</dimen>
+    <dimen name="topic_item_padding_t_b">11dp</dimen>
+    <dimen name="topic_item_padding_l_r">18dp</dimen>
+    <dimen name="topic_item_header_round">40dp</dimen>
+    <dimen name="topic_item_nickname_text">10sp</dimen>
+    <dimen name="topic_item_title_text">14.6sp</dimen>
+    <dimen name="topic_item_thumb_round">53.3dp</dimen>
+    <dimen name="topic_item_other_text">10sp</dimen>
+    <dimen name="topic_detail_padding_l_r">13.3dp</dimen>
+    <dimen name="topic_detail_topicbar_height">36.3dp</dimen>
+    <dimen name="topic_detail_topicbar_text">12sp</dimen>
+    <dimen name="topic_detail_option_padding_t_b">15dp</dimen>
+    <dimen name="topic_detail_divider_padding">10.6dp</dimen>
+    <dimen name="topic_detail_header_round">38dp</dimen>
+    <dimen name="topic_detail_gender_level_text">10sp</dimen>
+    <dimen name="topic_detail_btn_width">60dp</dimen>
+    <dimen name="topic_detail_btn_height">30dp</dimen>
+    <dimen name="topic_detail_editbar_shadow_height">20dp</dimen>
+    <dimen name="topic_detail_text_lineSpacingExtra">3dp</dimen>
+    <dimen name="topic_detail_to_top_margin_r_b">26.6dp</dimen>
+    <dimen name="topic_detail_comment_header_round">38dp</dimen>
+    <dimen name="topic_detail_comment_reply_min_height">30dp</dimen>
+    <dimen name="topic_detail_comment_reply_padding_t_b">9dp</dimen>
+    <dimen name="topic_detail_comment_reply_text">12sp</dimen>
+    <dimen name="topic_detail_comment_reply_divider_height">6dp</dimen>
+    <dimen name="topic_send_comment_toolbar_padding">12dp</dimen>
+    <dimen name="topic_send_comment_toolbar_distance">14dp</dimen>
+    <dimen name="topic_send_comment_padding_l_r">19dp</dimen>
+    <dimen name="topic_release_info_height">43.3dp</dimen>
+    <dimen name="topic_release_padding_l_r">16.6dp</dimen>
+    <dimen name="topic_release_edit_title_padding_t_b">10dp</dimen>
+    <dimen name="topic_release_distance">16.6dp</dimen>
+    <dimen name="topic_plan_button_width">73dp</dimen>
+    <dimen name="topic_plan_distance">10.6dp</dimen>
+    <dimen name="topic_plan_effect_normal">46.7dp</dimen>
+    <dimen name="topic_plan_effect_checked">53.3dp</dimen>
+    <dimen name="topic_plan_effect_padding_l_r">30dp</dimen>
+    <dimen name="topic_plan_effect_padding_t_b">15.7dp</dimen>
+    <dimen name="topic_plan_effect_hdistance">26.7dp</dimen>
+    <dimen name="topic_plan_effect_vdistance">12.3dp</dimen>
+    <dimen name="topic_plan_item_padding">6.7dp</dimen>
+    <dimen name="topic_plan_item_thumb_round">70dp</dimen>
+    <dimen name="topic_text_size">12sp</dimen>
+    <dimen name="topic_image_round">44dp</dimen>
+   <dimen name="topic_plan_cover_height">150dp</dimen>
+    <!-- 测试界面的指示器(包括指示文字和指示圆点)所使用的参数 -->
+    <dimen name="test_indicator_radius">2.5dp</dimen>
+    <dimen name="test_indicator_distance">15dp</dimen>
+    <dimen name="test_indicator_stroke">1dp</dimen>
+    <dimen name="test_indicator_text_selected">19sp</dimen>
+    <dimen name="test_indicator_text_normal">13sp</dimen>
+    <dimen name="test_indicator_circle_b">55dp</dimen>
+    <dimen name="test_indicator_text_b">90dp</dimen>
+ <!-- 90dp -->
+    <dimen name="test_indicator_text_l_r">44dp</dimen>
+    <!-- 当有虚拟菜单键的时候使用这个值 -->
+    <dimen name="test_indicator_circle_b_vk">25dp</dimen>
+    <dimen name="test_indicator_text_b_vk">50dp</dimen>
+ <!-- 90dp -->
+
+    <dimen name="test_main_text_size">@dimen/default_text_size_small</dimen>
+    <dimen name="test_main_text_img_distance">@dimen/default_distance_middle</dimen>
+    <dimen name="test_main_button_text_img_distance">18dp</dimen>
+    <dimen name="test_main_button_padding_l_r">22dp</dimen>
+    <dimen name="test_mine_line_h">4dp</dimen>
+    <dimen name="test_msg_padding_t">10dp</dimen>
+    <dimen name="test_msg_padding_b">11dp</dimen>
+    <dimen name="test_button_height">@dimen/default_button_height</dimen>
+    <dimen name="test_button_padding_l_r">30dp</dimen>
+    <dimen name="test_skin_real_image_round">210dp</dimen>
+    <dimen name="test_skin_image_round">146.6dp</dimen>
+    <dimen name="test_skin_image_cover_round">156.6dp</dimen>
+    <dimen name="test_skin_image_text">12sp</dimen>
+    <dimen name="test_skin_image_text_distance">20dp</dimen>
+    <dimen name="test_skin_image_distance">28dp</dimen>
+    <dimen name="test_skin_line_coarse">1dp</dimen>
+    <dimen name="test_skin_line_fine">0.4dp</dimen>
+    <dimen name="test_skin_line_distance">2dp</dimen>
+    <dimen name="test_skin_buttons_padding_l_r">34dp</dimen>
+    <dimen name="test_skin_buttons_distance">23dp</dimen>
+    <dimen name="test_skin_cover_stroke">5dp</dimen>
+    <dimen name="test_daily_avg_oval_round">13.3dp</dimen>
+    <dimen name="test_daily_my_oval_round">20dp</dimen>
+    <dimen name="test_daily_tips_distance">28dp</dimen>
+    <dimen name="test_daily_history_margin_t_b">40dp</dimen>
+    <dimen name="test_daily_history_padding_l_r">50dp</dimen>
+    <dimen name="test_daily_seek_p_stroke">1dp</dimen>
+    <dimen name="test_daily_seek_padding_l">29dp</dimen>
+    <dimen name="test_daily_seek_margin_b">13dp</dimen>
+    <dimen name="test_daily_line_margin_l_r">15dp</dimen>
+    <dimen name="test_daily_seek_left_text_width">50dp</dimen>
+    <dimen name="test_daily_seek_container_padding_l_r">@dimen/test_daily_seek_padding_l</dimen>
+    <dimen name="test_daily_seek_container_padding_t_b">9dp</dimen>
+    <dimen name="test_daily_seek_text_margin_r">15dp</dimen>
+    <dimen name="test_daily_seek_height">7dp</dimen>
+    <dimen name="test_daily_seek_radius">2dp</dimen>
+    <dimen name="test_daily_seek_number_text">13sp</dimen>
+    <dimen name="test_daily_result_image_round">113.3dp</dimen>
+    <dimen name="test_daily_result_image_cover_round">120dp</dimen>
+    <dimen name="test_taste_result_item_spacing">13dp</dimen>
+    <dimen name="test_taste_result_item_distance">11dp</dimen>
+    <dimen name="test_taste_result_padding_t">12dp</dimen>
+    <dimen name="test_taste_result_padding_l_r">15dp</dimen>
+    <dimen name="test_taste_result_tip_margin_l_r">8dp</dimen>
+    <dimen name="test_taste_result_item_padding_t_b">10dp</dimen>
+    <dimen name="test_taste_result_item_padding_l_r">17dp</dimen>
+    <dimen name="test_taste_result_item_dot_diameter">5dp</dimen>
+    <dimen name="test_taste_result_item_dot_margin_r">7dp</dimen>
+    <dimen name="test_taste_result_item_percent">10sp</dimen>
+    <dimen name="test_taste_result_item_effect_eval_round">45dp</dimen>
+    <dimen name="test_taste_result_item_changed_text">27sp</dimen>
+    <dimen name="test_micro_taking_padding_b">20dp</dimen>
+    <dimen name="test_micro_taking_text_distance">17dp</dimen>
+    <dimen name="test_micro_taking_dialog_padding_l_r">20dp</dimen>
+    <dimen name="test_micro_circle_diameter">5dp</dimen>
+
+    <!-- add by kfir for account -->
+    <dimen name="login_title_margin_top">27dp</dimen>
+    <dimen name="login_title_btn_size">24dp</dimen>
+    <dimen name="login_title_btn_left">25dp</dimen>
+    <dimen name="login_title_text_size">16sp</dimen>
+    <dimen name="login_logo_margin_top">83dp</dimen>
+    <dimen name="login_input_layout_w">300dp</dimen>
+    <dimen name="login_input_layout_h">40dp</dimen>
+    <dimen name="login_input_margin_top">192dp</dimen>
+    <dimen name="login_input_margin_l_r">15dp</dimen>
+    <dimen name="login_input_text_size">15sp</dimen>
+    <dimen name="login_warning_node_size">7dp</dimen>
+    <dimen name="login_warning_text_size">13.3sp</dimen>
+    <dimen name="login_warning_gap">10dp</dimen>
+    <dimen name="login_start_btn_h">45dp</dimen>
+    <dimen name="register_age_cycle_size">54dp</dimen>
+    <dimen name="register_age_cycle_text">12sp</dimen>
+    <dimen name="register_age_gap_w">23.5dp</dimen>
+    <dimen name="register_age_gap_h">21.5dp</dimen>
+    <dimen name="mine_edit_title_gap">20dp</dimen>
+    <dimen name="mine_edit_item_h">43dp</dimen>
+    <dimen name="mine_edit_item_text">18sp</dimen>
+    <!-- add by kfir for account end -->
+
+
+    <!-- ```````````````````````````华丽的分割线，上为新版Test UI的，下为旧版Test UI的```````````````````````````` -->
+    <dimen name="test_icon_margin_l_b">55dp</dimen>
+    <dimen name="test_icon_margin_border">30dp</dimen>
+    <dimen name="test_button_text_edge">22dp</dimen>
+    <dimen name="test_button_text_size">13sp</dimen>
+    <dimen name="test_normal_radio_round">50dp</dimen>
+    <!-- 下面这个值应该是test_normal_radio_round的一半 -->
+    <dimen name="test_normal_button_radius">25dp</dimen>
+    <dimen name="test_normal_radio_text_size">14sp</dimen>
+    <dimen name="test_normal_real_time_text_size">13sp</dimen>
+    <dimen name="test_normal_radio_border_distance1">30dp</dimen>
+    <dimen name="test_normal_radio_border_distance2">30dp</dimen>
+    <dimen name="test_normal_radio_distance1">28.3dp</dimen>
+    <dimen name="test_normal_radio_distance2">74.7dp</dimen>
+    <dimen name="test_normal_circle_border_distance">35dp</dimen>
+    <dimen name="test_normal_circle_border_width">8dp</dimen>
+    <dimen name="test_normal_result_circle_round">42dp</dimen>
+    <dimen name="test_normal_result_indicator_circle_round">30dp</dimen>
+    <dimen name="test_normal_result_line_height">20dp</dimen>
+    <dimen name="test_normal_result_line_radius">6.6dp</dimen>
+    <dimen name="test_normal_result_line_width">-2px</dimen>
+    <dimen name="test_normal_result_indicator_content_padding_l">0dp</dimen>
+    <dimen name="test_normal_result_indicator_content_padding_r">3dp</dimen>
+    <dimen name="test_normal_result_line_padding_l_r">15dp</dimen>
+    <dimen name="test_normal_result_driver_width">2dp</dimen>
+    <dimen name="test_normal_result_driver_margin_l">20dp</dimen>
+    <dimen name="test_normal_result_left_up_text_size">13sp</dimen>
+    <dimen name="test_normal_result_left_down_text_size">8sp</dimen>
+    <dimen name="test_normal_result_spider_big_text_size">26.6sp</dimen>
+    <dimen name="test_normal_result_spider_small_text_size">8sp</dimen>
+    <dimen name="test_taste_input_vertical_margin">10dp</dimen>
+    <dimen name="test_taste_input_radius">5dp</dimen>
+    <dimen name="test_taste_input_top_margin_l_r">7dp</dimen>
+    <dimen name="test_taste_input_edit_margin_t">22dp</dimen>
+    <dimen name="test_taste_input_edit_margin_l_r">33dp</dimen>
+    <dimen name="test_taste_input_edit_padding_l_r">10dp</dimen>
+    <dimen name="test_taste_input_edit_padding_r">50dp</dimen>
+    <dimen name="test_taste_search_edit_padding_t_b">11dp</dimen>
+    <dimen name="test_taste_search_edit_clear_padding_l_r">15dp</dimen>
+    <dimen name="test_taste_search_item_padding_l_r">19dp</dimen>
+    <dimen name="test_taste_search_item_padding_t_b">14dp</dimen>
+    <dimen name="test_taste_twocode_padding">8dp</dimen>
+    <dimen name="test_taste_twocode_margin_l">3dp</dimen>
+    <dimen name="test_taste_category_margin_l_r">43.5dp</dimen>
+    <dimen name="test_taste_category_width">73.5dp</dimen>
+    <dimen name="test_taste_category_height">33.5dp</dimen>
+    <dimen name="test_taste_category_col_distance">16dp</dimen>
+    <dimen name="test_taste_category_row_distance">26dp</dimen>
+    <dimen name="test_taste_category_text_size">13sp</dimen>
+    <dimen name="test_taste_input_tip_text_size">13sp</dimen>
+    <dimen name="test_taste_input_tip_text_horizontal_margin_l">30sp</dimen>
+    <dimen name="test_taste_result_col_distance">10dp</dimen>
+    <dimen name="test_taste_result_row_distance">10dp</dimen>
+    <dimen name="test_skin_innerCircle_edge_distance">30dp</dimen>
+    <dimen name="test_skin_innerCircle_radius">31dp</dimen>
+    <dimen name="test_skin_innerCircle_text_size">16sp</dimen>
+    <dimen name="test_skin_detail_text_size">13sp</dimen>
+    <dimen name="test_skin_innerCiecle_detail_distance">30dp</dimen>
+    <dimen name="test_skin_detail_line_spacing">9dp</dimen>
+    <dimen name="test_skin_selectPart_button_round">30dp</dimen>
+    <dimen name="test_skin_indicator_margin_t_b">6dp</dimen>
+    <dimen name="test_skin_fun_button_width">230dp</dimen>
+    <dimen name="test_skin_fun_button_text_size">16sp</dimen>
+    <dimen name="test_skin_fun_button_distance">5dp</dimen>
+    <dimen name="test_skin_fun_button_icon_round">25dp</dimen>
+    <dimen name="test_skin_fun_button_padding_t_b">5dp</dimen>
+    <dimen name="test_skin_fun_button_radius">30dp</dimen>
+    <dimen name="test_history_indicator_text_size">13sp</dimen>
+    <dimen name="test_history_indicator_margin_t_b">10dp</dimen>
+    <dimen name="test_history_parts_container_padding_l_r">21dp</dimen>
+    <dimen name="test_history_parts_container_padding_t_b">23dp</dimen>
+    <dimen name="test_history_parts_radio_round">50dp</dimen>
+    <dimen name="test_history_category_container_padding_t_b">14dp</dimen>
+    <dimen name="test_history_category_text_size">12sp</dimen>
+    <dimen name="test_history_date_bar_padding_t_b">13dp</dimen>
+    <dimen name="test_history_date_text_size">13sp</dimen>
+    <dimen name="test_history_move_margin_l_r">20dp</dimen>
+    <dimen name="test_history_underline_height">1.5dp</dimen>
+    <dimen name="found_topic_detail_image_round">66.6dp</dimen>
+    <dimen name="mine_mine_head_padding_l_r">47dp</dimen>
+    <dimen name="mine_mine_head_circle_stroke">1dp</dimen>
+    <dimen name="mine_mine_head_round">98dp</dimen>
+    <dimen name="mine_mine_head_circular">70dp</dimen>
+    <dimen name="mine_mine_head_distance">12dp</dimen>
+    <!-- 这个值应为mine_mine_head_round + mine_mine_head_circle_stroke + mine_mine_head_distance -->
+    <dimen name="mine_mine_head_info_margin_l">111dp</dimen>
+    <!-- 其实这个值随便写多大，小了不好看 -->
+    <dimen name="mine_mine_head_info_radius">125dp</dimen>
+    <dimen name="mine_mine_head_info_padding_t_b">@dimen/default_distance_middle</dimen>
+    <dimen name="mine_mine_head_info_distance">8dp</dimen>
+    <dimen name="mine_mine_head_info_distance_small">6dp</dimen>
+    <dimen name="mine_mine_head_info_text_distance_small">9dp</dimen>
+    <dimen name="mine_mine_head_info_text_size">13sp</dimen>
+    <dimen name="mine_mine_item_min_height">40dp</dimen>
+    <dimen name="mine_mine_item_text_size">15sp</dimen>
+    <dimen name="mine_mine_item_padding_l_r">11dp</dimen>
+    <dimen name="mine_mine_item_padding_t_b">13dp</dimen>
+    <dimen name="mine_mine_item_group_distance">15dp</dimen>
+    <dimen name="mine_info_head_dialog_btn_distance">17dp</dimen>
+    <dimen name="mine_focus_item_head_round">40dp</dimen>
+    <dimen name="mine_focus_item_padding_l_r">19dp</dimen>
+    <dimen name="mine_focus_item_padding_t_b">10dp</dimen>
+    <dimen name="mine_focus_item_button_text_size">13sp</dimen>
+    <dimen name="mine_focus_item_nickname_text_size">14.6sp</dimen>
+    <dimen name="mine_focus_item_other_text_size">12sp</dimen>
+    <dimen name="mine_focus_item_button_padding_l_r">13dp</dimen>
+    <dimen name="mine_focus_item_button_padding_t_b">8dp</dimen>
+    <dimen name="mine_focus_item_distance">17dp</dimen>
+    <dimen name="mine_speak_item_padding">@dimen/default_distance_middle</dimen>
+    <dimen name="mine_speak_item_text_size">13sp</dimen>
+    <dimen name="mine_speak_item_text_size_small">10sp</dimen>
+    <dimen name="skin_special_label_padding_t">16dp</dimen>
+    <dimen name="skin_special_label_padding_l">20dp</dimen>
+    <dimen name="skin_special_label_text_size">20sp</dimen>
+    <dimen name="skin_analys_lineradio_raius">20dp</dimen>
+    <!-- End wang xing -->
+
+
+    <!-- hj  dialog -->
+    <dimen name="dialog_main_layout_margin">10dp</dimen>
+    <dimen name="dialog_item_margin_top">30dp</dimen>
+    <dimen name="dialog_item_wifi_ssidmargin_top">20dp</dimen>
+    <dimen name="dialog_bottom_btn_height">45dp</dimen>
+    <dimen name="dialog_clos_btn_height">30dp</dimen>
+
+    <!--
+      <dimen name="bbs_container_margin_top">15dp</dimen>
+    <dimen name="bbs_container_margin_bottom">15dp</dimen>
+    <dimen name="bbs_margin_left">0dp</dimen>
+    <dimen name="bbs_margin_right">0dp</dimen>
+    <dimen name="bbs_margin_top">0dp</dimen>
+    -->
+
+    <dimen name="user_image_size">48.0dip</dimen>
+    <dimen name="mini_user_image_size">32.0dip</dimen>
+    <dimen name="list_row_padding">10.0dip</dimen>
+    <dimen name="standard_spacing">5.0dip</dimen>
+    <dimen name="button_padding">8.0dip</dimen>
+    <dimen name="font_size_large">16.0sp</dimen>
+    <dimen name="font_size_default">14.0sp</dimen>
+    <dimen name="font_size_small">12.0sp</dimen>
+    <dimen name="font_size_xsmall">10.0sp</dimen>
+    <dimen name="text_single_line_height">18.0sp</dimen>
+    <dimen name="list_preferred_height">44.0dip</dimen>
+    <dimen name="divider_thickness">1.0dip</dimen>
+    <dimen name="inline_map_height">100.0dip</dimen>
+    <dimen name="map_height">150.0dip</dimen>
+    <dimen name="photo_attachment_size">72.0dip</dimen>
+    <dimen name="reply_to_height">28.0dip</dimen>
+    <dimen name="toolbar_button_width">160.0dip</dimen>
+    <dimen name="widget_header_height">44.0dip</dimen>
+    <dimen name="badge_spacing">3.0dip</dimen>
+    <dimen name="icon_spacing">4.0dip</dimen>
+    <dimen name="image_margin_top">2.0dip</dimen>
+    <dimen name="image_margin_right">6.0dip</dimen>
+    <dimen name="card_inset">10.0dip</dimen>
+    <dimen name="chevron_padding">5.0dip</dimen>
+    <dimen name="onebox_news_image">60.0dip</dimen>
+    <dimen name="bounceTravelDistance">5.0dip</dimen>
+    <dimen name="tap_to_refresh_height">64.0dip</dimen>
+
+    <!-- topic -->
+    <dimen name="bbs_margin_left">0dip</dimen>
+    <dimen name="bbs_margin_right">0dip</dimen>
+    <dimen name="bbs_margin_top">0dip</dimen>
+    <dimen name="bbs_container_margin_bottom">0dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <!-- For buttons -->
+    <dimen name="common_text_size_large">18dp</dimen>
+    <!-- For list texts (top line) -->
+    <dimen name="common_text_size_middle">16dp</dimen>
+    <dimen name="common_text_size_middle_2">14dp</dimen>
+    <!-- For list texts (bottom line), summary texts, icon texts, descriptions, tag texts -->
+    <dimen name="common_text_size_small">13dp</dimen>
+    <dimen name="common_text_size_small_2">10dp</dimen>
+    <dimen name="common_text_size_small_3">12dp</dimen>
+    <dimen name="page_margin_width">12dp</dimen>
+    <dimen name="view_small_padding">1dp</dimen>
+    <dimen name="view_padding">6dp</dimen>
+    <dimen name="height_top_bar">46dp</dimen>
+    <dimen name="padding_search_bar">5dp</dimen>
+    <dimen name="height_row_weixin">59dp</dimen>
+    <dimen name="size_avatar">50dp</dimen>
+    <dimen name="margin_chat_activity">5dp</dimen>
+    <dimen name="field_textsize">14sp</dimen>
+    <dimen name="field_margin_right">5dp</dimen>
+    <dimen name="call_button_padding_vertical">10dp</dimen>
+    <dimen name="call_button_padding_left">25dp</dimen>
+    <dimen name="call_button_padding_right">25dp</dimen>
+    <dimen name="sidebar_text_size">10dp</dimen>
+    <dimen name="image_thumbnail_size">100dp</dimen>
+    <dimen name="image_thumbnail_spacing">1dp</dimen>
+
+</resources>

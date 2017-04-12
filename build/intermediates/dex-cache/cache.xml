@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/home/huangwei/StudioProjects/Radar_Code_grad/Radar/libs/SMSSDK-1.1.5.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="10d96debb0a87d303bbed7d908c3a6f9a01b3307">
+        <dex dex="/home/huangwei/StudioProjects/Radar_Code_grad/Radar/build/intermediates/transforms/dex/debug/folders/1000/2/SMSSDK-1.1.5_936608c48d7445c746a10e1b1031deef79c6a3b2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/huangwei/StudioProjects/Radar_Code_grad/Radar/libs/httpmime-4.3.5.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1dd0d38df9c6d21e893f2e52403f1cd99e91cd81">
+        <dex dex="/home/huangwei/StudioProjects/Radar_Code_grad/Radar/build/intermediates/transforms/dex/debug/folders/1000/2/httpmime-4.3.5_ff49046edabef44bc9368ca4fa2e6855ee715265/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/huangwei/StudioProjects/Radar_Code_grad/Radar/libs/locSDK_6.05.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="35a869586758500cd28983a23fc6c667784be2d7">
+        <dex dex="/home/huangwei/StudioProjects/Radar_Code_grad/Radar/build/intermediates/transforms/dex/debug/folders/1000/2/locSDK_6.05_49e32aaf86bd70f4bbbd234d6dd4b9221599a377/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/huangwei/StudioProjects/Radar_Code_grad/Radar/libs/gson-2.2.4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="973e832af433b44c3ed11c426f2f390b29f3f3f8">
+        <dex dex="/home/huangwei/StudioProjects/Radar_Code_grad/Radar/build/intermediates/transforms/dex/debug/folders/1000/2/gson-2.2.4_bd19d5e6e14443946ab7268d3c4202e0acf3e681/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/huangwei/StudioProjects/Radar_Code_grad/BBSLibrary/build/intermediates/bundles/default/libs/gson-2.2.4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="33d21b33f4723e66a6c10882b866b93d1e89e4ba">
+        <dex dex="/home/huangwei/StudioProjects/Radar_Code_grad/Radar/build/intermediates/transforms/dex/debug/folders/1000/8/gson-2.2.4_b0fcd6dab8b928db8cac5a7fd39efd06989224a3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/huangwei/StudioProjects/Radar_Code_grad/Radar/libs/core-2.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ce288d0c4fd840a1118e757741c61e9540a53bb3">
+        <dex dex="/home/huangwei/StudioProjects/Radar_Code_grad/Radar/build/intermediates/transforms/dex/debug/folders/1000/2/core-2.3.0_1e40acf93b37497fe1b3621900b18f94ac7e6688/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/huangwei/StudioProjects/Radar_Code_grad/WidgetLibrary/build/intermediates/bundles/default/libs/picasso-2.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2348628bf27a67ce8d1ed7f23247975f83c10564">
+        <dex dex="/home/huangwei/StudioProjects/Radar_Code_grad/Radar/build/intermediates/transforms/dex/debug/folders/1000/8/picasso-2.4.0_4646cd52cff4a488d076601f206821c14277f432/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/huangwei/StudioProjects/Radar_Code_grad/Radar/libs/umeng_social_sdk.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f2032f30304628abf4bd25ceb3e96b205ab19ae1">
+        <dex dex="/home/huangwei/StudioProjects/Radar_Code_grad/Radar/build/intermediates/transforms/dex/debug/folders/1000/2/umeng_social_sdk_6ad7097bc379c525061b946ae896835096822492/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/huangwei/StudioProjects/Radar_Code_grad/Radar/libs/commons-codec-1.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fd32786786e2adb664d5ecc965da47629dca14ba">
+        <dex dex="/home/huangwei/StudioProjects/Radar_Code_grad/Radar/build/intermediates/transforms/dex/debug/folders/1000/2/commons-codec-1.3_d5e0986f72bb349b6852addde950065ce5dc3747/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/huangwei/StudioProjects/Radar_Code_grad/Radar/libs/android-support-v7-recyclerview.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0b5adf926c097329904a2f263e7b51f259020634">
+        <dex dex="/home/huangwei/StudioProjects/Radar_Code_grad/Radar/build/intermediates/transforms/dex/debug/folders/1000/2/android-support-v7-recyclerview_9d57d26d47fcd96d06b24a1f6ba76e2bd46db615/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/huangwei/StudioProjects/Radar_Code_grad/WidgetLibrary/build/intermediates/bundles/default/libs/nineoldandroids-2.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f086e018e187da53a1432c188023c86d1fa3ff73">
+        <dex dex="/home/huangwei/StudioProjects/Radar_Code_grad/Radar/build/intermediates/transforms/dex/debug/folders/1000/8/nineoldandroids-2.4.0_3b8400b3b15bc453c31a543c3101201cce014c7e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/huangwei/StudioProjects/Radar_Code_grad/Radar/libs/universal-image-loader-1.9.4-SNAPSHOT.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="831368dfdef2c9396955489e9058e6ad8a8e4244">
+        <dex dex="/home/huangwei/StudioProjects/Radar_Code_grad/Radar/build/intermediates/transforms/dex/debug/folders/1000/2/universal-image-loader-1.9.4-SNAPSHOT_fd57d2aca552b8a7f4271b8264d38b902f4da744/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/huangwei/StudioProjects/Radar_Code_grad/Radar/libs/commons-net-3.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="cd0d5510908225f76c5fe5a3f1df4fa44866f81e">
+        <dex dex="/home/huangwei/StudioProjects/Radar_Code_grad/Radar/build/intermediates/transforms/dex/debug/folders/1000/2/commons-net-3.3_453635e413c3582182e75f1f2c44fe690d427642/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/huangwei/StudioProjects/Radar_Code_grad/Radar/libs/android-support-v4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="605c447c20ca216b5556af9f215af5d4bba1b117">
+        <dex dex="/home/huangwei/StudioProjects/Radar_Code_grad/Radar/build/intermediates/transforms/dex/debug/folders/1000/2/android-support-v4_ef6dfc723938ce5760a1ebfc4cb7289838cf0f94/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/huangwei/StudioProjects/Radar_Code_grad/Radar/libs/easemobchat_2.2.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="93ee85a2a38611aa7d3deeba63e7216eb3f7f145">
+        <dex dex="/home/huangwei/StudioProjects/Radar_Code_grad/Radar/build/intermediates/transforms/dex/debug/folders/1000/2/easemobchat_2.2.2_0833a1bc3bb1282a9948f6782d25b1fcc4eff7b2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/huangwei/StudioProjects/Radar_Code_grad/BBSLibrary/build/intermediates/bundles/default/libs/bbslibrary.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ec8c498cbee81fc79888d6c0228eac66d0b5d5b7">
+        <dex dex="/home/huangwei/StudioProjects/Radar_Code_grad/Radar/build/intermediates/transforms/dex/debug/folders/1000/8/bbslibrary_5cc096de9576226dfeea3bfd3eebef97a8f6279b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/huangwei/StudioProjects/Radar_Code_grad/Radar/libs/SocialSDK_WeiXin_2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7463202e051678141ca811b9b56e03d1a88d4c11">
+        <dex dex="/home/huangwei/StudioProjects/Radar_Code_grad/Radar/build/intermediates/transforms/dex/debug/folders/1000/2/SocialSDK_WeiXin_2_666749b4d597f44d158154f1986f878feb230dd3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/huangwei/StudioProjects/Radar_Code_grad/Radar/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b73721aaed391632baaf25dcb1556280ebc43ec1">
+        <dex dex="/home/huangwei/StudioProjects/Radar_Code_grad/Radar/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_671eeb92364bf91a0a64b6c9015540203b0eef52/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/huangwei/StudioProjects/Radar_Code_grad/Radar/libs/umeng-update-v2.6.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7bfeea30c4995f90a4374ce4177772a4579f2797">
+        <dex dex="/home/huangwei/StudioProjects/Radar_Code_grad/Radar/build/intermediates/transforms/dex/debug/folders/1000/2/umeng-update-v2.6.0.1_30bc191626da5b0c79043fdd172c6093492c8511/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/huangwei/StudioProjects/Radar_Code_grad/Radar/libs/xUtils-2.6.11.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1c36413ba62fd6433e117bd58fe9264f3a1141a6">
+        <dex dex="/home/huangwei/StudioProjects/Radar_Code_grad/Radar/build/intermediates/transforms/dex/debug/folders/1000/2/xUtils-2.6.11_e8ea5895876c6443b8ed6af8e7766bfe24ca0856/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/huangwei/StudioProjects/Radar_Code_grad/Radar/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="/home/huangwei/StudioProjects/Radar_Code_grad/Radar/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_a38a5a0080526b1dc509468f6d110701ca65cb0f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/huangwei/StudioProjects/Radar_Code_grad/Radar/libs/SocialSDK_WeiXin_1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="47f4993168154fa73377d7470b9f6887d48a8023">
+        <dex dex="/home/huangwei/StudioProjects/Radar_Code_grad/Radar/build/intermediates/transforms/dex/debug/folders/1000/2/SocialSDK_WeiXin_1_2ce5bbcc88ebd0538bbfb409dbd9f5aa389af1e0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/huangwei/StudioProjects/Radar_Code_grad/Radar/libs/httpcore-4.3.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="31fbbff1ddbf98f3aa7377c94d33b0447c646b6e">
+        <dex dex="/home/huangwei/StudioProjects/Radar_Code_grad/Radar/build/intermediates/transforms/dex/debug/folders/1000/2/httpcore-4.3.2_a494a7e3ebd294fec570ea63fe7b2e556df86db4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/huangwei/StudioProjects/Radar_Code_grad/Radar/libs/SocialSDK_Sina.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="102698c1cea563445aea3135def02471a8ed1c68">
+        <dex dex="/home/huangwei/StudioProjects/Radar_Code_grad/Radar/build/intermediates/transforms/dex/debug/folders/1000/2/SocialSDK_Sina_8ef7bbc7e398542b5574e7ed92cccf100418a3a0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/huangwei/StudioProjects/Radar_Code_grad/Radar/libs/umeng-analytics-v5.5.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5d503ec571e2e98d972209afa203f94d11882c15">
+        <dex dex="/home/huangwei/StudioProjects/Radar_Code_grad/Radar/build/intermediates/transforms/dex/debug/folders/1000/2/umeng-analytics-v5.5.3_8e8da9ef6a89518e6b6e5b21d3e789791bcb5261/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/huangwei/StudioProjects/Radar_Code_grad/BBSLibrary/build/intermediates/bundles/default/libs/android-support-v4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="911f7a5aca41dc6df1d11d03a674bb20816de2fc">
+        <dex dex="/home/huangwei/StudioProjects/Radar_Code_grad/Radar/build/intermediates/transforms/dex/debug/folders/1000/8/android-support-v4_ed16b7ec911d9f50e4c78fbd678acc753548d94e/classes.dex" />
+    </item>
+
+</items>

@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_testskin"
+    android:orientation="vertical">
+
+    <include layout="@layout/layout_title"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/bg_test_weather"
+            android:minHeight="@dimen/default_button_height"
+            android:orientation="horizontal"
+            android:paddingBottom="9.3dp"
+            android:paddingLeft="15.6dp"
+            android:paddingRight="15.6dp"
+            android:paddingTop="3.6dp">
+            
+            <ImageView 
+                android:id="@+id/weather_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:layout_centerVertical="true"
+                android:src="@drawable/img_weater"/>
+
+            <TextView
+                android:id="@+id/tv_weather"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/weather_icon"
+                android:layout_marginRight="34dp"
+                android:layout_marginLeft="10dp"
+                android:drawablePadding="14dp"
+                android:gravity="center"
+                android:layout_centerVertical="true"
+                android:text="@string/weater_lightrain"
+                android:textColor="@color/default_light_text_color"
+                android:textSize="@dimen/test_main_text_size"/>
+
+            <TextView
+                android:id="@+id/tv_temperature"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/default_distance_middle"
+                android:layout_toLeftOf="@+id/tv_humidity"
+                android:drawableLeft="@drawable/img_temperature"
+                android:drawablePadding="@dimen/test_main_text_img_distance"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:layout_alignBottom="@id/tv_weather"
+                android:text="22/20°"
+                android:textColor="@color/default_light_text_color"
+                android:textSize="@dimen/test_main_text_size"/>
+
+            <TextView
+                android:id="@+id/tv_humidity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/default_distance_middle"
+                android:layout_toLeftOf="@+id/tv_uv"
+                android:layout_alignBottom="@id/tv_weather"
+                android:drawableLeft="@drawable/img_humidity"
+                android:drawablePadding="@dimen/test_main_text_img_distance"
+                android:gravity="center"
+                android:text="68%"
+                android:textColor="@color/default_light_text_color"
+                android:textSize="@dimen/test_main_text_size"/>
+
+            <TextView
+                android:id="@+id/tv_uv"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/tv_weather"
+                android:drawableLeft="@drawable/img_uv"
+                android:drawablePadding="@dimen/test_main_text_img_distance"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:text="300nm"
+                android:textColor="@color/default_light_text_color"
+                android:textSize="@dimen/test_main_text_size"/>
+        </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/v_daily"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_test_daily"
+            android:clickable="true"
+            android:drawableLeft="@drawable/btn_daily"
+            android:drawablePadding="@dimen/test_main_button_text_img_distance"
+            android:gravity="center_vertical"
+            android:paddingLeft="122dp"
+            android:minHeight="@dimen/default_button_height"
+            android:text="@string/test_daily"
+            android:textColor="@color/default_light_text_color"
+            android:textSize="@dimen/default_text_size"/>
+
+        <TextView
+            android:id="@+id/v_skin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_test_skin"
+            android:clickable="true"
+            android:drawableLeft="@drawable/btn_skin"
+            android:drawablePadding="@dimen/test_main_button_text_img_distance"
+            android:gravity="center_vertical"
+            android:paddingLeft="122dp"
+            android:minHeight="@dimen/default_button_height"
+            android:text="@string/test_skin"
+            android:textColor="@color/default_light_text_color"
+            android:textSize="@dimen/default_text_size"/>
+
+        <TextView
+            android:id="@+id/v_taste"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_test_taste"
+            android:clickable="true"
+            android:drawableLeft="@drawable/btn_taste"
+            android:drawablePadding="@dimen/test_main_button_text_img_distance"
+            android:gravity="center_vertical"
+            android:paddingLeft="122dp"
+            android:minHeight="@dimen/default_button_height"
+            android:text="@string/test_taste"
+            android:textColor="@color/default_light_text_color"
+            android:textSize="@dimen/default_text_size"/>
+
+        <TextView
+            android:id="@+id/v_microscope"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_test_microscope"
+            android:clickable="true"
+            android:drawableLeft="@drawable/btn_microscope"
+            android:drawablePadding="@dimen/test_main_button_text_img_distance"
+            android:gravity="center_vertical"
+            android:paddingLeft="122dp"
+            android:minHeight="@dimen/default_button_height"
+            android:text="@string/test_microscope"
+            android:textColor="@color/default_light_text_color"
+            android:textSize="@dimen/default_text_size"/>
+    </LinearLayout>
+
+    <!--<RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ImageView
+            android:id="@+id/iv_indicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/img_circle_indicator" />
+
+        <FrameLayout
+            android:id="@+id/iv_history"
+            android:background="@drawable/btn_history"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_marginBottom="19dp"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/test_button_text_size"
+                android:layout_gravity="bottom|center_horizontal"
+                android:duplicateParentState="true"
+                android:text="@string/test_history"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/iv_normal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/iv_history"
+            android:layout_marginBottom="@dimen/test_icon_margin_l_b"
+            android:layout_marginLeft="@dimen/test_icon_margin_border"
+            android:background="@drawable/btn_normal" >
+
+            <TextView
+                android:layout_marginBottom="@dimen/test_button_text_edge"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/test_button_text_size"
+                android:layout_gravity="bottom|center_horizontal"
+                android:duplicateParentState="true"
+                android:text="@string/test_daily"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/iv_skin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/iv_history"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/test_icon_margin_border"
+            android:background="@drawable/btn_skin" >
+
+            <TextView
+                android:layout_marginBottom="@dimen/test_button_text_edge"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/test_button_text_size"
+                android:layout_gravity="bottom|center_horizontal"
+                android:duplicateParentState="true"
+                android:text="@string/test_skin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/iv_specify"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iv_history"
+            android:layout_marginLeft="@dimen/test_icon_margin_border"
+            android:background="@drawable/btn_specify" >
+
+            <TextView
+                android:layout_marginBottom="@dimen/test_button_text_edge"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/test_button_text_size"
+                android:layout_gravity="bottom|center_horizontal"
+                android:duplicateParentState="true"
+                android:text="@string/test_special"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/iv_taste"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/iv_history"
+            android:layout_marginRight="@dimen/test_icon_margin_border"
+            android:layout_marginTop="@dimen/test_icon_margin_l_b"
+            android:background="@drawable/btn_taste" >
+
+            <TextView
+                android:layout_marginBottom="@dimen/test_button_text_edge"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/test_button_text_size"
+                android:layout_gravity="bottom|center_horizontal"
+                android:duplicateParentState="true"
+                android:text="@string/test_taste"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </FrameLayout>
+    </RelativeLayout>-->
+
+</LinearLayout>

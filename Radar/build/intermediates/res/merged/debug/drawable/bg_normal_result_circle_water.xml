@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+    <gradient
+        android:startColor="@color/test_normal_result_water_start"
+        android:angle="270"
+        android:endColor="@color/test_normal_result_water_end" />
+</shape>

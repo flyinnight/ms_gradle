@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_mine"
+    android:orientation="vertical" >
+
+    <include layout="@layout/layout_title" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_mine_personal"
+        android:paddingLeft="@dimen/mine_mine_head_padding_l_r"
+        android:paddingRight="@dimen/mine_mine_head_padding_l_r" >
+
+        <com.dilapp.radar.view.CircularImage
+            android:id="@+id/iv_head"
+            android:layout_width="@dimen/mine_mine_head_circular"
+            android:layout_height="@dimen/mine_mine_head_circular"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/mine_mine_head_info_distance"
+            android:layout_marginTop="@dimen/test_button_text_edge"
+            android:scaleType="fitXY"
+            android:src="@drawable/img_default_head" >
+        </com.dilapp.radar.view.CircularImage>
+
+        <TextView
+            android:id="@+id/tv_nickname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iv_head"
+            android:layout_centerHorizontal="true"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textAppearance="@style/RadarText.Black"
+            android:textSize="@dimen/test_normal_radio_text_size"
+            android:textStyle="bold" >
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_nickname"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/topic_detail_text_lineSpacingExtra" >
+
+            <TextView
+                android:id="@+id/tv_gender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/RadarText.Black"
+                android:textSize="@dimen/topic_detail_topicbar_text" />
+
+            <TextView
+                android:id="@+id/tv_level"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/card_inset"
+                android:textAppearance="@style/RadarText.Black"
+                android:textSize="@dimen/topic_detail_topicbar_text" >
+            </TextView>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/vg_focus"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_preferred_height"
+        android:divider="@drawable/divider_default"
+        android:dividerPadding="@dimen/topic_detail_comment_reply_divider_height"
+        android:orientation="horizontal"
+        android:showDividers="middle" >
+
+        <LinearLayout
+            android:id="@+id/layout_focus"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/bg_mine_item"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tv_focus_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/default_distance_middle"
+                android:text="29"
+                android:textColor="@color/mine_mine_head_info_text"
+                android:textSize="@dimen/mine_mine_head_info_text_size" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mine_focus"
+                android:textAppearance="@style/RadarText.Black"
+                android:textSize="@dimen/mine_mine_head_info_text_size" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_fans"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/bg_mine_item"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tv_fans_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/default_distance_middle"
+                android:text="30"
+                android:textColor="@color/mine_mine_head_info_text"
+                android:textSize="@dimen/mine_mine_head_info_text_size" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mine_fans"
+                android:textAppearance="@style/RadarText.Black"
+                android:textSize="@dimen/mine_mine_head_info_text_size" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/default_line_size"
+        android:background="@color/default_line_color" />
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+    </FrameLayout>
+
+</LinearLayout>

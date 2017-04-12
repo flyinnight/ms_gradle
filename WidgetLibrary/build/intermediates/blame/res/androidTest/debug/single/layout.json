@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "/home/huangwei/StudioProjects/Radar_Code_grad/WidgetLibrary/build/intermediates/res/merged/androidTest/debug/layout/layout_anim_line_indicator.xml",
+        "source": "/home/huangwei/StudioProjects/Radar_Code_grad/WidgetLibrary/build/intermediates/bundles/debug/res/layout/layout_anim_line_indicator.xml"
+    },
+    {
+        "merged": "/home/huangwei/StudioProjects/Radar_Code_grad/WidgetLibrary/build/intermediates/res/merged/androidTest/debug/layout/layout_anim_circle_indicator.xml",
+        "source": "/home/huangwei/StudioProjects/Radar_Code_grad/WidgetLibrary/build/intermediates/bundles/debug/res/layout/layout_anim_circle_indicator.xml"
+    },
+    {
+        "merged": "/home/huangwei/StudioProjects/Radar_Code_grad/WidgetLibrary/build/intermediates/res/merged/androidTest/debug/layout/render_type_default.xml",
+        "source": "/home/huangwei/StudioProjects/Radar_Code_grad/WidgetLibrary/build/intermediates/bundles/debug/res/layout/render_type_default.xml"
+    },
+    {
+        "merged": "/home/huangwei/StudioProjects/Radar_Code_grad/WidgetLibrary/build/intermediates/res/merged/androidTest/debug/layout/layout_default_indicator.xml",
+        "source": "/home/huangwei/StudioProjects/Radar_Code_grad/WidgetLibrary/build/intermediates/bundles/debug/res/layout/layout_default_indicator.xml"
+    },
+    {
+        "merged": "/home/huangwei/StudioProjects/Radar_Code_grad/WidgetLibrary/build/intermediates/res/merged/androidTest/debug/layout/pull_to_refresh_header_horizontal.xml",
+        "source": "/home/huangwei/StudioProjects/Radar_Code_grad/WidgetLibrary/build/intermediates/bundles/debug/res/layout/pull_to_refresh_header_horizontal.xml"
+    },
+    {
+        "merged": "/home/huangwei/StudioProjects/Radar_Code_grad/WidgetLibrary/build/intermediates/res/merged/androidTest/debug/layout/pull_to_refresh_header_vertical.xml",
+        "source": "/home/huangwei/StudioProjects/Radar_Code_grad/WidgetLibrary/build/intermediates/bundles/debug/res/layout/pull_to_refresh_header_vertical.xml"
+    },
+    {
+        "merged": "/home/huangwei/StudioProjects/Radar_Code_grad/WidgetLibrary/build/intermediates/res/merged/androidTest/debug/layout/item_page.xml",
+        "source": "/home/huangwei/StudioProjects/Radar_Code_grad/WidgetLibrary/build/intermediates/bundles/debug/res/layout/item_page.xml"
+    },
+    {
+        "merged": "/home/huangwei/StudioProjects/Radar_Code_grad/WidgetLibrary/build/intermediates/res/merged/androidTest/debug/layout/number_picker_with_selector_wheel.xml",
+        "source": "/home/huangwei/StudioProjects/Radar_Code_grad/WidgetLibrary/build/intermediates/bundles/debug/res/layout/number_picker_with_selector_wheel.xml"
+    }
+]

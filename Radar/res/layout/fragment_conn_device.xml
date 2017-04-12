@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <!--android:background="@drawable/bg_testskin"-->
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/default_text_size"
+        android:text="@string/test_smart_skin_detector"
+       />
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/device_logo" />
+
+    <TextView
+        android:id="@+id/linktext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal"
+        android:text="@string/ble_open_link_text"
+        android:paddingBottom="15dp"
+        android:textColor="@color/test_device_understand_radar"
+        android:textSize="@dimen/default_text_size_small" />
+
+
+    <LinearLayout
+        android:id="@+id/bottomLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/linktext"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="15dp"
+        android:orientation="horizontal"
+        android:weightSum="1" >
+
+        <Button
+            android:id="@+id/startScan"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/default_button_height"
+            android:layout_weight="0.8"
+            android:background="@drawable/btn_test_global"
+            android:gravity="center"
+            android:text="@string/ble_open_start_scan"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:visibility="visible" />
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

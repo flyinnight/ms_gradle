@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_mine"
+    android:orientation="vertical" >
+
+    <include layout="@layout/layout_title" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/test_history_date_bar_padding_t_b"
+        android:orientation="vertical" >
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/default_line_size"
+            android:background="@color/default_line_color" />
+
+        <RelativeLayout
+            android:id="@+id/topic_all_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_mine_item"
+            android:paddingBottom="@dimen/test_taste_result_row_distance"
+            android:paddingLeft="@dimen/test_taste_category_col_distance"
+            android:paddingRight="@dimen/test_taste_result_row_distance"
+            android:paddingTop="@dimen/test_taste_result_row_distance" >
+
+            <ImageView
+                android:id="@android:id/icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/mine_mine_item_padding_l_r"
+                android:src="@drawable/found_topic_all" />
+
+            <TextView
+                android:id="@android:id/text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@android:id/icon"
+                android:text="@string/all_topic"
+                android:textColor="@color/mine_mine_item_text_color"
+                android:textSize="@dimen/mine_mine_head_info_text_size" />
+
+            <ImageView
+                android:id="@android:id/icon1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/img_next" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/default_line_size"
+            android:background="@color/default_line_color" />
+
+        <RelativeLayout
+            android:id="@+id/skin_scheme_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_mine_item"
+            android:paddingBottom="@dimen/test_taste_result_row_distance"
+            android:paddingLeft="@dimen/test_taste_category_col_distance"
+            android:paddingRight="@dimen/test_taste_result_row_distance"
+            android:paddingTop="@dimen/test_taste_result_row_distance" >
+
+            <ImageView
+                android:id="@android:id/icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/mine_mine_item_padding_l_r"
+                android:src="@drawable/found_skin_scheme"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@android:id/text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@android:id/icon"
+                android:text="@string/skin_plan"
+                android:textColor="@color/mine_mine_item_text_color"
+                android:textSize="@dimen/mine_mine_head_info_text_size" />
+
+            <ImageView
+                android:id="@android:id/icon1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/img_next" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/default_line_size"
+            android:background="@color/default_line_color" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/test_history_date_bar_padding_t_b"
+        android:orientation="vertical" >
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/default_line_size"
+            android:background="@color/default_line_color" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_mine_item"
+            android:paddingBottom="@dimen/test_taste_result_row_distance"
+            android:paddingLeft="@dimen/test_taste_category_col_distance"
+            android:paddingRight="@dimen/test_taste_result_row_distance"
+            android:paddingTop="@dimen/test_taste_result_row_distance" >
+
+            <ImageView
+                android:id="@android:id/icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/mine_mine_item_padding_l_r"
+                android:src="@drawable/found_expert_school"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@android:id/text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@android:id/icon"
+                android:text="@string/found_expert_school"
+                android:textColor="@color/mine_mine_item_text_color"
+                android:textSize="@dimen/mine_mine_head_info_text_size" />
+
+            <ImageView
+                android:id="@android:id/icon1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/img_next" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/default_line_size"
+            android:background="@color/default_line_color" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/test_history_date_bar_padding_t_b"
+        android:orientation="vertical" >
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/default_line_size"
+            android:background="@color/default_line_color" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_mine_item"
+            android:paddingBottom="@dimen/test_taste_result_row_distance"
+            android:paddingLeft="@dimen/test_taste_category_col_distance"
+            android:paddingRight="@dimen/test_taste_result_row_distance"
+            android:paddingTop="@dimen/test_taste_result_row_distance" >
+
+            <ImageView
+                android:id="@android:id/icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/mine_mine_item_padding_l_r"
+                android:src="@drawable/found_radar_store"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@android:id/text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@android:id/icon"
+                android:text="@string/found_radar_store"
+                android:textColor="@color/mine_mine_item_text_color"
+                android:textSize="@dimen/mine_mine_head_info_text_size" />
+
+            <ImageView
+                android:id="@android:id/icon1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/img_next" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/default_line_size"
+            android:background="@color/default_line_color" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/found_more" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp"
+            android:text="@string/found_more_expect"
+            android:textColor="@color/font_color"
+            android:textSize="@dimen/tabs_indicator_text_size" />
+    </RelativeLayout>
+
+</LinearLayout>

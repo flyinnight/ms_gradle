@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/test_black_primary"
+              android:orientation="vertical">
+
+    <!--android:background="@drawable/bg_testskin"-->
+    <include layout="@layout/layout_title"/>
+
+    <!--<com.dilapp.radar.view.SpiderWebViewSimple
+        android:id="@+id/sv_draw"
+        android:layout_width="@dimen/spiderWeb_layout_height"
+        android:layout_height="@dimen/spiderWeb_layout_height"
+        android:visibility="invisible"/>-->
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:paddingTop="25dp"
+        android:paddingBottom="45dp"
+        android:paddingLeft="31dp"
+        android:paddingRight="31dp"
+        android:layout_marginBottom="1.3dp"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/bg_white_transparent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_skin"
+            android:gravity="center"
+            android:text="干性皮肤"
+            android:minHeight="46.6dp"
+            android:minWidth="176.6dp"
+            android:textColor="@color/default_light_text_color"
+            android:textSize="21.3sp"
+            android:layout_marginBottom="38dp"
+            android:background="@drawable/bg_black_transrect_radius"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/tv_skin_tips"
+            android:text="@string/test_dry_skin_detail"
+            android:textSize="@dimen/default_text_size"
+            android:textColor="@color/default_light_text_color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/btn_goto_bbs"
+        android:clickable="true"
+        android:onClick="onClick"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:minHeight="@dimen/default_button_height"
+        android:background="@drawable/bg_white_transparent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_goto_bbs"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:drawablePadding="8dp"
+            android:layout_gravity="center"
+            android:text="@string/skin_goto_bbs_gan"
+            android:drawableLeft="@drawable/img_test_goto_bbs"
+            android:textColor="@color/default_light_text_color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </FrameLayout>
+    <!--<TextView
+        android:id="@+id/btn_goto_bbs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:clickable="true"
+        android:onClick="onClick"
+        android:text="@string/skin_goto_bbs"
+        android:textColor="@color/color_test_text"
+        android:textSize="@dimen/default_text_size"/>-->
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <!--<RelativeLayout
+        android:id="@+id/btn_face_test"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/test_button_height"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/btn_test_global"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:paddingLeft="@dimen/test_daily_history_padding_l_r"
+        android:paddingRight="@dimen/test_daily_history_padding_l_r">
+
+        <ImageView
+            android:id="@android:id/icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/default_distance_middle"
+            android:duplicateParentState="true"
+            android:src="@drawable/img_camera"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_toRightOf="@android:id/icon"
+            android:duplicateParentState="true"
+            android:text="@string/test_continue_test"
+            android:textAppearance="@style/RadarText.Button"/>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>-->
+    <Button
+        android:id="@+id/btn_face_test"
+        android:gravity="center"
+        android:background="@drawable/btn_white"
+        android:textSize="@dimen/default_text_size_big"
+        android:textColor="@color/color_test_text"
+        android:onClick="onClick"
+        android:text="@string/test_continue_test"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/default_button_height"/>
+</LinearLayout>

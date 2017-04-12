@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/topic_item_margin_l_r"
+        android:layout_marginRight="@dimen/topic_item_margin_l_r"
+        android:background="@drawable/bg_post_item"
+        android:paddingBottom="@dimen/mine_focus_item_padding_t_b"
+        android:paddingLeft="@dimen/mine_focus_item_padding_l_r"
+        android:paddingRight="@dimen/mine_focus_item_padding_l_r"
+        android:paddingTop="@dimen/mine_focus_item_padding_t_b">
+
+        <com.dilapp.radar.view.CircularImage
+            android:id="@+id/iv_head"
+            android:layout_width="@dimen/mine_focus_item_head_round"
+            android:layout_height="@dimen/mine_focus_item_head_round"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/mine_focus_item_distance"
+            android:scaleType="fitXY"
+            android:visibility="visible"/>
+
+        <Button
+            android:id="@+id/btn_focus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/default_distance_small"
+            android:background="@drawable/btn_radio_primary"
+            android:focusable="false"
+            android:button="@null"
+            android:checked="false"
+            android:gravity="center"
+            android:minHeight="@dimen/topic_detail_btn_height"
+            android:minWidth="@dimen/topic_detail_btn_width"
+            android:paddingLeft="@dimen/default_distance_middle"
+            android:paddingRight="@dimen/default_distance_middle"
+            android:shadowRadius="0"
+            android:text="@string/detail_follow"
+            android:textColor="@color/color_radio_choice_text"
+            android:textSize="@dimen/mine_focus_item_button_text_size"/>
+
+        <TextView
+            android:id="@+id/tv_nickname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/iv_head"
+            android:layout_toLeftOf="@id/btn_focus"
+            android:lines="1"
+            android:ellipsize="end"
+            android:text="Dylan"
+            android:textColor="@color/mine_focus_item_text_color"
+            android:textSize="@dimen/mine_focus_item_nickname_text_size"/>
+
+        <TextView
+            android:id="@+id/tv_gender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/iv_head"
+            android:layout_marginRight="@dimen/default_distance_middle"
+            android:layout_toRightOf="@id/iv_head"
+            android:ellipsize="end"
+            android:lines="1"
+            android:minWidth="30dp"
+            android:text="保密"
+            android:textColor="@color/default_text_color"
+            android:textSize="@dimen/mine_focus_item_other_text_size"/>
+
+        <TextView
+            android:id="@+id/tv_level"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/iv_head"
+            android:layout_marginRight="@dimen/default_distance_middle"
+            android:layout_toRightOf="@id/tv_gender"
+            android:ellipsize="end"
+            android:lines="1"
+            android:text="lv24"
+            android:textColor="@color/default_text_color"
+            android:textSize="@dimen/mine_focus_item_other_text_size"/>
+
+        <TextView
+            android:id="@+id/tv_focus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/iv_head"
+            android:layout_marginRight="@dimen/default_distance_middle"
+            android:layout_toRightOf="@id/tv_level"
+            android:ellipsize="end"
+            android:lines="1"
+            android:text="0 关注"
+            android:textColor="@color/default_text_color"
+            android:textSize="@dimen/mine_focus_item_other_text_size"/>
+
+        <TextView
+            android:id="@+id/tv_fans"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/iv_head"
+            android:layout_marginRight="@dimen/default_distance_middle"
+            android:layout_toLeftOf="@id/btn_focus"
+            android:layout_toRightOf="@id/tv_focus"
+            android:ellipsize="end"
+            android:lines="1"
+            android:text="0 粉丝"
+            android:textColor="@color/default_text_color"
+            android:textSize="@dimen/mine_focus_item_other_text_size"/>
+
+    </RelativeLayout>
+</FrameLayout>

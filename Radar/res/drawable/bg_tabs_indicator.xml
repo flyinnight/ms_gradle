@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 顺序不能改变哦，否则效果会有偏差 android:drawable="@color/main_indicator_bg_light" -->
+    <item android:state_selected="true">
+        <shape android:shape="rectangle">
+            <gradient android:angle="270" android:endColor="@color/main_indicator_end_light" android:startColor="@color/main_indicator_start_light" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <gradient android:angle="270" android:endColor="@color/main_indicator_end_dark" android:startColor="@color/main_indicator_start_dark" />
+        </shape>
+    </item>
+
+</selector>

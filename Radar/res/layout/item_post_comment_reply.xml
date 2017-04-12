@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@+id/vg_reply_sub"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:background="@drawable/bg_post_comment_reply"
+    android:paddingBottom="@dimen/topic_detail_comment_reply_padding_t_b"
+    android:paddingLeft="11dp"
+    android:paddingTop="@dimen/topic_detail_comment_reply_padding_t_b">
+
+    <com.rockerhieu.emojicon.EmojiconTextView
+        android:id="@+id/tv_reply"
+        app:emojiconSize="16sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/default_edit_text_color"
+        android:textSize="@dimen/topic_detail_comment_reply_text"/>
+</FrameLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:minLevel="0" android:maxLevel="14">
+        <shape android:shape="oval">
+            <solid android:color="#8e8abc" />
+        </shape>
+    </item>
+    <item android:minLevel="15" android:maxLevel="28">
+        <shape android:shape="oval">
+            <solid android:color="#59b7db" />
+        </shape>
+    </item>
+    <item android:minLevel="29" android:maxLevel="42">
+        <shape android:shape="oval">
+            <solid android:color="#c58cdd" />
+        </shape>
+    </item>
+    <item android:minLevel="43" android:maxLevel="56">
+        <shape android:shape="oval">
+            <solid android:color="#66c26b" />
+        </shape>
+    </item>
+    <item android:minLevel="57" android:maxLevel="70">
+        <shape android:shape="oval">
+            <solid android:color="#fe728d" />
+        </shape>
+    </item>
+    <item android:minLevel="70" android:maxLevel="75">
+        <shape android:shape="oval">
+            <solid android:color="#f78e57" />
+        </shape>
+    </item>
+    <item android:minLevel="76" android:maxLevel="100">
+        <shape android:shape="oval">
+            <solid android:color="#9b8e86" />
+        </shape>
+    </item>
+</level-list>

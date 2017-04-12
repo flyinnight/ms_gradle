@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/layout_title"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/topic_choice_padding_t"
+        android:visibility="invisible"/>
+
+    <RelativeLayout
+        android:id="@+id/vg_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/topic_choice_padding_big"
+        android:layout_marginLeft="@dimen/topic_choice_padding_l_r"
+        android:layout_marginRight="@dimen/topic_choice_padding_l_r"
+        android:background="@drawable/bg_edit_shadow_input"
+        android:padding="6dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:drawableLeft="@drawable/ico_topic_choice_search"
+            android:drawablePadding="@dimen/default_distance_middle"
+            android:gravity="center_vertical"
+            android:text="@string/choice_search_topic"
+            android:textColor="@color/default_text_color"
+            android:textSize="@dimen/default_text_size_small"/>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="2.6dp"
+        android:text="@string/choice_select_related"
+        android:textColor="@color/default_edit_text_color"
+        android:textSize="@dimen/test_normal_radio_text_size"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ProgressBar
+            android:id="@+id/vg_progress"
+            style="@style/Radar.ProgressBar.Large"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"/>
+
+        <RelativeLayout
+            android:id="@+id/vg_error"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/choice_click_refresh"
+                android:textColor="@color/default_text_color"
+                android:textSize="22sp"/>
+
+        </RelativeLayout>
+
+        <com.handmark.pulltorefresh.library.PullToRefreshGridView
+            android:id="@+id/prgv_grid"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:choiceMode="multipleChoice"
+            android:listSelector="@android:color/transparent"
+            android:numColumns="3"
+            android:stretchMode="columnWidth"
+            android:visibility="gone"
+            android:scrollbars="none"
+            app:ptrAnimationStyle="tween"
+            app:ptrMode="both"/>
+    </FrameLayout>
+    <!--<GridView
+        android:choiceMode="multipleChoice"
+        android:numColumns="3"
+        android:horizontalSpacing="25.6dp"
+        android:columnWidth="81.3dp"
+        android:stretchMode="columnWidth"
+        android:paddingLeft="@dimen/topic_choice_grid_padding_l_r"
+        android:paddingRight="@dimen/topic_choice_grid_padding_l_r"
+        android:layout_width="wrap_content" />-->
+</LinearLayout>

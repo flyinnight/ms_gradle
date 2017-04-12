@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/topic_item_margin_l_r"
+        android:layout_marginRight="@dimen/topic_item_margin_l_r"
+        android:background="@drawable/bg_post_item"
+        android:duplicateParentState="true"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/topic_item_padding_t_b"
+        android:paddingLeft="@dimen/topic_item_padding_l_r"
+        android:paddingRight="@dimen/topic_item_padding_l_r"
+        android:paddingTop="@dimen/topic_item_padding_t_b">
+
+        <LinearLayout
+            android:id="@android:id/widget_frame"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingTop="3dp">
+
+            <com.dilapp.radar.view.CircularImage
+                android:id="@+id/iv_header"
+                android:layout_width="@dimen/topic_item_header_round"
+                android:layout_height="@dimen/topic_item_header_round"
+                android:src="@drawable/img_default_head"/>
+
+            <TextView
+                android:id="@+id/tv_nickname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6.6dp"
+                android:ellipsize="end"
+                android:maxEms="4"
+                android:maxLines="1"
+                android:gravity="center"
+                android:minWidth="@dimen/topic_item_header_round"
+                android:maxWidth="@dimen/topic_item_header_round"
+                android:text="雅诗兰黛"
+                android:textColor="@color/default_edit_text_color"
+                android:textSize="@dimen/topic_item_nickname_text"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_gender"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="3dp"
+                    android:text="男"
+                    android:textColor="@color/default_text_color"
+                    android:textSize="8sp"/>
+
+                <TextView
+                    android:id="@+id/tv_level"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="lv 21"
+                    android:textColor="@color/default_text_color"
+                    android:textSize="8sp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <com.rockerhieu.emojicon.EmojiconTextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@android:id/widget_frame"
+            android:ellipsize="end"
+            android:lineSpacingExtra="1dp"
+            android:lineSpacingMultiplier="1.2"
+            android:maxLines="2"
+            android:text="[补水]因为越是偏向霜状的产品，其润度越高，会在肌肤外形成。"
+            android:textColor="@color/default_edit_text_color"
+            android:textSize="@dimen/topic_item_title_text"/>
+
+        <LinearLayout
+            android:id="@+id/vg_thumbs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/tv_title"
+            android:layout_below="@id/tv_title"
+            android:layout_marginTop="11dp"
+            android:orientation="horizontal"
+            android:paddingBottom="8dp"
+            android:visibility="visible">
+
+            <ImageView
+                android:id="@+id/iv_thumb_00"
+                android:layout_width="@dimen/topic_item_thumb_round"
+                android:layout_height="@dimen/topic_item_thumb_round"
+                android:src="@drawable/img_bbs_default"/>
+
+            <View
+                android:layout_width="@dimen/default_distance_small"
+                android:layout_height="1px"
+                android:visibility="invisible"/>
+
+            <ImageView
+                android:id="@+id/iv_thumb_01"
+                android:layout_width="@dimen/topic_item_thumb_round"
+                android:layout_height="@dimen/topic_item_thumb_round"
+                android:src="@drawable/img_bbs_default"/>
+
+            <View
+                android:layout_width="@dimen/default_distance_small"
+                android:layout_height="1px"
+                android:visibility="invisible"/>
+
+            <ImageView
+                android:id="@+id/iv_thumb_02"
+                android:layout_width="@dimen/topic_item_thumb_round"
+                android:layout_height="@dimen/topic_item_thumb_round"
+                android:src="@drawable/img_bbs_default"/>
+
+            <View
+                android:layout_width="@dimen/default_distance_small"
+                android:layout_height="1px"
+                android:visibility="invisible"/>
+
+            <ImageView
+                android:id="@+id/iv_thumb_03"
+                android:layout_width="@dimen/topic_item_thumb_round"
+                android:layout_height="@dimen/topic_item_thumb_round"
+                android:src="@drawable/img_bbs_default"/>
+        </LinearLayout>
+
+        <!--android:layout_below="@id/vg_thumbs"-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/tv_title"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@id/vg_thumbs"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_datetime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="40dp"
+                android:text="1小时前"
+                android:textColor="@color/default_text_color"
+                android:textSize="@dimen/topic_item_other_text"/>
+
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/tv_sending"
+                android:text="发送中..."
+                android:gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawablePadding="@dimen/default_distance_small"
+                android:textColor="@color/test_primary"
+                android:textSize="@dimen/topic_item_other_text" />
+
+            <!--android:drawableLeft="@drawable/ico_error_red"-->
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/tv_delete"
+                android:text="@string/delete"
+                android:layout_marginLeft="@dimen/default_distance_middle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/test_primary"
+                android:textSize="@dimen/topic_item_other_text" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1px"
+                android:layout_weight="5"
+                android:visibility="invisible"/>
+
+            <TextView
+                android:id="@+id/tv_onlookers"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ico_onlookers"
+                android:drawablePadding="4dp"
+                android:text="10"
+                android:textColor="@color/default_text_color"
+                android:textSize="@dimen/topic_item_other_text"/>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1px"
+                android:layout_weight="1"
+                android:visibility="invisible"/>
+
+            <TextView
+                android:id="@+id/tv_like"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ico_like"
+                android:drawablePadding="4dp"
+                android:text="10"
+                android:textColor="@color/default_text_color"
+                android:textSize="@dimen/topic_item_other_text"/>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1px"
+                android:layout_weight="1"
+                android:visibility="invisible"/>
+
+            <TextView
+                android:id="@+id/tv_reply"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ico_reply"
+                android:drawablePadding="4dp"
+                android:text="10"
+                android:textColor="@color/default_text_color"
+                android:textSize="@dimen/topic_item_other_text"/>
+
+        </LinearLayout>
+    </RelativeLayout>
+</FrameLayout>

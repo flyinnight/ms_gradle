@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.dilapp.radar.view.RelativeRadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rag_part"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <!--  -->
+
+    <FrameLayout
+        android:id="@+id/vg_circle_border"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="36dp" >
+
+        <android.opengl.GLSurfaceView
+            android:layout_margin="@dimen/test_normal_circle_border_width"
+            android:id="@+id/sv_voide"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="invisible" />
+
+        <!-- android:padding="@dimen/test_normal_circle_border_width" -->
+
+        <ImageView
+            android:id="@+id/iv_cartoon"
+            android:layout_margin="@dimen/test_normal_circle_border_width"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/img_cartoon" />
+        
+        <ImageView 
+            android:src="@drawable/bg_cover"
+            android:layout_margin="@dimen/test_normal_circle_border_width"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <View
+            android:background="@drawable/bg_circel_border"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </FrameLayout>
+
+    <RadioButton
+        android:id="@+id/button1"
+        style="@style/RadarText.Button.Radio.Parts"
+        android:layout_width="@dimen/test_normal_radio_round"
+        android:layout_height="@dimen/test_normal_radio_round"
+        android:layout_centerHorizontal="true"
+        android:text="@string/normal_forehead" />
+
+    <RadioButton
+        android:id="@+id/button2"
+        android:checked="true"
+        style="@style/RadarText.Button.Radio.Parts"
+        android:layout_width="@dimen/test_normal_radio_round"
+        android:layout_height="@dimen/test_normal_radio_round"
+        android:layout_below="@id/button1"
+        android:layout_marginLeft="@dimen/test_normal_radio_border_distance1"
+        android:layout_marginTop="@dimen/test_normal_radio_distance1"
+        android:text="@string/normal_cheek" />
+
+    <RadioButton
+        android:id="@+id/button3"
+        style="@style/RadarText.Button.Radio.Parts"
+        android:layout_width="@dimen/test_normal_radio_round"
+        android:layout_height="@dimen/test_normal_radio_round"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/button1"
+        android:layout_marginRight="@dimen/test_normal_radio_border_distance1"
+        android:layout_marginTop="@dimen/test_normal_radio_distance1"
+        android:text="@string/normal_eye" />
+
+    <RadioButton
+        android:id="@+id/button4"
+        style="@style/RadarText.Button.Radio.Parts"
+        android:layout_width="@dimen/test_normal_radio_round"
+        android:layout_height="@dimen/test_normal_radio_round"
+        android:layout_below="@id/button2"
+        android:layout_marginLeft="@dimen/test_normal_radio_border_distance2"
+        android:layout_marginTop="@dimen/test_normal_radio_distance2"
+        android:text="@string/normal_nose" />
+
+    <RadioButton
+        android:id="@+id/button5"
+        style="@style/RadarText.Button.Radio.Parts"
+        android:layout_width="@dimen/test_normal_radio_round"
+        android:layout_height="@dimen/test_normal_radio_round"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/button2"
+        android:layout_marginRight="@dimen/test_normal_radio_border_distance2"
+        android:layout_marginTop="@dimen/test_normal_radio_distance2"
+        android:text="@string/normal_hand" />
+
+</com.dilapp.radar.view.RelativeRadioGroup>

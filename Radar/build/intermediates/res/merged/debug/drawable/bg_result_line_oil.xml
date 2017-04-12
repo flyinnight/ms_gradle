@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <corners android:radius="@dimen/test_normal_result_line_radius" />
+    <gradient
+        android:startColor="@color/test_normal_result_oil_line_start"
+        android:endColor="@color/test_normal_result_oil_line_end" />
+    <stroke
+        android:color="@color/test_normal_result_oil_line_stroke"
+        android:width="1px" />
+
+</shape>

@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/topic_bg"
+    android:orientation="vertical">
+
+    <include layout="@layout/layout_title"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ProgressBar
+            android:id="@+id/vg_loading"
+            style="@style/Radar.ProgressBar.Large"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:indeterminateDrawable="@anim/img_loading"/>
+
+        <RelativeLayout
+            android:id="@+id/vg_error"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:onClick="onClick"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/choice_click_refresh"
+                android:textColor="@color/default_text_color"
+                android:textSize="22sp"/>
+
+        </RelativeLayout>
+
+        <com.dilapp.radar.view.PullToRefreshCustomScrollView
+            android:id="@+id/ptr_scroll"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+            app:ptrAnimationStyle="tween"
+            app:ptrMode="both">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/topic_item_margin_l_r"
+                    android:layout_marginRight="@dimen/topic_item_margin_l_r"
+                    android:layout_marginTop="16.6dp"
+                    android:background="@drawable/bg_post_item"
+                    android:clickable="false"
+                    android:paddingBottom="13.3dp"
+                    android:paddingLeft="16.6dp"
+                    android:paddingRight="16.6dp"
+                    android:paddingTop="13.3dp">
+
+                    <ImageView
+                        android:id="@+id/iv_image"
+                        android:layout_width="@dimen/found_topic_detail_image_round"
+                        android:layout_height="@dimen/found_topic_detail_image_round"
+                        android:layout_marginRight="19.3dp"
+                        android:scaleType="fitXY"/>
+
+                    <TextView
+                        android:id="@+id/tv_topic_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignTop="@id/iv_image"
+                        android:layout_marginBottom="11dp"
+                        android:layout_toLeftOf="@+id/btn_join"
+                        android:layout_toRightOf="@id/iv_image"
+                        android:textColor="@color/default_edit_text_color"
+                        android:textSize="@dimen/default_text_size"/>
+
+                    <TextView
+                        android:id="@+id/tv_join"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/tv_topic_title"
+                        android:layout_marginBottom="9dp"
+                        android:layout_toLeftOf="@+id/btn_join"
+                        android:layout_toRightOf="@id/iv_image"
+                        android:textColor="@color/default_text_color"
+                        android:textSize="10sp"/>
+
+                    <TextView
+                        android:id="@+id/tv_create_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/tv_join"
+                        android:layout_marginBottom="15dp"
+                        android:layout_toRightOf="@id/iv_image"
+                        android:textColor="@color/default_text_color"
+                        android:textSize="10sp"/>
+
+
+                    <Button
+                        android:id="@+id/btn_join"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/topic_detail_btn_height"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginLeft="@dimen/default_distance_small"
+                        android:background="@drawable/btn_test_global"
+                        android:ellipsize="end"
+                        android:gravity="center"
+                        android:lines="1"
+                        android:minWidth="@dimen/topic_detail_btn_width"
+                        android:onClick="onClick"
+                        android:paddingLeft="@dimen/default_distance_small"
+                        android:paddingRight="@dimen/default_distance_small"
+                        android:text="@string/found_detail_join"
+                        android:textColor="@color/title_text_normal"/>
+
+                    <TextView
+                        android:id="@+id/tv_topic_content"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/tv_create_time"
+                        android:layout_toRightOf="@id/iv_image"
+                        android:textColor="@color/default_edit_text_color"
+                        android:textSize="@dimen/default_text_size_small"/>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/vg_float"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp">
+
+                    <TextView
+                        android:id="@+id/tv_post_number"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_gravity="center_horizontal"
+                        android:textColor="@color/default_text_color"
+                        android:textSize="@dimen/default_text_size_small"/>
+                </RelativeLayout>
+
+                <com.dilapp.radar.view.LinearLayoutForListView
+                    android:id="@+id/lv_post"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:divider="@drawable/divider_transparent"
+                    android:orientation="vertical"
+                    android:showDividers="middle|end"/>
+            </LinearLayout>
+
+        </com.dilapp.radar.view.PullToRefreshCustomScrollView>
+
+        <RelativeLayout
+            android:id="@+id/vg_floating"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="@color/topic_bg"
+            android:visibility="gone"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/vg_delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@drawable/divider_transparent"
+        android:orientation="vertical"
+        android:showDividers="middle|end"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@drawable/divider_default"
+            android:orientation="vertical"
+            android:showDividers="middle">
+
+            <Button
+                android:id="@+id/btn_modify"
+                style="@style/BottomDialog.Button"
+                android:onClick="onClick"
+                android:text="@string/found_detail_modify"
+                android:textColor="@color/default_edit_text_color"/>
+
+            <Button
+                android:id="@+id/btn_delete"
+                style="@style/BottomDialog.Button"
+                android:onClick="onClick"
+                android:text="@string/found_detail_delete"
+                android:textColor="@color/test_primary"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_cancel"
+            style="@style/BottomDialog.Button"
+            android:onClick="onClick"
+            android:text="@string/cancel"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/vg_delete_enter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@drawable/divider_transparent"
+        android:orientation="vertical"
+        android:showDividers="middle|end"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@drawable/divider_default"
+            android:orientation="vertical"
+            android:showDividers="middle">
+
+            <TextView
+                style="@style/BottomDialog.Button"
+                android:enabled="false"
+                android:gravity="center"
+                android:text="@string/found_detail_delete_topic_tips"
+                android:textColor="@color/default_edit_text_color"
+                android:textSize="@dimen/default_text_size_small"/>
+
+            <Button
+                android:id="@+id/btn_delete_enter"
+                style="@style/BottomDialog.Button"
+                android:onClick="onClick"
+                android:text="@string/detail_delete_enter"
+                android:textColor="@color/test_primary"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_cancel_delete"
+            style="@style/BottomDialog.Button"
+            android:onClick="onClick"
+            android:text="@string/cancel"/>
+    </LinearLayout>
+
+</LinearLayout>
