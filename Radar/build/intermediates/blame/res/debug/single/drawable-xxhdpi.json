@@ -552,12 +552,12 @@
         "source": "D:\\AndroidStudioProject\\ms_gradle\\Radar\\res\\drawable-xxhdpi\\img_daily_point_red.png"
     },
     {
-        "merged": "D:\\AndroidStudioProject\\ms_gradle\\Radar\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ico_release_pressed.png",
-        "source": "D:\\AndroidStudioProject\\ms_gradle\\Radar\\res\\drawable-xxhdpi\\ico_release_pressed.png"
-    },
-    {
         "merged": "D:\\AndroidStudioProject\\ms_gradle\\Radar\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\mm_listitem_grey_normal.9.png",
         "source": "D:\\AndroidStudioProject\\ms_gradle\\Radar\\res\\drawable-xxhdpi\\mm_listitem_grey_normal.9.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProject\\ms_gradle\\Radar\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ico_release_pressed.png",
+        "source": "D:\\AndroidStudioProject\\ms_gradle\\Radar\\res\\drawable-xxhdpi\\ico_release_pressed.png"
     },
     {
         "merged": "D:\\AndroidStudioProject\\ms_gradle\\Radar\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\device_confirm_d.png",
@@ -920,12 +920,12 @@
         "source": "D:\\AndroidStudioProject\\ms_gradle\\Radar\\res\\drawable-xxhdpi\\img_daily_pressed.png"
     },
     {
-        "merged": "D:\\AndroidStudioProject\\ms_gradle\\Radar\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\device_confirm_b.png",
-        "source": "D:\\AndroidStudioProject\\ms_gradle\\Radar\\res\\drawable-xxhdpi\\device_confirm_b.png"
-    },
-    {
         "merged": "D:\\AndroidStudioProject\\ms_gradle\\Radar\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\img_microscope_normal.png",
         "source": "D:\\AndroidStudioProject\\ms_gradle\\Radar\\res\\drawable-xxhdpi\\img_microscope_normal.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProject\\ms_gradle\\Radar\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\device_confirm_b.png",
+        "source": "D:\\AndroidStudioProject\\ms_gradle\\Radar\\res\\drawable-xxhdpi\\device_confirm_b.png"
     },
     {
         "merged": "D:\\AndroidStudioProject\\ms_gradle\\Radar\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\img_camera_red.png",

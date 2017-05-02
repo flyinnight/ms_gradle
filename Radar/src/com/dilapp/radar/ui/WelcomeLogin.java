@@ -240,7 +240,8 @@ public class WelcomeLogin extends BaseActivity implements OnClickListener {
             Slog.e("login result : " + statusCode + "  " + sStatus + "  "
                     + mMsg);
             dimessWaitingDialog();
-            if (resp.isRequestSuccess() && !isOnPause) {
+            //cancel for user register part
+//            if (resp.isRequestSuccess() && !isOnPause) {
                 SharePreCacheHelper.setUserName(getApplicationContext(),
                         mUserName);
                 SharePreCacheHelper.setPassword(getApplicationContext(),
@@ -250,12 +251,12 @@ public class WelcomeLogin extends BaseActivity implements OnClickListener {
                 intent.addFlags(Intent.FLAG_ACTIVITY_EXCLUDE_FROM_RECENTS);
                 startActivity(intent);
                 finish();
-            } else {
-                mMessage = resp.getMessage();
-                tv_error_hint.setText(R.string.username_password_error);
-                tv_error_hint.setVisibility(View.VISIBLE);
-                Slog.i(mMessage);
-            }
+//            } else {
+//                mMessage = resp.getMessage();
+//                tv_error_hint.setText(R.string.username_password_error);
+//                tv_error_hint.setVisibility(View.VISIBLE);
+//                Slog.i(mMessage);
+//            }
         }
     };
 

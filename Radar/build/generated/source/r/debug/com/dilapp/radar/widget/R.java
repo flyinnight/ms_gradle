@@ -251,9 +251,9 @@ public final class R {
         public static final int render_type_default = 0x7f0300bc;
     }
     public static final class string {
-        public static final int pull_to_refresh_from_bottom_pull_label = 0x7f0a02d5;
-        public static final int pull_to_refresh_from_bottom_refreshing_label = 0x7f0a02d6;
-        public static final int pull_to_refresh_from_bottom_release_label = 0x7f0a02d7;
+        public static final int pull_to_refresh_from_bottom_pull_label = 0x7f0a02d7;
+        public static final int pull_to_refresh_from_bottom_refreshing_label = 0x7f0a02d8;
+        public static final int pull_to_refresh_from_bottom_release_label = 0x7f0a02d9;
         public static final int pull_to_refresh_pull_label = 0x7f0a01bf;
         public static final int pull_to_refresh_refreshing_label = 0x7f0a01c0;
         public static final int pull_to_refresh_release_label = 0x7f0a01c1;

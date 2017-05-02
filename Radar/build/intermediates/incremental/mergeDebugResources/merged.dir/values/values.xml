@@ -1051,7 +1051,9 @@
     <string name="location_xibei">西北地区</string>
     <string name="location_xinan">西南地区</string>
     <string name="login">登录</string>
+    <string name="main_book">通讯录</string>
     <string name="main_develop">开发</string>
+    <string name="main_enter">主页</string>
     <string name="main_found">发现</string>
     <string name="main_mine">我的</string>
     <string name="main_test">测试</string>

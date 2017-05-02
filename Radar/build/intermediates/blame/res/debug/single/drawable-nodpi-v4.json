@@ -1756,12 +1756,12 @@
         "source": "D:\\AndroidStudioProject\\ms_gradle\\BBSLibrary\\build\\intermediates\\bundles\\default\\res\\drawable-nodpi-v4\\emoji_303d.png"
     },
     {
-        "merged": "D:\\AndroidStudioProject\\ms_gradle\\Radar\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4\\emoji_1f63f.png",
-        "source": "D:\\AndroidStudioProject\\ms_gradle\\BBSLibrary\\build\\intermediates\\bundles\\default\\res\\drawable-nodpi-v4\\emoji_1f63f.png"
-    },
-    {
         "merged": "D:\\AndroidStudioProject\\ms_gradle\\Radar\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4\\emoji_1f4d0.png",
         "source": "D:\\AndroidStudioProject\\ms_gradle\\BBSLibrary\\build\\intermediates\\bundles\\default\\res\\drawable-nodpi-v4\\emoji_1f4d0.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProject\\ms_gradle\\Radar\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4\\emoji_1f63f.png",
+        "source": "D:\\AndroidStudioProject\\ms_gradle\\BBSLibrary\\build\\intermediates\\bundles\\default\\res\\drawable-nodpi-v4\\emoji_1f63f.png"
     },
     {
         "merged": "D:\\AndroidStudioProject\\ms_gradle\\Radar\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4\\emoji_1f375.png",

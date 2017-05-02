@@ -252,12 +252,12 @@
         "source": "D:\\AndroidStudioProject\\ms_gradle\\Radar\\res\\drawable\\umeng_socialize_shareboard_item_background.xml"
     },
     {
-        "merged": "D:\\AndroidStudioProject\\ms_gradle\\Radar\\build\\intermediates\\res\\merged\\debug\\drawable\\list_selector_background_transition_holo_dark.xml",
-        "source": "D:\\AndroidStudioProject\\ms_gradle\\WidgetLibrary\\build\\intermediates\\bundles\\default\\res\\drawable\\list_selector_background_transition_holo_dark.xml"
-    },
-    {
         "merged": "D:\\AndroidStudioProject\\ms_gradle\\Radar\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_douban_on.png",
         "source": "D:\\AndroidStudioProject\\ms_gradle\\Radar\\res\\drawable\\umeng_socialize_douban_on.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProject\\ms_gradle\\Radar\\build\\intermediates\\res\\merged\\debug\\drawable\\list_selector_background_transition_holo_dark.xml",
+        "source": "D:\\AndroidStudioProject\\ms_gradle\\WidgetLibrary\\build\\intermediates\\bundles\\default\\res\\drawable\\list_selector_background_transition_holo_dark.xml"
     },
     {
         "merged": "D:\\AndroidStudioProject\\ms_gradle\\Radar\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_plan_effect_choice.xml",
@@ -992,12 +992,12 @@
         "source": "D:\\AndroidStudioProject\\ms_gradle\\BBSLibrary\\build\\intermediates\\bundles\\default\\res\\drawable\\orca_emoji_tab_background.xml"
     },
     {
-        "merged": "D:\\AndroidStudioProject\\ms_gradle\\Radar\\build\\intermediates\\res\\merged\\debug\\drawable\\dialog_clear_info_btn_bg.xml",
-        "source": "D:\\AndroidStudioProject\\ms_gradle\\Radar\\res\\drawable\\dialog_clear_info_btn_bg.xml"
-    },
-    {
         "merged": "D:\\AndroidStudioProject\\ms_gradle\\Radar\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_oauth_check_off.png",
         "source": "D:\\AndroidStudioProject\\ms_gradle\\Radar\\res\\drawable\\umeng_socialize_oauth_check_off.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProject\\ms_gradle\\Radar\\build\\intermediates\\res\\merged\\debug\\drawable\\dialog_clear_info_btn_bg.xml",
+        "source": "D:\\AndroidStudioProject\\ms_gradle\\Radar\\res\\drawable\\dialog_clear_info_btn_bg.xml"
     },
     {
         "merged": "D:\\AndroidStudioProject\\ms_gradle\\Radar\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_normal_result_circle_eastic.xml",
@@ -1128,12 +1128,12 @@
         "source": "D:\\AndroidStudioProject\\ms_gradle\\Radar\\res\\drawable\\umeng_update_button_cancel_bg_tap.xml"
     },
     {
-        "merged": "D:\\AndroidStudioProject\\ms_gradle\\Radar\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_twocode.xml",
-        "source": "D:\\AndroidStudioProject\\ms_gradle\\Radar\\res\\drawable\\btn_twocode.xml"
-    },
-    {
         "merged": "D:\\AndroidStudioProject\\ms_gradle\\Radar\\build\\intermediates\\res\\merged\\debug\\drawable\\divider_topic_comment_reply.xml",
         "source": "D:\\AndroidStudioProject\\ms_gradle\\Radar\\res\\drawable\\divider_topic_comment_reply.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProject\\ms_gradle\\Radar\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_twocode.xml",
+        "source": "D:\\AndroidStudioProject\\ms_gradle\\Radar\\res\\drawable\\btn_twocode.xml"
     },
     {
         "merged": "D:\\AndroidStudioProject\\ms_gradle\\Radar\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_collection_01.xml",

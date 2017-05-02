@@ -356,16 +356,16 @@ public class ActivityTabs extends BaseFragmentActivity implements
 	private FragmentInfo[] getFragmentInfos() {
 		FragmentInfo[] infos = new FragmentInfo[4];
 
-		infos[0] = new FragmentInfo("topic", R.drawable.btn_topic,
-				R.string.main_topic, FragmentTopic.class, null);
-		infos[1] = new FragmentInfo("skintest", R.drawable.btn_test,
-				R.string.main_test, FragmentTest.class, null);
+		infos[0] = new FragmentInfo("enter", R.drawable.btn_topic,
+				R.string.main_enter, FragmentTopic.class, null);
+		infos[1] = new FragmentInfo("book", R.drawable.btn_test,
+				R.string.main_book, FragmentTest.class, null);
 		// infos[1] = new FragmentInfo("skintest", R.drawable.btn_test,
 		// R.string.main_test, SharePreCacheHelper.getBleConnectStatus(this) ?
 		// FragmentTestSkin.class
 		// : FragmentConnDevice.class, null);
-		infos[2] = new FragmentInfo("found", R.drawable.btn_found,
-				R.string.main_found, FragmentFound.class, null);
+		infos[2] = new FragmentInfo("topic", R.drawable.btn_found,
+				R.string.main_topic, FragmentFound.class, null);
 		// infos[2] = new FragmentInfo("found", R.drawable.btn_found,
 		// R.string.main_found, FragmentDeveloping.class, null);
 		infos[3] = new FragmentInfo("mine", R.drawable.btn_mine,
