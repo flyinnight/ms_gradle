@@ -1,82 +1,82 @@
 [
     {
-        "merged": "/home/huangwei/StudioProjects/Radar_Code_grad/Radar/build/intermediates/res/merged/debug/color/color_history_category_water.xml",
-        "source": "/home/huangwei/StudioProjects/Radar_Code_grad/Radar/res/color/color_history_category_water.xml"
+        "merged": "D:\\AndroidStudioProject\\ms_gradle\\Radar\\build\\intermediates\\res\\merged\\debug\\color\\login_privacy_test.xml",
+        "source": "D:\\AndroidStudioProject\\ms_gradle\\Radar\\res\\color\\login_privacy_test.xml"
     },
     {
-        "merged": "/home/huangwei/StudioProjects/Radar_Code_grad/Radar/build/intermediates/res/merged/debug/color/color_test_text.xml",
-        "source": "/home/huangwei/StudioProjects/Radar_Code_grad/Radar/res/color/color_test_text.xml"
+        "merged": "D:\\AndroidStudioProject\\ms_gradle\\Radar\\build\\intermediates\\res\\merged\\debug\\color\\color_test_indicator_text.xml",
+        "source": "D:\\AndroidStudioProject\\ms_gradle\\Radar\\res\\color\\color_test_indicator_text.xml"
     },
     {
-        "merged": "/home/huangwei/StudioProjects/Radar_Code_grad/Radar/build/intermediates/res/merged/debug/color/vpi__dark_theme.xml",
-        "source": "/home/huangwei/StudioProjects/Radar_Code_grad/WidgetLibrary/build/intermediates/bundles/default/res/color/vpi__dark_theme.xml"
+        "merged": "D:\\AndroidStudioProject\\ms_gradle\\Radar\\build\\intermediates\\res\\merged\\debug\\color\\vpi__light_theme.xml",
+        "source": "D:\\AndroidStudioProject\\ms_gradle\\WidgetLibrary\\build\\intermediates\\bundles\\default\\res\\color\\vpi__light_theme.xml"
     },
     {
-        "merged": "/home/huangwei/StudioProjects/Radar_Code_grad/Radar/build/intermediates/res/merged/debug/color/color_history_category_whitening.xml",
-        "source": "/home/huangwei/StudioProjects/Radar_Code_grad/Radar/res/color/color_history_category_whitening.xml"
+        "merged": "D:\\AndroidStudioProject\\ms_gradle\\Radar\\build\\intermediates\\res\\merged\\debug\\color\\color_title_text.xml",
+        "source": "D:\\AndroidStudioProject\\ms_gradle\\Radar\\res\\color\\color_title_text.xml"
     },
     {
-        "merged": "/home/huangwei/StudioProjects/Radar_Code_grad/Radar/build/intermediates/res/merged/debug/color/color_radio_choice_text_plan.xml",
-        "source": "/home/huangwei/StudioProjects/Radar_Code_grad/Radar/res/color/color_radio_choice_text_plan.xml"
+        "merged": "D:\\AndroidStudioProject\\ms_gradle\\Radar\\build\\intermediates\\res\\merged\\debug\\color\\color_history_category_whitening.xml",
+        "source": "D:\\AndroidStudioProject\\ms_gradle\\Radar\\res\\color\\color_history_category_whitening.xml"
     },
     {
-        "merged": "/home/huangwei/StudioProjects/Radar_Code_grad/Radar/build/intermediates/res/merged/debug/color/color_history_indicator_text.xml",
-        "source": "/home/huangwei/StudioProjects/Radar_Code_grad/Radar/res/color/color_history_indicator_text.xml"
+        "merged": "D:\\AndroidStudioProject\\ms_gradle\\Radar\\build\\intermediates\\res\\merged\\debug\\color\\color_radio_choice_text_plan.xml",
+        "source": "D:\\AndroidStudioProject\\ms_gradle\\Radar\\res\\color\\color_radio_choice_text_plan.xml"
     },
     {
-        "merged": "/home/huangwei/StudioProjects/Radar_Code_grad/Radar/build/intermediates/res/merged/debug/color/wifi_passward_join_color.xml",
-        "source": "/home/huangwei/StudioProjects/Radar_Code_grad/Radar/res/color/wifi_passward_join_color.xml"
+        "merged": "D:\\AndroidStudioProject\\ms_gradle\\Radar\\build\\intermediates\\res\\merged\\debug\\color\\vpi__dark_theme.xml",
+        "source": "D:\\AndroidStudioProject\\ms_gradle\\WidgetLibrary\\build\\intermediates\\bundles\\default\\res\\color\\vpi__dark_theme.xml"
     },
     {
-        "merged": "/home/huangwei/StudioProjects/Radar_Code_grad/Radar/build/intermediates/res/merged/debug/color/helper_text_color.xml",
-        "source": "/home/huangwei/StudioProjects/Radar_Code_grad/Radar/res/color/helper_text_color.xml"
+        "merged": "D:\\AndroidStudioProject\\ms_gradle\\Radar\\build\\intermediates\\res\\merged\\debug\\color\\text_color_selector_default.xml",
+        "source": "D:\\AndroidStudioProject\\ms_gradle\\Radar\\res\\color\\text_color_selector_default.xml"
     },
     {
-        "merged": "/home/huangwei/StudioProjects/Radar_Code_grad/Radar/build/intermediates/res/merged/debug/color/color_history_category_sensitive.xml",
-        "source": "/home/huangwei/StudioProjects/Radar_Code_grad/Radar/res/color/color_history_category_sensitive.xml"
+        "merged": "D:\\AndroidStudioProject\\ms_gradle\\Radar\\build\\intermediates\\res\\merged\\debug\\color\\color_history_category_sensitive.xml",
+        "source": "D:\\AndroidStudioProject\\ms_gradle\\Radar\\res\\color\\color_history_category_sensitive.xml"
     },
     {
-        "merged": "/home/huangwei/StudioProjects/Radar_Code_grad/Radar/build/intermediates/res/merged/debug/color/color_title_text.xml",
-        "source": "/home/huangwei/StudioProjects/Radar_Code_grad/Radar/res/color/color_title_text.xml"
+        "merged": "D:\\AndroidStudioProject\\ms_gradle\\Radar\\build\\intermediates\\res\\merged\\debug\\color\\color_radio_choice_text.xml",
+        "source": "D:\\AndroidStudioProject\\ms_gradle\\Radar\\res\\color\\color_radio_choice_text.xml"
     },
     {
-        "merged": "/home/huangwei/StudioProjects/Radar_Code_grad/Radar/build/intermediates/res/merged/debug/color/color_radio_choice_text.xml",
-        "source": "/home/huangwei/StudioProjects/Radar_Code_grad/Radar/res/color/color_radio_choice_text.xml"
+        "merged": "D:\\AndroidStudioProject\\ms_gradle\\Radar\\build\\intermediates\\res\\merged\\debug\\color\\register_cycle_text_color.xml",
+        "source": "D:\\AndroidStudioProject\\ms_gradle\\Radar\\res\\color\\register_cycle_text_color.xml"
     },
     {
-        "merged": "/home/huangwei/StudioProjects/Radar_Code_grad/Radar/build/intermediates/res/merged/debug/color/vpi__light_theme.xml",
-        "source": "/home/huangwei/StudioProjects/Radar_Code_grad/WidgetLibrary/build/intermediates/bundles/default/res/color/vpi__light_theme.xml"
+        "merged": "D:\\AndroidStudioProject\\ms_gradle\\Radar\\build\\intermediates\\res\\merged\\debug\\color\\color_history_category_water.xml",
+        "source": "D:\\AndroidStudioProject\\ms_gradle\\Radar\\res\\color\\color_history_category_water.xml"
     },
     {
-        "merged": "/home/huangwei/StudioProjects/Radar_Code_grad/Radar/build/intermediates/res/merged/debug/color/register_cycle_text_color.xml",
-        "source": "/home/huangwei/StudioProjects/Radar_Code_grad/Radar/res/color/register_cycle_text_color.xml"
+        "merged": "D:\\AndroidStudioProject\\ms_gradle\\Radar\\build\\intermediates\\res\\merged\\debug\\color\\color_history_category_pore.xml",
+        "source": "D:\\AndroidStudioProject\\ms_gradle\\Radar\\res\\color\\color_history_category_pore.xml"
     },
     {
-        "merged": "/home/huangwei/StudioProjects/Radar_Code_grad/Radar/build/intermediates/res/merged/debug/color/tab_indicator_text.xml",
-        "source": "/home/huangwei/StudioProjects/Radar_Code_grad/Radar/res/color/tab_indicator_text.xml"
+        "merged": "D:\\AndroidStudioProject\\ms_gradle\\Radar\\build\\intermediates\\res\\merged\\debug\\color\\tab_indicator_text.xml",
+        "source": "D:\\AndroidStudioProject\\ms_gradle\\Radar\\res\\color\\tab_indicator_text.xml"
     },
     {
-        "merged": "/home/huangwei/StudioProjects/Radar_Code_grad/Radar/build/intermediates/res/merged/debug/color/color_history_category_eastic.xml",
-        "source": "/home/huangwei/StudioProjects/Radar_Code_grad/Radar/res/color/color_history_category_eastic.xml"
+        "merged": "D:\\AndroidStudioProject\\ms_gradle\\Radar\\build\\intermediates\\res\\merged\\debug\\color\\color_history_indicator_text.xml",
+        "source": "D:\\AndroidStudioProject\\ms_gradle\\Radar\\res\\color\\color_history_indicator_text.xml"
     },
     {
-        "merged": "/home/huangwei/StudioProjects/Radar_Code_grad/Radar/build/intermediates/res/merged/debug/color/color_history_category_oil.xml",
-        "source": "/home/huangwei/StudioProjects/Radar_Code_grad/Radar/res/color/color_history_category_oil.xml"
+        "merged": "D:\\AndroidStudioProject\\ms_gradle\\Radar\\build\\intermediates\\res\\merged\\debug\\color\\helper_text_color.xml",
+        "source": "D:\\AndroidStudioProject\\ms_gradle\\Radar\\res\\color\\helper_text_color.xml"
     },
     {
-        "merged": "/home/huangwei/StudioProjects/Radar_Code_grad/Radar/build/intermediates/res/merged/debug/color/color_history_category_pore.xml",
-        "source": "/home/huangwei/StudioProjects/Radar_Code_grad/Radar/res/color/color_history_category_pore.xml"
+        "merged": "D:\\AndroidStudioProject\\ms_gradle\\Radar\\build\\intermediates\\res\\merged\\debug\\color\\color_history_category_oil.xml",
+        "source": "D:\\AndroidStudioProject\\ms_gradle\\Radar\\res\\color\\color_history_category_oil.xml"
     },
     {
-        "merged": "/home/huangwei/StudioProjects/Radar_Code_grad/Radar/build/intermediates/res/merged/debug/color/color_test_indicator_text.xml",
-        "source": "/home/huangwei/StudioProjects/Radar_Code_grad/Radar/res/color/color_test_indicator_text.xml"
+        "merged": "D:\\AndroidStudioProject\\ms_gradle\\Radar\\build\\intermediates\\res\\merged\\debug\\color\\color_test_text.xml",
+        "source": "D:\\AndroidStudioProject\\ms_gradle\\Radar\\res\\color\\color_test_text.xml"
     },
     {
-        "merged": "/home/huangwei/StudioProjects/Radar_Code_grad/Radar/build/intermediates/res/merged/debug/color/text_color_selector_default.xml",
-        "source": "/home/huangwei/StudioProjects/Radar_Code_grad/Radar/res/color/text_color_selector_default.xml"
+        "merged": "D:\\AndroidStudioProject\\ms_gradle\\Radar\\build\\intermediates\\res\\merged\\debug\\color\\color_history_category_eastic.xml",
+        "source": "D:\\AndroidStudioProject\\ms_gradle\\Radar\\res\\color\\color_history_category_eastic.xml"
     },
     {
-        "merged": "/home/huangwei/StudioProjects/Radar_Code_grad/Radar/build/intermediates/res/merged/debug/color/login_privacy_test.xml",
-        "source": "/home/huangwei/StudioProjects/Radar_Code_grad/Radar/res/color/login_privacy_test.xml"
+        "merged": "D:\\AndroidStudioProject\\ms_gradle\\Radar\\build\\intermediates\\res\\merged\\debug\\color\\wifi_passward_join_color.xml",
+        "source": "D:\\AndroidStudioProject\\ms_gradle\\Radar\\res\\color\\wifi_passward_join_color.xml"
     }
 ]

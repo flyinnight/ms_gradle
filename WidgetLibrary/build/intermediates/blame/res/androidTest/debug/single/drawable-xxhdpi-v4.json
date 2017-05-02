@@ -1,10 +1,10 @@
 [
     {
-        "merged": "/home/huangwei/StudioProjects/Radar_Code_grad/WidgetLibrary/build/intermediates/res/merged/androidTest/debug/drawable-xxhdpi-v4/img_refresh_01.png",
-        "source": "/home/huangwei/StudioProjects/Radar_Code_grad/WidgetLibrary/build/intermediates/bundles/debug/res/drawable-xxhdpi-v4/img_refresh_01.png"
+        "merged": "D:\\AndroidStudioProject\\ms_gradle\\WidgetLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\img_refresh_00.png",
+        "source": "D:\\AndroidStudioProject\\ms_gradle\\WidgetLibrary\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\img_refresh_00.png"
     },
     {
-        "merged": "/home/huangwei/StudioProjects/Radar_Code_grad/WidgetLibrary/build/intermediates/res/merged/androidTest/debug/drawable-xxhdpi-v4/img_refresh_00.png",
-        "source": "/home/huangwei/StudioProjects/Radar_Code_grad/WidgetLibrary/build/intermediates/bundles/debug/res/drawable-xxhdpi-v4/img_refresh_00.png"
+        "merged": "D:\\AndroidStudioProject\\ms_gradle\\WidgetLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\img_refresh_01.png",
+        "source": "D:\\AndroidStudioProject\\ms_gradle\\WidgetLibrary\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\img_refresh_01.png"
     }
 ]

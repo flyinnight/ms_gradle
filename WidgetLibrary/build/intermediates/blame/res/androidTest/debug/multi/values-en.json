@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/home/huangwei/StudioProjects/Radar_Code_grad/WidgetLibrary/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-en/values-en.xml",
+        "outputFile": "D:\\AndroidStudioProject\\ms_gradle\\WidgetLibrary\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-en\\values-en.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 124
                 },
                 "from": {
-                    "file": "/home/huangwei/StudioProjects/Radar_Code_grad/WidgetLibrary/build/intermediates/bundles/debug/res/values-en/values-en.xml",
+                    "file": "D:\\AndroidStudioProject\\ms_gradle\\WidgetLibrary\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -30,7 +30,7 @@
                     "endOffset": 196
                 },
                 "from": {
-                    "file": "/home/huangwei/StudioProjects/Radar_Code_grad/WidgetLibrary/build/intermediates/bundles/debug/res/values-en/values-en.xml",
+                    "file": "D:\\AndroidStudioProject\\ms_gradle\\WidgetLibrary\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -49,7 +49,7 @@
                     "endOffset": 276
                 },
                 "from": {
-                    "file": "/home/huangwei/StudioProjects/Radar_Code_grad/WidgetLibrary/build/intermediates/bundles/debug/res/values-en/values-en.xml",
+                    "file": "D:\\AndroidStudioProject\\ms_gradle\\WidgetLibrary\\build\\intermediates\\bundles\\debug\\res\\values-en\\values-en.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,

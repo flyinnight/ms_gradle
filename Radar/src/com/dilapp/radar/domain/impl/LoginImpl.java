@@ -74,7 +74,7 @@ public class LoginImpl extends Login {
 					if ((token != null) && (!token.equals(""))) {
 						writeLocalContent(token);
 					}
-					
+
 					if ("SUCCESS".equals(jsonObject2.optString("status"))) {
 						//radar系统登录  登录成功后通知UI
 						radarLogin();
@@ -84,7 +84,7 @@ public class LoginImpl extends Login {
 					Message msg = Message.obtain();
 					msg.obj = resp;
 					handler.sendMessage(msg);
-					
+
 				} catch (JSONException e) {
 					e.printStackTrace();
 					resp.setStatus("FAILED");
@@ -93,6 +93,8 @@ public class LoginImpl extends Login {
 					msg.obj = resp;
 					handler.sendMessage(msg);
 				}
+				/* just a test */
+//				radarLogin();
 			}
 
 			@Override
@@ -143,16 +145,16 @@ public class LoginImpl extends Login {
 					Log.d("Radar", "radarLogin: " + result);
 					resp = new LoginResp();
 					jsonObj = new JSONObject(result);
-					
+
 					resp.setSuccess(jsonObj.optBoolean("success"));
 					resp.setStatusCode(jsonObj.optInt("statusCode"));
 					JSONObject jsonObject2 = new JSONObject(jsonObj.optString("message"));
 					resp.setMessage(jsonObject2.optString("msg"));
 					resp.setStatus(jsonObject2.optString("status"));
-					
+
 					if ("SUCCESS".equalsIgnoreCase(jsonObject2.optString("status"))) {
 						JSONObject jsonObject3 = new JSONObject(jsonObject2.optString("values"));
-						
+
 						resp.setUserId(jsonObject3.optString("userId"));
 						resp.setPoint(jsonObject3.optInt("point"));
 						resp.setLevel(jsonObject3.optInt("level"));
@@ -174,17 +176,17 @@ public class LoginImpl extends Login {
 						if (!TextUtils.isEmpty(portrait)) {
 							SharePreCacheHelper.setUserIconUrl(context, portrait);
 						}
-						
+
 						JSONObject jsonObject4 = new JSONObject(jsonObject3.optString("roles"));
 						resp.setRoles(jsonObject4.optString("staticRole"));
 						SharePreCacheHelper.setUserRole(context, jsonObject4.optString("staticRole"));
-						
+
 						JSONObject jsonObjRole = new JSONObject(jsonObject4.optString("topicRole"));
 						Object temp1 = jsonObjRole.opt("topic_owner");
 						if (temp1 != null) {
 							JSONArray jsonArr1 = new JSONArray(jsonObjRole.optString("topic_owner"));
 							String topicOwner = "";
-							
+
 							for (int i = 0; i < jsonArr1.length(); i++) {
 								Object tmp = (Object)jsonArr1.get(i);
 								if(tmp instanceof Long) {
@@ -198,12 +200,12 @@ public class LoginImpl extends Login {
 							}
 							SharePreCacheHelper.setTopicOwnerList(context, topicOwner);
 						}
-						
+
 						Object temp2 = jsonObjRole.opt("topic_admin");
 						if (temp2 != null) {
 							JSONArray jsonArr2 = new JSONArray(jsonObjRole.optString("topic_admin"));
 							String topicAdmin = "";
-							
+
 							for (int i = 0; i < jsonArr2.length(); i++) {
 								Object tmp = (Object)jsonArr2.get(i);
 								if(tmp instanceof Long) {
@@ -217,12 +219,12 @@ public class LoginImpl extends Login {
 							}
 							SharePreCacheHelper.setTopicAdminList(context, topicAdmin);
 						}
-						
+
 						Object temp3 = jsonObjRole.opt("forbidden");
 						if (temp3 != null) {
 							JSONArray jsonArr3 = new JSONArray(jsonObjRole.optString("forbidden"));
 							String topicForbidden = "";
-							
+
 							for (int i = 0; i < jsonArr3.length(); i++) {
 								Object tmp = (Object)jsonArr3.get(i);
 								if(tmp instanceof Long) {
@@ -236,82 +238,82 @@ public class LoginImpl extends Login {
 							}
 							SharePreCacheHelper.setTopicForbiddenList(context, topicForbidden);
 						}
-						
+
 						/*Object temp2 = jsonObject3.opt("actionMap");
 						if (temp2 != null) {
 							JSONArray jsonArrMap = new JSONArray(jsonObject3.optString("actionMap"));
 							JSONArray jsonArraySave = new JSONArray();
-							
+
 							for (int i = 0; i < jsonArrMap.length(); i++) {
 								JSONObject jsonObject = (JSONObject) jsonArrMap.get(i);
 								String role = jsonObject.optString("role");
 								String actionString = "";
 								JSONArray jsonArrAction = new JSONArray(jsonObject.optString("action"));
-								
+
 								for (int j = 0; j < jsonArrAction.length(); j++) {
 									String action = (String) jsonArrAction.get(j);
-									
+
 									actionString += action;
 									if (j < (jsonArrAction.length()-1)) {
 										actionString+=",";
 									}
 								}
-								
+
 								JSONObject objSave = new JSONObject();
 								objSave.put(role, actionString);
 								jsonArraySave.put(objSave);
 							}
 							SharePreCacheHelper.setActionMap(context, jsonArraySave.toString());
 						}*/
-						
+
 						JSONObject jsonObject5 = new JSONObject(jsonObject3.optString("topics"));
 						SharePreCacheHelper.setTopicIdAdv(context, jsonObject5.optLong("ad"));
 						SharePreCacheHelper.setTopicIdDry(context, jsonObject5.optLong("dry"));
 						SharePreCacheHelper.setTopicIdOil(context, jsonObject5.optLong("oil"));
 						SharePreCacheHelper.setTopicIdMix(context, jsonObject5.optLong("mix"));
 					}
-					
+
 /*					User user = new User();
 					user.setPoint(jsonObject3.optString("point"));
 					user.setLevel(jsonObject3.optString("level"));
 					user.setToken(jsonObject3.optString("token"));
 					user.setCreateTopic(jsonObject3.optString("createTopic"));
 					user.setUserId(jsonObject3.optString("userId"));
-					
+
 					Object temp2 = jsonObject3.opt("actionMap");
 					if (temp2 != null) {
 						JSONArray jsonArrMap = new JSONArray(jsonObject3.optString("actionMap"));
 						List<Map<String, List<String>>> actionMapList = new ArrayList<Map<String, List<String>>>();
 						JSONArray jsonArraySave = new JSONArray();
-						
+
 						for (int i = 0; i < jsonArrMap.length(); i++) {
 							JSONObject jsonObject = (JSONObject) jsonArrMap.get(i);
 							String role = jsonObject.optString("role");
 							String actionString = "";
 							JSONArray jsonArrAction = new JSONArray(jsonObject.optString("action"));
 							Map<String, List<String>> actionMapItem = new HashMap<String, List<String>>();
-							
+
 							List<String> actionList = new ArrayList<String>();
 							for (int j = 0; j < jsonArrAction.length(); j++) {
 								String action = (String) jsonArrAction.get(j);
 								actionList.add(action);
-								
+
 								actionString += action;
 								if (j < (jsonArrAction.length()-1)) {
 									actionString+=",";
 								}
 							}
-							
+
 							JSONObject objSave = new JSONObject();
 							objSave.put(role, actionString);
 							jsonArraySave.put(objSave);
-							
+
 							actionMapItem.put(role, actionList);
 							actionMapList.add(actionMapItem);
 						}
 						resp.setActionMap(actionMapList);
 					}
-					
+
 					// 存储到权限表中 TODO
 					jsonObject3.get("actionMap").toString();
 					JSONArray jsonArray = new JSONArray(jsonObject3.get("actionMap").toString());
@@ -328,7 +330,7 @@ public class LoginImpl extends Login {
 							jsonArray2.put(obj2);
 						}
 					}
-					
+
 					//插入权限数据
 					RadarProxy.getInstance(context).startLocalData(HttpConstant.AUTH_WRITE, jsonArray2.toString(), null);
 					// 更新本地user信息表
@@ -340,9 +342,15 @@ public class LoginImpl extends Login {
 					//resp.setStatusCode(BaseResp.TIMEOUT);
 					resp.setSuccess(false);
 				}
+				//handler.sendMessage(msg);
+				/* just for testing */
+				resp = new LoginResp();
+				resp.setStatus("SUCCESS");
+				//resp.setStatusCode(BaseResp.TIMEOUT);
+				resp.setSuccess(false);
 				Message msg = Message.obtain();
 				msg.obj = resp;
-				//handler.sendMessage(msg);
+				handler.sendMessage(msg);
 			}
 
 			@Override

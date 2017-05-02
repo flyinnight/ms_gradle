@@ -1,38 +1,38 @@
 [
     {
-        "merged": "/home/huangwei/StudioProjects/Radar_Code_grad/BBSLibrary/build/intermediates/res/merged/androidTest/debug/drawable/orca_composer_popup_button.xml",
-        "source": "/home/huangwei/StudioProjects/Radar_Code_grad/BBSLibrary/build/intermediates/bundles/debug/res/drawable/orca_composer_popup_button.xml"
+        "merged": "D:\\AndroidStudioProject\\ms_gradle\\BBSLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\orca_composer_popup_button_active.xml",
+        "source": "D:\\AndroidStudioProject\\ms_gradle\\BBSLibrary\\build\\intermediates\\bundles\\debug\\res\\drawable\\orca_composer_popup_button_active.xml"
     },
     {
-        "merged": "/home/huangwei/StudioProjects/Radar_Code_grad/BBSLibrary/build/intermediates/res/merged/androidTest/debug/drawable/orca_composer_attach_location_button.xml",
-        "source": "/home/huangwei/StudioProjects/Radar_Code_grad/BBSLibrary/build/intermediates/bundles/debug/res/drawable/orca_composer_attach_location_button.xml"
+        "merged": "D:\\AndroidStudioProject\\ms_gradle\\BBSLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\orca_composer_attach_photo_button.xml",
+        "source": "D:\\AndroidStudioProject\\ms_gradle\\BBSLibrary\\build\\intermediates\\bundles\\debug\\res\\drawable\\orca_composer_attach_photo_button.xml"
     },
     {
-        "merged": "/home/huangwei/StudioProjects/Radar_Code_grad/BBSLibrary/build/intermediates/res/merged/androidTest/debug/drawable/orca_composer_attach_photo_button.xml",
-        "source": "/home/huangwei/StudioProjects/Radar_Code_grad/BBSLibrary/build/intermediates/bundles/debug/res/drawable/orca_composer_attach_photo_button.xml"
+        "merged": "D:\\AndroidStudioProject\\ms_gradle\\BBSLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\orca_composer_attach_location_button.xml",
+        "source": "D:\\AndroidStudioProject\\ms_gradle\\BBSLibrary\\build\\intermediates\\bundles\\debug\\res\\drawable\\orca_composer_attach_location_button.xml"
     },
     {
-        "merged": "/home/huangwei/StudioProjects/Radar_Code_grad/BBSLibrary/build/intermediates/res/merged/androidTest/debug/drawable/orca_composer_attach_camera_button.xml",
-        "source": "/home/huangwei/StudioProjects/Radar_Code_grad/BBSLibrary/build/intermediates/bundles/debug/res/drawable/orca_composer_attach_camera_button.xml"
+        "merged": "D:\\AndroidStudioProject\\ms_gradle\\BBSLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\orca_composer_attach_camera_button.xml",
+        "source": "D:\\AndroidStudioProject\\ms_gradle\\BBSLibrary\\build\\intermediates\\bundles\\debug\\res\\drawable\\orca_composer_attach_camera_button.xml"
     },
     {
-        "merged": "/home/huangwei/StudioProjects/Radar_Code_grad/BBSLibrary/build/intermediates/res/merged/androidTest/debug/drawable/orca_emoji_tab_dark_background.xml",
-        "source": "/home/huangwei/StudioProjects/Radar_Code_grad/BBSLibrary/build/intermediates/bundles/debug/res/drawable/orca_emoji_tab_dark_background.xml"
+        "merged": "D:\\AndroidStudioProject\\ms_gradle\\BBSLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\orca_emoji_backspace_front_button.xml",
+        "source": "D:\\AndroidStudioProject\\ms_gradle\\BBSLibrary\\build\\intermediates\\bundles\\debug\\res\\drawable\\orca_emoji_backspace_front_button.xml"
     },
     {
-        "merged": "/home/huangwei/StudioProjects/Radar_Code_grad/BBSLibrary/build/intermediates/res/merged/androidTest/debug/drawable/orca_emoji_backspace_front_button.xml",
-        "source": "/home/huangwei/StudioProjects/Radar_Code_grad/BBSLibrary/build/intermediates/bundles/debug/res/drawable/orca_emoji_backspace_front_button.xml"
+        "merged": "D:\\AndroidStudioProject\\ms_gradle\\BBSLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\orca_composer_popup_button.xml",
+        "source": "D:\\AndroidStudioProject\\ms_gradle\\BBSLibrary\\build\\intermediates\\bundles\\debug\\res\\drawable\\orca_composer_popup_button.xml"
     },
     {
-        "merged": "/home/huangwei/StudioProjects/Radar_Code_grad/BBSLibrary/build/intermediates/res/merged/androidTest/debug/drawable/orca_emoji_more_front_button.xml",
-        "source": "/home/huangwei/StudioProjects/Radar_Code_grad/BBSLibrary/build/intermediates/bundles/debug/res/drawable/orca_emoji_more_front_button.xml"
+        "merged": "D:\\AndroidStudioProject\\ms_gradle\\BBSLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\orca_emoji_tab_dark_background.xml",
+        "source": "D:\\AndroidStudioProject\\ms_gradle\\BBSLibrary\\build\\intermediates\\bundles\\debug\\res\\drawable\\orca_emoji_tab_dark_background.xml"
     },
     {
-        "merged": "/home/huangwei/StudioProjects/Radar_Code_grad/BBSLibrary/build/intermediates/res/merged/androidTest/debug/drawable/orca_composer_popup_button_active.xml",
-        "source": "/home/huangwei/StudioProjects/Radar_Code_grad/BBSLibrary/build/intermediates/bundles/debug/res/drawable/orca_composer_popup_button_active.xml"
+        "merged": "D:\\AndroidStudioProject\\ms_gradle\\BBSLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\orca_emoji_tab_background.xml",
+        "source": "D:\\AndroidStudioProject\\ms_gradle\\BBSLibrary\\build\\intermediates\\bundles\\debug\\res\\drawable\\orca_emoji_tab_background.xml"
     },
     {
-        "merged": "/home/huangwei/StudioProjects/Radar_Code_grad/BBSLibrary/build/intermediates/res/merged/androidTest/debug/drawable/orca_emoji_tab_background.xml",
-        "source": "/home/huangwei/StudioProjects/Radar_Code_grad/BBSLibrary/build/intermediates/bundles/debug/res/drawable/orca_emoji_tab_background.xml"
+        "merged": "D:\\AndroidStudioProject\\ms_gradle\\BBSLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\orca_emoji_more_front_button.xml",
+        "source": "D:\\AndroidStudioProject\\ms_gradle\\BBSLibrary\\build\\intermediates\\bundles\\debug\\res\\drawable\\orca_emoji_more_front_button.xml"
     }
 ]

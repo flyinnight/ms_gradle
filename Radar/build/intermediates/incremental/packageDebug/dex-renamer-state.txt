@@ -1,7 +1,7 @@
-#Wed Apr 12 14:23:30 CST 2017
-base.0=/home/huangwei/StudioProjects/Radar_Code_grad/Radar/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_a38a5a0080526b1dc509468f6d110701ca65cb0f
-renamed.1=classes2.dex
-renamed.0=classes.dex
-file.1=/home/huangwei/StudioProjects/Radar_Code_grad/Radar/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_671eeb92364bf91a0a64b6c9015540203b0eef52/classes.dex
-base.1=/home/huangwei/StudioProjects/Radar_Code_grad/Radar/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_671eeb92364bf91a0a64b6c9015540203b0eef52
-file.0=/home/huangwei/StudioProjects/Radar_Code_grad/Radar/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_a38a5a0080526b1dc509468f6d110701ca65cb0f/classes.dex
+#Mon Apr 24 14:13:41 GMT+08:00 2017
+base.0=D\:\\AndroidStudioProject\\ms_gradle\\Radar\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_0ea82d0826d7e4946272ff91d247f131b459cdc1
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=D\:\\AndroidStudioProject\\ms_gradle\\Radar\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_b8f16948c878625b44bd5bfa2e0a87400a4943d5\\classes.dex
+base.1=D\:\\AndroidStudioProject\\ms_gradle\\Radar\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_b8f16948c878625b44bd5bfa2e0a87400a4943d5
+file.0=D\:\\AndroidStudioProject\\ms_gradle\\Radar\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_0ea82d0826d7e4946272ff91d247f131b459cdc1\\classes.dex

@@ -1,42 +1,42 @@
 [
     {
-        "merged": "/home/huangwei/StudioProjects/Radar_Code_grad/Radar/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/img_default_head.jpg",
-        "source": "/home/huangwei/StudioProjects/Radar_Code_grad/Radar/res/drawable-xxhdpi/img_default_head.jpg"
+        "merged": "D:\\AndroidStudioProject\\ms_gradle\\Radar\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\bg_mine_personal.jpg",
+        "source": "D:\\AndroidStudioProject\\ms_gradle\\Radar\\res\\drawable-xxhdpi\\bg_mine_personal.jpg"
     },
     {
-        "merged": "/home/huangwei/StudioProjects/Radar_Code_grad/Radar/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/bg_testskin.jpg",
-        "source": "/home/huangwei/StudioProjects/Radar_Code_grad/Radar/res/drawable-xxhdpi/bg_testskin.jpg"
+        "merged": "D:\\AndroidStudioProject\\ms_gradle\\Radar\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\img_refresh_00.png",
+        "source": "D:\\AndroidStudioProject\\ms_gradle\\WidgetLibrary\\build\\intermediates\\bundles\\default\\res\\drawable-xxhdpi-v4\\img_refresh_00.png"
     },
     {
-        "merged": "/home/huangwei/StudioProjects/Radar_Code_grad/Radar/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/welcome_pager_2.jpg",
-        "source": "/home/huangwei/StudioProjects/Radar_Code_grad/Radar/res/drawable-xxhdpi/welcome_pager_2.jpg"
+        "merged": "D:\\AndroidStudioProject\\ms_gradle\\Radar\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\bg_skintest.jpg",
+        "source": "D:\\AndroidStudioProject\\ms_gradle\\Radar\\res\\drawable-xxhdpi\\bg_skintest.jpg"
     },
     {
-        "merged": "/home/huangwei/StudioProjects/Radar_Code_grad/Radar/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/bg_mine_personal.jpg",
-        "source": "/home/huangwei/StudioProjects/Radar_Code_grad/Radar/res/drawable-xxhdpi/bg_mine_personal.jpg"
+        "merged": "D:\\AndroidStudioProject\\ms_gradle\\Radar\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\img_refresh_01.png",
+        "source": "D:\\AndroidStudioProject\\ms_gradle\\WidgetLibrary\\build\\intermediates\\bundles\\default\\res\\drawable-xxhdpi-v4\\img_refresh_01.png"
     },
     {
-        "merged": "/home/huangwei/StudioProjects/Radar_Code_grad/Radar/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/welcome_pager_1.jpg",
-        "source": "/home/huangwei/StudioProjects/Radar_Code_grad/Radar/res/drawable-xxhdpi/welcome_pager_1.jpg"
+        "merged": "D:\\AndroidStudioProject\\ms_gradle\\Radar\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\openble_bg.jpg",
+        "source": "D:\\AndroidStudioProject\\ms_gradle\\Radar\\res\\drawable-xxhdpi\\openble_bg.jpg"
     },
     {
-        "merged": "/home/huangwei/StudioProjects/Radar_Code_grad/Radar/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/img_refresh_01.png",
-        "source": "/home/huangwei/StudioProjects/Radar_Code_grad/WidgetLibrary/build/intermediates/bundles/default/res/drawable-xxhdpi-v4/img_refresh_01.png"
+        "merged": "D:\\AndroidStudioProject\\ms_gradle\\Radar\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\welcome_pager_2.jpg",
+        "source": "D:\\AndroidStudioProject\\ms_gradle\\Radar\\res\\drawable-xxhdpi\\welcome_pager_2.jpg"
     },
     {
-        "merged": "/home/huangwei/StudioProjects/Radar_Code_grad/Radar/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/openble_bg.jpg",
-        "source": "/home/huangwei/StudioProjects/Radar_Code_grad/Radar/res/drawable-xxhdpi/openble_bg.jpg"
+        "merged": "D:\\AndroidStudioProject\\ms_gradle\\Radar\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\bg_testskin.jpg",
+        "source": "D:\\AndroidStudioProject\\ms_gradle\\Radar\\res\\drawable-xxhdpi\\bg_testskin.jpg"
     },
     {
-        "merged": "/home/huangwei/StudioProjects/Radar_Code_grad/Radar/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/welcome_bg.jpg",
-        "source": "/home/huangwei/StudioProjects/Radar_Code_grad/Radar/res/drawable-xxhdpi/welcome_bg.jpg"
+        "merged": "D:\\AndroidStudioProject\\ms_gradle\\Radar\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\welcome_bg.jpg",
+        "source": "D:\\AndroidStudioProject\\ms_gradle\\Radar\\res\\drawable-xxhdpi\\welcome_bg.jpg"
     },
     {
-        "merged": "/home/huangwei/StudioProjects/Radar_Code_grad/Radar/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/bg_skintest.jpg",
-        "source": "/home/huangwei/StudioProjects/Radar_Code_grad/Radar/res/drawable-xxhdpi/bg_skintest.jpg"
+        "merged": "D:\\AndroidStudioProject\\ms_gradle\\Radar\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\img_default_head.jpg",
+        "source": "D:\\AndroidStudioProject\\ms_gradle\\Radar\\res\\drawable-xxhdpi\\img_default_head.jpg"
     },
     {
-        "merged": "/home/huangwei/StudioProjects/Radar_Code_grad/Radar/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/img_refresh_00.png",
-        "source": "/home/huangwei/StudioProjects/Radar_Code_grad/WidgetLibrary/build/intermediates/bundles/default/res/drawable-xxhdpi-v4/img_refresh_00.png"
+        "merged": "D:\\AndroidStudioProject\\ms_gradle\\Radar\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\welcome_pager_1.jpg",
+        "source": "D:\\AndroidStudioProject\\ms_gradle\\Radar\\res\\drawable-xxhdpi\\welcome_pager_1.jpg"
     }
 ]

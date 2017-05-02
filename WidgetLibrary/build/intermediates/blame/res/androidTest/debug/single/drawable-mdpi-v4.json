@@ -1,66 +1,66 @@
 [
     {
-        "merged": "/home/huangwei/StudioProjects/Radar_Code_grad/WidgetLibrary/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4/indicator_arrow.png",
-        "source": "/home/huangwei/StudioProjects/Radar_Code_grad/WidgetLibrary/build/intermediates/bundles/debug/res/drawable-mdpi-v4/indicator_arrow.png"
+        "merged": "D:\\AndroidStudioProject\\ms_gradle\\WidgetLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\list_pressed_holo_dark.9.png",
+        "source": "D:\\AndroidStudioProject\\ms_gradle\\WidgetLibrary\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\list_pressed_holo_dark.9.png"
     },
     {
-        "merged": "/home/huangwei/StudioProjects/Radar_Code_grad/WidgetLibrary/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4/list_focused_holo.9.png",
-        "source": "/home/huangwei/StudioProjects/Radar_Code_grad/WidgetLibrary/build/intermediates/bundles/debug/res/drawable-mdpi-v4/list_focused_holo.9.png"
+        "merged": "D:\\AndroidStudioProject\\ms_gradle\\WidgetLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\indicator_arrow.png",
+        "source": "D:\\AndroidStudioProject\\ms_gradle\\WidgetLibrary\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\indicator_arrow.png"
     },
     {
-        "merged": "/home/huangwei/StudioProjects/Radar_Code_grad/WidgetLibrary/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4/vpi__tab_selected_focused_holo.9.png",
-        "source": "/home/huangwei/StudioProjects/Radar_Code_grad/WidgetLibrary/build/intermediates/bundles/debug/res/drawable-mdpi-v4/vpi__tab_selected_focused_holo.9.png"
+        "merged": "D:\\AndroidStudioProject\\ms_gradle\\WidgetLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\vpi__tab_selected_holo.9.png",
+        "source": "D:\\AndroidStudioProject\\ms_gradle\\WidgetLibrary\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\vpi__tab_selected_holo.9.png"
     },
     {
-        "merged": "/home/huangwei/StudioProjects/Radar_Code_grad/WidgetLibrary/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4/vpi__tab_unselected_focused_holo.9.png",
-        "source": "/home/huangwei/StudioProjects/Radar_Code_grad/WidgetLibrary/build/intermediates/bundles/debug/res/drawable-mdpi-v4/vpi__tab_unselected_focused_holo.9.png"
+        "merged": "D:\\AndroidStudioProject\\ms_gradle\\WidgetLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\vpi__tab_selected_pressed_holo.9.png",
+        "source": "D:\\AndroidStudioProject\\ms_gradle\\WidgetLibrary\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\vpi__tab_selected_pressed_holo.9.png"
     },
     {
-        "merged": "/home/huangwei/StudioProjects/Radar_Code_grad/WidgetLibrary/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4/list_pressed_holo_light.9.png",
-        "source": "/home/huangwei/StudioProjects/Radar_Code_grad/WidgetLibrary/build/intermediates/bundles/debug/res/drawable-mdpi-v4/list_pressed_holo_light.9.png"
+        "merged": "D:\\AndroidStudioProject\\ms_gradle\\WidgetLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\vpi__tab_unselected_pressed_holo.9.png",
+        "source": "D:\\AndroidStudioProject\\ms_gradle\\WidgetLibrary\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\vpi__tab_unselected_pressed_holo.9.png"
     },
     {
-        "merged": "/home/huangwei/StudioProjects/Radar_Code_grad/WidgetLibrary/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4/vpi__tab_unselected_pressed_holo.9.png",
-        "source": "/home/huangwei/StudioProjects/Radar_Code_grad/WidgetLibrary/build/intermediates/bundles/debug/res/drawable-mdpi-v4/vpi__tab_unselected_pressed_holo.9.png"
+        "merged": "D:\\AndroidStudioProject\\ms_gradle\\WidgetLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\list_longpressed_holo.9.png",
+        "source": "D:\\AndroidStudioProject\\ms_gradle\\WidgetLibrary\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\list_longpressed_holo.9.png"
     },
     {
-        "merged": "/home/huangwei/StudioProjects/Radar_Code_grad/WidgetLibrary/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4/vpi__tab_unselected_holo.9.png",
-        "source": "/home/huangwei/StudioProjects/Radar_Code_grad/WidgetLibrary/build/intermediates/bundles/debug/res/drawable-mdpi-v4/vpi__tab_unselected_holo.9.png"
+        "merged": "D:\\AndroidStudioProject\\ms_gradle\\WidgetLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\vpi__tab_unselected_focused_holo.9.png",
+        "source": "D:\\AndroidStudioProject\\ms_gradle\\WidgetLibrary\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\vpi__tab_unselected_focused_holo.9.png"
     },
     {
-        "merged": "/home/huangwei/StudioProjects/Radar_Code_grad/WidgetLibrary/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4/list_longpressed_holo.9.png",
-        "source": "/home/huangwei/StudioProjects/Radar_Code_grad/WidgetLibrary/build/intermediates/bundles/debug/res/drawable-mdpi-v4/list_longpressed_holo.9.png"
+        "merged": "D:\\AndroidStudioProject\\ms_gradle\\WidgetLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\np_numberpicker_selection_divider.9.png",
+        "source": "D:\\AndroidStudioProject\\ms_gradle\\WidgetLibrary\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\np_numberpicker_selection_divider.9.png"
     },
     {
-        "merged": "/home/huangwei/StudioProjects/Radar_Code_grad/WidgetLibrary/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4/list_selector_disabled_holo_light.9.png",
-        "source": "/home/huangwei/StudioProjects/Radar_Code_grad/WidgetLibrary/build/intermediates/bundles/debug/res/drawable-mdpi-v4/list_selector_disabled_holo_light.9.png"
+        "merged": "D:\\AndroidStudioProject\\ms_gradle\\WidgetLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\list_selector_disabled_holo_light.9.png",
+        "source": "D:\\AndroidStudioProject\\ms_gradle\\WidgetLibrary\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\list_selector_disabled_holo_light.9.png"
     },
     {
-        "merged": "/home/huangwei/StudioProjects/Radar_Code_grad/WidgetLibrary/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4/vpi__tab_selected_holo.9.png",
-        "source": "/home/huangwei/StudioProjects/Radar_Code_grad/WidgetLibrary/build/intermediates/bundles/debug/res/drawable-mdpi-v4/vpi__tab_selected_holo.9.png"
+        "merged": "D:\\AndroidStudioProject\\ms_gradle\\WidgetLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\list_pressed_holo_light.9.png",
+        "source": "D:\\AndroidStudioProject\\ms_gradle\\WidgetLibrary\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\list_pressed_holo_light.9.png"
     },
     {
-        "merged": "/home/huangwei/StudioProjects/Radar_Code_grad/WidgetLibrary/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4/list_pressed_holo_dark.9.png",
-        "source": "/home/huangwei/StudioProjects/Radar_Code_grad/WidgetLibrary/build/intermediates/bundles/debug/res/drawable-mdpi-v4/list_pressed_holo_dark.9.png"
+        "merged": "D:\\AndroidStudioProject\\ms_gradle\\WidgetLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\default_ptr_flip.png",
+        "source": "D:\\AndroidStudioProject\\ms_gradle\\WidgetLibrary\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\default_ptr_flip.png"
     },
     {
-        "merged": "/home/huangwei/StudioProjects/Radar_Code_grad/WidgetLibrary/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4/np_numberpicker_selection_divider.9.png",
-        "source": "/home/huangwei/StudioProjects/Radar_Code_grad/WidgetLibrary/build/intermediates/bundles/debug/res/drawable-mdpi-v4/np_numberpicker_selection_divider.9.png"
+        "merged": "D:\\AndroidStudioProject\\ms_gradle\\WidgetLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\default_ptr_rotate.png",
+        "source": "D:\\AndroidStudioProject\\ms_gradle\\WidgetLibrary\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\default_ptr_rotate.png"
     },
     {
-        "merged": "/home/huangwei/StudioProjects/Radar_Code_grad/WidgetLibrary/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4/vpi__tab_selected_pressed_holo.9.png",
-        "source": "/home/huangwei/StudioProjects/Radar_Code_grad/WidgetLibrary/build/intermediates/bundles/debug/res/drawable-mdpi-v4/vpi__tab_selected_pressed_holo.9.png"
+        "merged": "D:\\AndroidStudioProject\\ms_gradle\\WidgetLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\list_selector_disabled_holo_dark.9.png",
+        "source": "D:\\AndroidStudioProject\\ms_gradle\\WidgetLibrary\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\list_selector_disabled_holo_dark.9.png"
     },
     {
-        "merged": "/home/huangwei/StudioProjects/Radar_Code_grad/WidgetLibrary/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4/default_ptr_flip.png",
-        "source": "/home/huangwei/StudioProjects/Radar_Code_grad/WidgetLibrary/build/intermediates/bundles/debug/res/drawable-mdpi-v4/default_ptr_flip.png"
+        "merged": "D:\\AndroidStudioProject\\ms_gradle\\WidgetLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\vpi__tab_unselected_holo.9.png",
+        "source": "D:\\AndroidStudioProject\\ms_gradle\\WidgetLibrary\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\vpi__tab_unselected_holo.9.png"
     },
     {
-        "merged": "/home/huangwei/StudioProjects/Radar_Code_grad/WidgetLibrary/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4/list_selector_disabled_holo_dark.9.png",
-        "source": "/home/huangwei/StudioProjects/Radar_Code_grad/WidgetLibrary/build/intermediates/bundles/debug/res/drawable-mdpi-v4/list_selector_disabled_holo_dark.9.png"
+        "merged": "D:\\AndroidStudioProject\\ms_gradle\\WidgetLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\list_focused_holo.9.png",
+        "source": "D:\\AndroidStudioProject\\ms_gradle\\WidgetLibrary\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\list_focused_holo.9.png"
     },
     {
-        "merged": "/home/huangwei/StudioProjects/Radar_Code_grad/WidgetLibrary/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4/default_ptr_rotate.png",
-        "source": "/home/huangwei/StudioProjects/Radar_Code_grad/WidgetLibrary/build/intermediates/bundles/debug/res/drawable-mdpi-v4/default_ptr_rotate.png"
+        "merged": "D:\\AndroidStudioProject\\ms_gradle\\WidgetLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\vpi__tab_selected_focused_holo.9.png",
+        "source": "D:\\AndroidStudioProject\\ms_gradle\\WidgetLibrary\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\vpi__tab_selected_focused_holo.9.png"
     }
 ]

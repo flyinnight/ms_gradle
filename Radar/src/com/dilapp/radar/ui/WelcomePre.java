@@ -79,7 +79,7 @@ public class WelcomePre extends BaseActivity{
 		}else{
 			mStartTime = System.currentTimeMillis();
 			mCover.setVisibility(View.VISIBLE);
-			startLogin();
+			//startLogin();
 			mHandler.removeMessages(MSG_TABS);
 			mHandler.sendEmptyMessageDelayed(MSG_TABS, 5000); //时间需加长，3秒在移动网络下有时也失败
 		}
@@ -130,6 +130,5 @@ public class WelcomePre extends BaseActivity{
         addCallback(node);
         l.loginAsync(bean, node);
     }
-	
 
 }

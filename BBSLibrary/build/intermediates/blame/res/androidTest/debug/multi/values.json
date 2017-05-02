@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/home/huangwei/StudioProjects/Radar_Code_grad/BBSLibrary/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values/values.xml",
+        "outputFile": "D:\\AndroidStudioProject\\ms_gradle\\BBSLibrary\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 202
                 },
                 "from": {
-                    "file": "/home/huangwei/StudioProjects/Radar_Code_grad/BBSLibrary/build/intermediates/bundles/debug/res/values/values.xml",
+                    "file": "D:\\AndroidStudioProject\\ms_gradle\\BBSLibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,

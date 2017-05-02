@@ -1,6 +1,6 @@
 /*
  * This file is auto-generated.  DO NOT MODIFY.
- * Original file: /home/huangwei/StudioProjects/Radar_Code_grad/Radar/src/com/dilapp/radar/server/IRadarServer.aidl
+ * Original file: D:\\AndroidStudioProject\\ms_gradle\\Radar\\src\\com\\dilapp\\radar\\server\\IRadarServer.aidl
  */
 package com.dilapp.radar.server;
 public interface IRadarServer extends android.os.IInterface

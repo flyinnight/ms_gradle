@@ -156,7 +156,6 @@ public class ActivityTabs extends BaseFragmentActivity implements
 					mTabHost.newTabSpec(info.tag).setIndicator(
 							getIndicatorView(info.iconRes, info.textRes)),
 					info.clazz, info.args);
-
 		}
 
 		test();
@@ -166,7 +165,6 @@ public class ActivityTabs extends BaseFragmentActivity implements
 		Intent intentService = new Intent(this, OVBroadcast.class);
 		intentService.putExtra("alertmode", "0");
 		startService(intentService);
-
 	}
 
 	// add by kfir

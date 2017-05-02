@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/home/huangwei/StudioProjects/Radar_Code_grad/Radar/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v21/values-v21.xml",
+        "outputFile": "D:\\AndroidStudioProject\\ms_gradle\\Radar\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
         "map": [
             {
                 "to": {
@@ -12,7 +12,7 @@
                     "endOffset": 718
                 },
                 "from": {
-                    "file": "/home/huangwei/StudioProjects/Radar_Code_grad/Radar/res/values-v21/themes.xml",
+                    "file": "D:\\AndroidStudioProject\\ms_gradle\\Radar\\res\\values-v21\\themes.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,

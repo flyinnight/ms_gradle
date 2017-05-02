@@ -1,14 +1,14 @@
 [
     {
-        "merged": "/home/huangwei/StudioProjects/Radar_Code_grad/BBSLibrary/build/intermediates/res/merged/androidTest/debug/layout/emojicons.xml",
-        "source": "/home/huangwei/StudioProjects/Radar_Code_grad/BBSLibrary/build/intermediates/bundles/debug/res/layout/emojicons.xml"
+        "merged": "D:\\AndroidStudioProject\\ms_gradle\\BBSLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\emojicon_grid.xml",
+        "source": "D:\\AndroidStudioProject\\ms_gradle\\BBSLibrary\\build\\intermediates\\bundles\\debug\\res\\layout\\emojicon_grid.xml"
     },
     {
-        "merged": "/home/huangwei/StudioProjects/Radar_Code_grad/BBSLibrary/build/intermediates/res/merged/androidTest/debug/layout/emojicon_grid.xml",
-        "source": "/home/huangwei/StudioProjects/Radar_Code_grad/BBSLibrary/build/intermediates/bundles/debug/res/layout/emojicon_grid.xml"
+        "merged": "D:\\AndroidStudioProject\\ms_gradle\\BBSLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\emojicons.xml",
+        "source": "D:\\AndroidStudioProject\\ms_gradle\\BBSLibrary\\build\\intermediates\\bundles\\debug\\res\\layout\\emojicons.xml"
     },
     {
-        "merged": "/home/huangwei/StudioProjects/Radar_Code_grad/BBSLibrary/build/intermediates/res/merged/androidTest/debug/layout/emojicon_item.xml",
-        "source": "/home/huangwei/StudioProjects/Radar_Code_grad/BBSLibrary/build/intermediates/bundles/debug/res/layout/emojicon_item.xml"
+        "merged": "D:\\AndroidStudioProject\\ms_gradle\\BBSLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\emojicon_item.xml",
+        "source": "D:\\AndroidStudioProject\\ms_gradle\\BBSLibrary\\build\\intermediates\\bundles\\debug\\res\\layout\\emojicon_item.xml"
     }
 ]

@@ -1,10 +1,10 @@
 [
     {
-        "merged": "/home/huangwei/StudioProjects/Radar_Code_grad/Radar/build/intermediates/res/merged/debug/raw/realm_properties",
-        "source": "/home/huangwei/StudioProjects/Radar_Code_grad/Radar/res/raw/realm_properties"
+        "merged": "D:\\AndroidStudioProject\\ms_gradle\\Radar\\build\\intermediates\\res\\merged\\debug\\raw\\beep.ogg",
+        "source": "D:\\AndroidStudioProject\\ms_gradle\\Radar\\res\\raw\\beep.ogg"
     },
     {
-        "merged": "/home/huangwei/StudioProjects/Radar_Code_grad/Radar/build/intermediates/res/merged/debug/raw/beep.ogg",
-        "source": "/home/huangwei/StudioProjects/Radar_Code_grad/Radar/res/raw/beep.ogg"
+        "merged": "D:\\AndroidStudioProject\\ms_gradle\\Radar\\build\\intermediates\\res\\merged\\debug\\raw\\realm_properties",
+        "source": "D:\\AndroidStudioProject\\ms_gradle\\Radar\\res\\raw\\realm_properties"
     }
 ]

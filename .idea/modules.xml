@@ -4,8 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/BBSLibrary/BBSLibrary.iml" filepath="$PROJECT_DIR$/BBSLibrary/BBSLibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/Radar/Radar.iml" filepath="$PROJECT_DIR$/Radar/Radar.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Radar_Code_grad.iml" filepath="$PROJECT_DIR$/Radar_Code_grad.iml" />
       <module fileurl="file://$PROJECT_DIR$/WidgetLibrary/WidgetLibrary.iml" filepath="$PROJECT_DIR$/WidgetLibrary/WidgetLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ms_gradle.iml" filepath="$PROJECT_DIR$/ms_gradle.iml" />
     </modules>
   </component>
 </project>
