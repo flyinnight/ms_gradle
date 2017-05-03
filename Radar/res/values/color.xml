@@ -59,7 +59,10 @@
     <color name="topic_item_list_bg">#F6F6F6</color>
     <color name="topic_detail_editbar_shadow">#33000000</color>
     <color name="topic_detail_topicbar_bg">#f09eac</color>
-    <color name="test_primary">#ffe94661</color>
+    <!-- title screen main color -->
+    <!--<color name="test_primary">#ffe94661</color>-->
+    <!-- for ms part -->
+    <color name="test_primary">#4EB9C3</color>
     <color name="test_primary_dark">#cc4055</color>
     <color name="test_black_primary">#33000000</color>
     <color name="test_button_disable">#cccccc</color>
@@ -166,13 +169,16 @@
     <color name="mine_background">#f6f6f6</color>
     <color name="mine_mine_head_info_bg">#88ffffff</color>
     <color name="mine_mine_head_info_text">@color/main_indicator_text_light</color>
+    <!--主体item字颜色-->
     <color name="mine_mine_item_text_color">#464646</color>
     <color name="mine_mine_item_normal">#ffffff</color>
     <color name="mine_mine_item_pressed">#f6f6f6</color>
     <color name="mine_focus_item_text_color">@color/mine_mine_item_text_color</color>
     <color name="mine_focus_item_button_text_color">#ffffff</color>
     <color name="mine_focus_item_background">#ffffff</color>
-    <color name="mine_personal_info_text_color">@color/main_indicator_text_light</color>
+    <!--<color name="mine_personal_info_text_color">@color/main_indicator_text_light</color>-->
+    <color name="mine_personal_info_text_color">@color/mine_mine_item_text_color</color>
+
     <color name="test_microscope_cover">#ff2a2a2a</color>
     <color name="topic_bg">#F6F6F6</color>
     <color name="topic_bg_hight">#ffffffff</color>

@@ -110,7 +110,7 @@
     <color name="mine_mine_item_normal">#ffffff</color>
     <color name="mine_mine_item_pressed">#f6f6f6</color>
     <color name="mine_mine_item_text_color">#464646</color>
-    <color name="mine_personal_info_text_color">@color/main_indicator_text_light</color>
+    <color name="mine_personal_info_text_color">@color/mine_mine_item_text_color</color>
     <color name="page_viewer_margin_color">#007800</color>
     <color name="plan_primary">#7accc8</color>
     <color name="plan_primary_dark">#62a3a0</color>
@@ -220,7 +220,7 @@
     <color name="test_normal_result_whitening_line_stroke">#acacac</color>
     <color name="test_normal_result_whitening_start">#e5657e</color>
     <color name="test_normal_result_whitening_text_color">@color/default_light_text_color</color>
-    <color name="test_primary">#ffe94661</color>
+    <color name="test_primary">#4EB9C3</color>
     <color name="test_primary_dark">#cc4055</color>
     <color name="test_take_black">#222222</color>
     <color name="test_taste_grey_dot">#898989</color>
@@ -1053,8 +1053,8 @@
     <string name="login">登录</string>
     <string name="main_book">通讯录</string>
     <string name="main_develop">开发</string>
-    <string name="main_enter">主页</string>
     <string name="main_found">发现</string>
+    <string name="main_homepage">主页</string>
     <string name="main_mine">我的</string>
     <string name="main_test">测试</string>
     <string name="main_topic">话题</string>

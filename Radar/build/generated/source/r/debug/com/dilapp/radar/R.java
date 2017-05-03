@@ -4399,8 +4399,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int login=0x7f0a0131;
         public static final int main_book=0x7f0a02d5;
         public static final int main_develop=0x7f0a0132;
-        public static final int main_enter=0x7f0a02d6;
         public static final int main_found=0x7f0a0133;
+        public static final int main_homepage=0x7f0a02d6;
         public static final int main_mine=0x7f0a0134;
         public static final int main_test=0x7f0a0135;
         public static final int main_topic=0x7f0a0136;

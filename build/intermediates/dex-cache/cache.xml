@@ -133,7 +133,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="7a45ab1411576a961914ad55429786f704c291a3">
+        sha1="a2aaaac13e58d81edd648c42438569df9429ada8">
         <dex dex="D:\AndroidStudioProject\ms_gradle\Radar\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_0ea82d0826d7e4946272ff91d247f131b459cdc1\classes.dex" />
     </item>
     <item
