@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\AndroidStudioProject\\ms_gradle\\WidgetLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\animator\\translation_and_rotate.xml",
+        "source": "D:\\AndroidStudioProject\\ms_gradle\\WidgetLibrary\\build\\intermediates\\bundles\\debug\\res\\animator\\translation_and_rotate.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProject\\ms_gradle\\WidgetLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\animator\\scale_with_alpha.xml",
+        "source": "D:\\AndroidStudioProject\\ms_gradle\\WidgetLibrary\\build\\intermediates\\bundles\\debug\\res\\animator\\scale_with_alpha.xml"
+    }
+]

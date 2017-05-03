@@ -992,12 +992,12 @@
         "source": "D:\\AndroidStudioProject\\ms_gradle\\BBSLibrary\\build\\intermediates\\bundles\\default\\res\\drawable\\orca_emoji_tab_background.xml"
     },
     {
-        "merged": "D:\\AndroidStudioProject\\ms_gradle\\Radar\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_oauth_check_off.png",
-        "source": "D:\\AndroidStudioProject\\ms_gradle\\Radar\\res\\drawable\\umeng_socialize_oauth_check_off.png"
-    },
-    {
         "merged": "D:\\AndroidStudioProject\\ms_gradle\\Radar\\build\\intermediates\\res\\merged\\debug\\drawable\\dialog_clear_info_btn_bg.xml",
         "source": "D:\\AndroidStudioProject\\ms_gradle\\Radar\\res\\drawable\\dialog_clear_info_btn_bg.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProject\\ms_gradle\\Radar\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_socialize_oauth_check_off.png",
+        "source": "D:\\AndroidStudioProject\\ms_gradle\\Radar\\res\\drawable\\umeng_socialize_oauth_check_off.png"
     },
     {
         "merged": "D:\\AndroidStudioProject\\ms_gradle\\Radar\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_normal_result_circle_eastic.xml",
