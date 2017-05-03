@@ -1,7 +1,0 @@
-#Wed May 03 11:20:43 GMT+08:00 2017
-base.0=D\:\\AndroidStudioProject\\ms_gradle\\Radar\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_0ea82d0826d7e4946272ff91d247f131b459cdc1
-renamed.1=classes.dex
-renamed.0=classes2.dex
-file.1=D\:\\AndroidStudioProject\\ms_gradle\\Radar\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_b8f16948c878625b44bd5bfa2e0a87400a4943d5\\classes.dex
-base.1=D\:\\AndroidStudioProject\\ms_gradle\\Radar\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_b8f16948c878625b44bd5bfa2e0a87400a4943d5
-file.0=D\:\\AndroidStudioProject\\ms_gradle\\Radar\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_0ea82d0826d7e4946272ff91d247f131b459cdc1\\classes.dex
