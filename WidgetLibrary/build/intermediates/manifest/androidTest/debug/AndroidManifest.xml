@@ -3,8 +3,8 @@
     package="com.dilapp.radar.widget.test" >
 
     <uses-sdk
-        android:minSdkVersion="1"
-        android:targetSdkVersion="1" />
+        android:minSdkVersion="14"
+        android:targetSdkVersion="14" />
 
     <instrumentation
         android:name="android.test.InstrumentationTestRunner"

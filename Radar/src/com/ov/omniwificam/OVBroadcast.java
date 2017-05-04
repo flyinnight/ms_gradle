@@ -43,7 +43,7 @@ public class OVBroadcast extends Service {
 	public void onCreate() {
 		super.onCreate();
 		Log.i("hj", "Service create");
-		WifiManager manager = (WifiManager) getSystemService(Context.WIFI_SERVICE);
+		WifiManager manager = (WifiManager) getApplicationContext().getSystemService(Context.WIFI_SERVICE);
 		lock = manager.createMulticastLock("test wifi");
 		lock.acquire();
 		//wifiHelper = WifiHelper.getInstance(getApplicationContext());
@@ -96,7 +96,7 @@ public class OVBroadcast extends Service {
 
 	public boolean isMobileApMode() {
 		boolean bApOn = false;
-		WifiManager wifiManager = (WifiManager) getSystemService(Context.WIFI_SERVICE);
+		WifiManager wifiManager = (WifiManager)  getApplicationContext().getSystemService(Context.WIFI_SERVICE);
 		Method[] wmMethods = wifiManager.getClass().getDeclaredMethods();
 		for (Method method : wmMethods) {
 			if (method.getName().equals("isWifiApEnabled")) {

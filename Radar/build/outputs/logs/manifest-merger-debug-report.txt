@@ -14,115 +14,116 @@ ADDED from D:\AndroidStudioProject\ms_gradle\Radar\AndroidManifest.xml:2:1-522:1
 	xmlns:android
 		ADDED from D:\AndroidStudioProject\ms_gradle\Radar\AndroidManifest.xml:4:5-63
 uses-sdk
-ADDED from D:\AndroidStudioProject\ms_gradle\Radar\AndroidManifest.xml:8:5-10:40
+ADDED from D:\AndroidStudioProject\ms_gradle\Radar\AndroidManifest.xml:8:5-11:40
+MERGED from [com.android.support:multidex:1.0.1] C:\Users\Administrator\.android\build-cache\93005555de927bb83ea19945c8e0f48859a30029\output\AndroidManifest.xml:18:5-42
+MERGED from [ms_gradle:BBSLibrary:unspecified] D:\AndroidStudioProject\ms_gradle\BBSLibrary\build\intermediates\bundles\default\AndroidManifest.xml:6:5-44
+MERGED from [ms_gradle:WidgetLibrary:unspecified] D:\AndroidStudioProject\ms_gradle\WidgetLibrary\build\intermediates\bundles\default\AndroidManifest.xml:6:5-44
 	android:targetSdkVersion
-		ADDED from D:\AndroidStudioProject\ms_gradle\Radar\AndroidManifest.xml:10:9-38
+		ADDED from D:\AndroidStudioProject\ms_gradle\Radar\AndroidManifest.xml:11:9-38
 	android:minSdkVersion
-		ADDED from D:\AndroidStudioProject\ms_gradle\Radar\AndroidManifest.xml:9:9-35
+		ADDED from D:\AndroidStudioProject\ms_gradle\Radar\AndroidManifest.xml:10:9-35
+		INJECTED from D:\AndroidStudioProject\ms_gradle\Radar\AndroidManifest.xml
+		INJECTED from D:\AndroidStudioProject\ms_gradle\Radar\AndroidManifest.xml
 uses-permission#android.permission.VIBRATE
-ADDED from D:\AndroidStudioProject\ms_gradle\Radar\AndroidManifest.xml:12:5-65
+ADDED from D:\AndroidStudioProject\ms_gradle\Radar\AndroidManifest.xml:13:5-65
 	android:name
-		ADDED from D:\AndroidStudioProject\ms_gradle\Radar\AndroidManifest.xml:12:22-63
+		ADDED from D:\AndroidStudioProject\ms_gradle\Radar\AndroidManifest.xml:13:22-63
 uses-permission#android.permission.CAMERA
-ADDED from D:\AndroidStudioProject\ms_gradle\Radar\AndroidManifest.xml:13:5-64
+ADDED from D:\AndroidStudioProject\ms_gradle\Radar\AndroidManifest.xml:14:5-64
 	android:name
-		ADDED from D:\AndroidStudioProject\ms_gradle\Radar\AndroidManifest.xml:13:22-62
+		ADDED from D:\AndroidStudioProject\ms_gradle\Radar\AndroidManifest.xml:14:22-62
 uses-feature#android.hardware.camera
-ADDED from D:\AndroidStudioProject\ms_gradle\Radar\AndroidManifest.xml:15:5-59
+ADDED from D:\AndroidStudioProject\ms_gradle\Radar\AndroidManifest.xml:16:5-59
 	android:name
-		ADDED from D:\AndroidStudioProject\ms_gradle\Radar\AndroidManifest.xml:15:19-57
+		ADDED from D:\AndroidStudioProject\ms_gradle\Radar\AndroidManifest.xml:16:19-57
 uses-feature#android.hardware.camera.autofocus
-ADDED from D:\AndroidStudioProject\ms_gradle\Radar\AndroidManifest.xml:16:5-69
+ADDED from D:\AndroidStudioProject\ms_gradle\Radar\AndroidManifest.xml:17:5-69
 	android:name
-		ADDED from D:\AndroidStudioProject\ms_gradle\Radar\AndroidManifest.xml:16:19-67
+		ADDED from D:\AndroidStudioProject\ms_gradle\Radar\AndroidManifest.xml:17:19-67
 uses-permission#android.permission.FLASHLIGHT
-ADDED from D:\AndroidStudioProject\ms_gradle\Radar\AndroidManifest.xml:18:5-68
+ADDED from D:\AndroidStudioProject\ms_gradle\Radar\AndroidManifest.xml:19:5-68
 	android:name
-		ADDED from D:\AndroidStudioProject\ms_gradle\Radar\AndroidManifest.xml:18:22-66
+		ADDED from D:\AndroidStudioProject\ms_gradle\Radar\AndroidManifest.xml:19:22-66
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from D:\AndroidStudioProject\ms_gradle\Radar\AndroidManifest.xml:19:5-79
+ADDED from D:\AndroidStudioProject\ms_gradle\Radar\AndroidManifest.xml:20:5-79
 	android:name
-		ADDED from D:\AndroidStudioProject\ms_gradle\Radar\AndroidManifest.xml:19:22-77
+		ADDED from D:\AndroidStudioProject\ms_gradle\Radar\AndroidManifest.xml:20:22-77
 uses-permission#android.permission.CHANGE_WIFI_STATE
-ADDED from D:\AndroidStudioProject\ms_gradle\Radar\AndroidManifest.xml:22:5-75
-	android:name
-		ADDED from D:\AndroidStudioProject\ms_gradle\Radar\AndroidManifest.xml:22:22-73
-uses-permission#android.permission.ACCESS_WIFI_STATE
 ADDED from D:\AndroidStudioProject\ms_gradle\Radar\AndroidManifest.xml:23:5-75
 	android:name
 		ADDED from D:\AndroidStudioProject\ms_gradle\Radar\AndroidManifest.xml:23:22-73
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from D:\AndroidStudioProject\ms_gradle\Radar\AndroidManifest.xml:24:5-75
+	android:name
+		ADDED from D:\AndroidStudioProject\ms_gradle\Radar\AndroidManifest.xml:24:22-73
 uses-permission#android.permission.INTERNET
-ADDED from D:\AndroidStudioProject\ms_gradle\Radar\AndroidManifest.xml:24:5-66
+ADDED from D:\AndroidStudioProject\ms_gradle\Radar\AndroidManifest.xml:25:5-66
 	android:name
-		ADDED from D:\AndroidStudioProject\ms_gradle\Radar\AndroidManifest.xml:24:22-64
+		ADDED from D:\AndroidStudioProject\ms_gradle\Radar\AndroidManifest.xml:25:22-64
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from D:\AndroidStudioProject\ms_gradle\Radar\AndroidManifest.xml:25:5-80
+ADDED from D:\AndroidStudioProject\ms_gradle\Radar\AndroidManifest.xml:26:5-80
 	android:name
-		ADDED from D:\AndroidStudioProject\ms_gradle\Radar\AndroidManifest.xml:25:22-78
+		ADDED from D:\AndroidStudioProject\ms_gradle\Radar\AndroidManifest.xml:26:22-78
 uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
-ADDED from D:\AndroidStudioProject\ms_gradle\Radar\AndroidManifest.xml:26:5-79
+ADDED from D:\AndroidStudioProject\ms_gradle\Radar\AndroidManifest.xml:27:5-79
 	android:name
-		ADDED from D:\AndroidStudioProject\ms_gradle\Radar\AndroidManifest.xml:26:22-77
+		ADDED from D:\AndroidStudioProject\ms_gradle\Radar\AndroidManifest.xml:27:22-77
 uses-permission#android.permission.CHANGE_NETWORK_STATE
-ADDED from D:\AndroidStudioProject\ms_gradle\Radar\AndroidManifest.xml:27:5-78
+ADDED from D:\AndroidStudioProject\ms_gradle\Radar\AndroidManifest.xml:28:5-78
 	android:name
-		ADDED from D:\AndroidStudioProject\ms_gradle\Radar\AndroidManifest.xml:27:22-76
+		ADDED from D:\AndroidStudioProject\ms_gradle\Radar\AndroidManifest.xml:28:22-76
 uses-permission#android.permission.CHANGE_WIFI_MULTICAST_STATE
-ADDED from D:\AndroidStudioProject\ms_gradle\Radar\AndroidManifest.xml:28:5-85
+ADDED from D:\AndroidStudioProject\ms_gradle\Radar\AndroidManifest.xml:29:5-85
 	android:name
-		ADDED from D:\AndroidStudioProject\ms_gradle\Radar\AndroidManifest.xml:28:22-83
+		ADDED from D:\AndroidStudioProject\ms_gradle\Radar\AndroidManifest.xml:29:22-83
 uses-permission#android.permission.GET_TASKS
-ADDED from D:\AndroidStudioProject\ms_gradle\Radar\AndroidManifest.xml:29:5-67
+ADDED from D:\AndroidStudioProject\ms_gradle\Radar\AndroidManifest.xml:30:5-67
 	android:name
-		ADDED from D:\AndroidStudioProject\ms_gradle\Radar\AndroidManifest.xml:29:22-65
+		ADDED from D:\AndroidStudioProject\ms_gradle\Radar\AndroidManifest.xml:30:22-65
 uses-permission#android.permission.READ_PHONE_STATE
-ADDED from D:\AndroidStudioProject\ms_gradle\Radar\AndroidManifest.xml:30:5-74
+ADDED from D:\AndroidStudioProject\ms_gradle\Radar\AndroidManifest.xml:31:5-74
 	android:name
-		ADDED from D:\AndroidStudioProject\ms_gradle\Radar\AndroidManifest.xml:30:22-72
+		ADDED from D:\AndroidStudioProject\ms_gradle\Radar\AndroidManifest.xml:31:22-72
 uses-permission#android.permission.MANAGE_ACCOUNTS
-ADDED from D:\AndroidStudioProject\ms_gradle\Radar\AndroidManifest.xml:31:5-73
+ADDED from D:\AndroidStudioProject\ms_gradle\Radar\AndroidManifest.xml:32:5-73
 	android:name
-		ADDED from D:\AndroidStudioProject\ms_gradle\Radar\AndroidManifest.xml:31:22-71
+		ADDED from D:\AndroidStudioProject\ms_gradle\Radar\AndroidManifest.xml:32:22-71
 uses-permission#android.permission.GET_ACCOUNTS
-ADDED from D:\AndroidStudioProject\ms_gradle\Radar\AndroidManifest.xml:32:5-70
+ADDED from D:\AndroidStudioProject\ms_gradle\Radar\AndroidManifest.xml:33:5-70
 	android:name
-		ADDED from D:\AndroidStudioProject\ms_gradle\Radar\AndroidManifest.xml:32:22-68
+		ADDED from D:\AndroidStudioProject\ms_gradle\Radar\AndroidManifest.xml:33:22-68
 uses-permission#android.permission.WAKE_LOCK
-ADDED from D:\AndroidStudioProject\ms_gradle\Radar\AndroidManifest.xml:33:5-67
-	android:name
-		ADDED from D:\AndroidStudioProject\ms_gradle\Radar\AndroidManifest.xml:33:22-65
-uses-permission#android.permission.BLUETOOTH
 ADDED from D:\AndroidStudioProject\ms_gradle\Radar\AndroidManifest.xml:34:5-67
 	android:name
 		ADDED from D:\AndroidStudioProject\ms_gradle\Radar\AndroidManifest.xml:34:22-65
+uses-permission#android.permission.BLUETOOTH
+ADDED from D:\AndroidStudioProject\ms_gradle\Radar\AndroidManifest.xml:35:5-67
+	android:name
+		ADDED from D:\AndroidStudioProject\ms_gradle\Radar\AndroidManifest.xml:35:22-65
 uses-permission#android.permission.BLUETOOTH_ADMIN
-ADDED from D:\AndroidStudioProject\ms_gradle\Radar\AndroidManifest.xml:35:5-73
+ADDED from D:\AndroidStudioProject\ms_gradle\Radar\AndroidManifest.xml:36:5-73
 	android:name
-		ADDED from D:\AndroidStudioProject\ms_gradle\Radar\AndroidManifest.xml:35:22-71
+		ADDED from D:\AndroidStudioProject\ms_gradle\Radar\AndroidManifest.xml:36:22-71
 uses-permission#android.permission.READ_CONTACTS
-ADDED from D:\AndroidStudioProject\ms_gradle\Radar\AndroidManifest.xml:38:5-71
+ADDED from D:\AndroidStudioProject\ms_gradle\Radar\AndroidManifest.xml:39:5-71
 	android:name
-		ADDED from D:\AndroidStudioProject\ms_gradle\Radar\AndroidManifest.xml:38:22-69
+		ADDED from D:\AndroidStudioProject\ms_gradle\Radar\AndroidManifest.xml:39:22-69
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from D:\AndroidStudioProject\ms_gradle\Radar\AndroidManifest.xml:41:5-78
+ADDED from D:\AndroidStudioProject\ms_gradle\Radar\AndroidManifest.xml:42:5-78
 	android:name
-		ADDED from D:\AndroidStudioProject\ms_gradle\Radar\AndroidManifest.xml:41:22-76
+		ADDED from D:\AndroidStudioProject\ms_gradle\Radar\AndroidManifest.xml:42:22-76
 uses-permission#android.permission.RECEIVE_SMS
-ADDED from D:\AndroidStudioProject\ms_gradle\Radar\AndroidManifest.xml:44:5-69
+ADDED from D:\AndroidStudioProject\ms_gradle\Radar\AndroidManifest.xml:45:5-69
 	android:name
-		ADDED from D:\AndroidStudioProject\ms_gradle\Radar\AndroidManifest.xml:44:22-67
+		ADDED from D:\AndroidStudioProject\ms_gradle\Radar\AndroidManifest.xml:45:22-67
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from D:\AndroidStudioProject\ms_gradle\Radar\AndroidManifest.xml:45:5-78
+ADDED from D:\AndroidStudioProject\ms_gradle\Radar\AndroidManifest.xml:46:5-78
 	android:name
-		ADDED from D:\AndroidStudioProject\ms_gradle\Radar\AndroidManifest.xml:45:22-76
+		ADDED from D:\AndroidStudioProject\ms_gradle\Radar\AndroidManifest.xml:46:22-76
 uses-permission#android.permission.RECORD_AUDIO
-ADDED from D:\AndroidStudioProject\ms_gradle\Radar\AndroidManifest.xml:48:5-70
+ADDED from D:\AndroidStudioProject\ms_gradle\Radar\AndroidManifest.xml:49:5-70
 	android:name
-		ADDED from D:\AndroidStudioProject\ms_gradle\Radar\AndroidManifest.xml:48:22-68
-uses-permission#android.permission.ACCESS_MOCK_LOCATION
-ADDED from D:\AndroidStudioProject\ms_gradle\Radar\AndroidManifest.xml:49:5-78
-	android:name
-		ADDED from D:\AndroidStudioProject\ms_gradle\Radar\AndroidManifest.xml:49:22-76
+		ADDED from D:\AndroidStudioProject\ms_gradle\Radar\AndroidManifest.xml:49:22-68
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
 ADDED from D:\AndroidStudioProject\ms_gradle\Radar\AndroidManifest.xml:53:5-54:23
 	android:name

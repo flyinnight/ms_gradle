@@ -377,8 +377,10 @@ public class ActivityTabs extends BaseFragmentActivity implements
                 R.string.main_homepage, FragmentHomepage.class, null);
         infos[1] = new FragmentInfo("book", R.drawable.btn_test,
                 R.string.main_book, FragmentBook.class, null);
+//        infos[2] = new FragmentInfo("topic", R.drawable.btn_found,
+//                R.string.main_topic, FragmentTopic.class, null);
         infos[2] = new FragmentInfo("topic", R.drawable.btn_found,
-                R.string.main_topic, FragmentTopic.class, null);
+                R.string.main_topic, FragmentFound.class, null);
         infos[3] = new FragmentInfo("mine", R.drawable.btn_mine,
                 R.string.main_mine, FragmentMine.class, null);
 

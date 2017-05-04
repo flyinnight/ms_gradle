@@ -11,6 +11,7 @@
             <option value="$PROJECT_DIR$/BBSLibrary" />
             <option value="$PROJECT_DIR$/Radar" />
             <option value="$PROJECT_DIR$/WidgetLibrary" />
+            <option value="$PROJECT_DIR$/httpmime-4.3.5" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

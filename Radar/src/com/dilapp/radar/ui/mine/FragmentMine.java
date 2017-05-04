@@ -483,17 +483,26 @@ public class FragmentMine extends BaseFragment implements OnClickListener {
 
 		// 第二组，有我的发言、我发起的话题和我的消息
 		List<MineItem> is2 = new ArrayList<FragmentMineList.MineItem>(2);
-		is2.add(new MineItem(R.string.mine_my_speak, R.drawable.mine_my_speak2,
-				R.string.mine_my_speak, false, true, l));
-		is2.add(new MineItem(R.string.mine_my_start_topic,
-				R.drawable.ico_mine_topic2, R.string.mine_my_start_topic,
-				false, true, l));
-		is2.add(new MineItem(R.string.mine_my_care_plan,
-				R.drawable.ico_my_care_plan, R.string.mine_my_care_plan,
-				false, true, l));
+//		is2.add(new MineItem(R.string.mine_my_speak, R.drawable.mine_my_speak2,
+//				R.string.mine_my_speak, false, true, l));
+//		is2.add(new MineItem(R.string.mine_my_start_topic,
+//				R.drawable.ico_mine_topic2, R.string.mine_my_start_topic,
+//				false, true, l));
+//		is2.add(new MineItem(R.string.mine_my_care_plan,
+//				R.drawable.ico_my_care_plan, R.string.mine_my_care_plan,
+//				false, true, l));
 		// is2.add(new MineItem(R.string.mine_my_message,
 		// R.drawable.ico_mine_message, R.string.mine_my_message, false,
 		// true, l));
+		//for ms part
+		is2.add(new MineItem(R.string.mine_my_device, R.drawable.mine_my_speak2,
+				R.string.mine_my_device, false, true, l));
+		is2.add(new MineItem(R.string.mine_my_health_data,
+				R.drawable.ico_mine_topic2, R.string.mine_my_health_data,
+				false, true, l));
+		is2.add(new MineItem(R.string.mine_my_collected,
+				R.drawable.ico_my_care_plan, R.string.mine_my_collected,
+				false, true, l));
 		groups.add(new MineGroup(true, true, true, is2));
 
 		// 第三组，有 设置

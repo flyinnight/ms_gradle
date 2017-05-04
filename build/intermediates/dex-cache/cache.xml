@@ -30,6 +30,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="D:\AndroidStudioProject\ms_gradle\Radar\libs\core-2.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ce288d0c4fd840a1118e757741c61e9540a53bb3">
+        <dex dex="D:\AndroidStudioProject\ms_gradle\Radar\build\intermediates\transforms\dex\debug\folders\1000\2\core-2.3.0_00d02166869edd01fe7c2b58244a243d0d788df1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="D:\AndroidStudioProject\ms_gradle\Radar\libs\SocialSDK_WeiXin_1.jar"
         jumboMode="true"
         optimize="true"
@@ -39,21 +48,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="D:\AndroidStudioProject\ms_gradle\BBSLibrary\build\intermediates\bundles\default\libs\gson-2.2.4.jar"
+        jar="D:\AndroidStudioProject\ms_gradle\Radar\libs\locSDK_6.05.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="33d21b33f4723e66a6c10882b866b93d1e89e4ba">
-        <dex dex="D:\AndroidStudioProject\ms_gradle\Radar\build\intermediates\transforms\dex\debug\folders\1000\8\gson-2.2.4_474f1820a89506f4be81f703d0634d2e069d1a08\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\AndroidStudioProject\ms_gradle\BBSLibrary\build\intermediates\bundles\default\libs\bbslibrary.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="ec8c498cbee81fc79888d6c0228eac66d0b5d5b7">
-        <dex dex="D:\AndroidStudioProject\ms_gradle\Radar\build\intermediates\transforms\dex\debug\folders\1000\8\bbslibrary_9c49cb8fb1fce91bff86e4eb168d8838917571fb\classes.dex" />
+        sha1="35a869586758500cd28983a23fc6c667784be2d7">
+        <dex dex="D:\AndroidStudioProject\ms_gradle\Radar\build\intermediates\transforms\dex\debug\folders\1000\2\locSDK_6.05_53cce37cc691e0bb5889fe399c38aeb70f594684\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -66,12 +66,48 @@
     </item>
     <item
         is-multidex="true"
-        jar="D:\AndroidStudioProject\ms_gradle\Radar\libs\android-support-v4.jar"
+        jar="D:\AndroidStudioProject\ms_gradle\BBSLibrary\libs\gson-2.2.4.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="605c447c20ca216b5556af9f215af5d4bba1b117">
-        <dex dex="D:\AndroidStudioProject\ms_gradle\Radar\build\intermediates\transforms\dex\debug\folders\1000\2\android-support-v4_145ec95ed0476fa31a891b9a7013db3fe5343d14\classes.dex" />
+        sha1="973e832af433b44c3ed11c426f2f390b29f3f3f8">
+        <dex dex="D:\AndroidStudioProject\ms_gradle\Radar\build\intermediates\transforms\dex\debug\folders\1000\2\gson-2.2.4_9332070235b208abababd5f6bea98f06aa858eeb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidStudioProject\ms_gradle\Radar\libs\umeng_social_sdk.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f2032f30304628abf4bd25ceb3e96b205ab19ae1">
+        <dex dex="D:\AndroidStudioProject\ms_gradle\Radar\build\intermediates\transforms\dex\debug\folders\1000\2\umeng_social_sdk_6b09ddc106cdbf76461798c60f1f59e40b60415a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidStudioProject\ms_gradle\Radar\libs\SocialSDK_Sina.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="102698c1cea563445aea3135def02471a8ed1c68">
+        <dex dex="D:\AndroidStudioProject\ms_gradle\Radar\build\intermediates\transforms\dex\debug\folders\1000\2\SocialSDK_Sina_f0e029aa96718e0873a8c760d241b9065ce2ce2f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidStudioProject\ms_gradle\WidgetLibrary\build\intermediates\bundles\default\libs\android-support-v4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="911f7a5aca41dc6df1d11d03a674bb20816de2fc">
+        <dex dex="D:\AndroidStudioProject\ms_gradle\Radar\build\intermediates\transforms\dex\debug\folders\1000\8\android-support-v4_5389ff6ddf0bb51405313a800b406416b4fb243e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\AndroidStudioProject\ms_gradle\Radar\libs\commons-net-3.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="cd0d5510908225f76c5fe5a3f1df4fa44866f81e">
+        <dex dex="D:\AndroidStudioProject\ms_gradle\Radar\build\intermediates\transforms\dex\debug\folders\1000\2\commons-net-3.3_0cccb4a7be9e3de3d1fa0116df5fb81567167ec2\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -133,26 +169,8 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="a2aaaac13e58d81edd648c42438569df9429ada8">
+        sha1="d111fcf60b9e755e95e05c14d592a62777422a4b">
         <dex dex="D:\AndroidStudioProject\ms_gradle\Radar\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_0ea82d0826d7e4946272ff91d247f131b459cdc1\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\AndroidStudioProject\ms_gradle\BBSLibrary\build\intermediates\bundles\default\libs\android-support-v4.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="911f7a5aca41dc6df1d11d03a674bb20816de2fc">
-        <dex dex="D:\AndroidStudioProject\ms_gradle\Radar\build\intermediates\transforms\dex\debug\folders\1000\8\android-support-v4_22802d70bcb9f691171452cc9d5551bf7fc4b315\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\AndroidStudioProject\ms_gradle\Radar\libs\httpmime-4.3.5.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="1dd0d38df9c6d21e893f2e52403f1cd99e91cd81">
-        <dex dex="D:\AndroidStudioProject\ms_gradle\Radar\build\intermediates\transforms\dex\debug\folders\1000\2\httpmime-4.3.5_47713678de0e775bb12a762fc11757f18b94261f\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -162,78 +180,6 @@
         revision="25.0.0"
         sha1="10d96debb0a87d303bbed7d908c3a6f9a01b3307">
         <dex dex="D:\AndroidStudioProject\ms_gradle\Radar\build\intermediates\transforms\dex\debug\folders\1000\2\SMSSDK-1.1.5_63d5cddad67f10d6ed38522bd096ede3a97b5a10\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\AndroidStudioProject\ms_gradle\Radar\libs\httpcore-4.3.2.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="31fbbff1ddbf98f3aa7377c94d33b0447c646b6e">
-        <dex dex="D:\AndroidStudioProject\ms_gradle\Radar\build\intermediates\transforms\dex\debug\folders\1000\2\httpcore-4.3.2_a18052ef3ba4ea554b87289d7d89da8b4c9ad3ee\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\AndroidStudioProject\ms_gradle\Radar\libs\core-2.3.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="ce288d0c4fd840a1118e757741c61e9540a53bb3">
-        <dex dex="D:\AndroidStudioProject\ms_gradle\Radar\build\intermediates\transforms\dex\debug\folders\1000\2\core-2.3.0_00d02166869edd01fe7c2b58244a243d0d788df1\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\AndroidStudioProject\ms_gradle\Radar\libs\locSDK_6.05.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="35a869586758500cd28983a23fc6c667784be2d7">
-        <dex dex="D:\AndroidStudioProject\ms_gradle\Radar\build\intermediates\transforms\dex\debug\folders\1000\2\locSDK_6.05_53cce37cc691e0bb5889fe399c38aeb70f594684\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\AndroidStudioProject\ms_gradle\Radar\libs\umeng_social_sdk.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="f2032f30304628abf4bd25ceb3e96b205ab19ae1">
-        <dex dex="D:\AndroidStudioProject\ms_gradle\Radar\build\intermediates\transforms\dex\debug\folders\1000\2\umeng_social_sdk_6b09ddc106cdbf76461798c60f1f59e40b60415a\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\AndroidStudioProject\ms_gradle\Radar\libs\SocialSDK_Sina.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="102698c1cea563445aea3135def02471a8ed1c68">
-        <dex dex="D:\AndroidStudioProject\ms_gradle\Radar\build\intermediates\transforms\dex\debug\folders\1000\2\SocialSDK_Sina_f0e029aa96718e0873a8c760d241b9065ce2ce2f\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\AndroidStudioProject\ms_gradle\Radar\libs\android-support-v7-recyclerview.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="0b5adf926c097329904a2f263e7b51f259020634">
-        <dex dex="D:\AndroidStudioProject\ms_gradle\Radar\build\intermediates\transforms\dex\debug\folders\1000\2\android-support-v7-recyclerview_e9c75ca62bcf57d3b0935849006e89913ebadda6\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\AndroidStudioProject\ms_gradle\Radar\libs\commons-net-3.3.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="cd0d5510908225f76c5fe5a3f1df4fa44866f81e">
-        <dex dex="D:\AndroidStudioProject\ms_gradle\Radar\build\intermediates\transforms\dex\debug\folders\1000\2\commons-net-3.3_0cccb4a7be9e3de3d1fa0116df5fb81567167ec2\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="D:\AndroidStudioProject\ms_gradle\Radar\libs\gson-2.2.4.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="973e832af433b44c3ed11c426f2f390b29f3f3f8">
-        <dex dex="D:\AndroidStudioProject\ms_gradle\Radar\build\intermediates\transforms\dex\debug\folders\1000\2\gson-2.2.4_167c9c6a748f5b7627e20c1d2d2e22782c2487b4\classes.dex" />
     </item>
 
 </items>

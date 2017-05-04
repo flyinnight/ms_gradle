@@ -203,6 +203,10 @@
     <string name="mine_my_speak">我的发言</string>
     <string name="mine_my_start_topic">我发起的话题</string>
     <string name="mine_my_care_plan">我的护肤方案</string>
+    <string name="mine_my_focus">我的关注</string>
+    <string name="mine_my_device">我的设备</string>
+    <string name="mine_my_collected">我的收藏</string>
+    <string name="mine_my_health_data">我的健康数据</string>
     <string name="mine_my_message">我的消息</string>
     <string name="mine_setting">设置</string>
     <string name="mine_focus">关注</string>
@@ -238,7 +242,8 @@
     <string name="msg_sys_msg">系统消息</string>
     <string name="msg_my_msg">我的私信</string>
     <string name="setting_title">设置</string>
-    <string name="setting_about">关于radar</string>
+    <!--<string name="setting_about">关于radar</string>-->
+    <string name="setting_about">关于MicroSong</string>
     <string name="about_feedback">反馈</string>
     <string name="about_allright" translatable="false">Copyright © 2014-2015 Lenovo. All Rights Reserved.</string>
     <string name="setting_update">版本升级</string>
