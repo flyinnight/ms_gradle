@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<selector xmlns:android="http://schemas.android.com/apk/res/android">
-
-    <!-- 顺序不能改变哦，否则效果会有偏差 -->
-    <item android:drawable="@color/main_indicator_bg_light" android:state_checked="true"/>
-    <item android:drawable="@color/main_indicator_bg_dark"/>
-
-</selector>

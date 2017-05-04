@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<shape xmlns:android="http://schemas.android.com/apk/res/android" >
-    
-    <corners android:radius="@dimen/dialog_wait_bg_radius" />
-    <solid android:color="@color/dialog_wait_background_color" />
-
-</shape>
